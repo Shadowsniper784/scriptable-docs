@@ -1,0 +1,1442 @@
+{
+   "pageId":3,
+   "details":[
+      {
+         "id":206,
+         "headline":"Type",
+         "shortName":"Device",
+         "longName":"Device",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":223,
+                     "headline":"Static method",
+                     "shortName":"batteryLevel",
+                     "longName":"+batteryLevel()",
+                     "decleration":"static batteryLevel(): number",
+                     "copyDecleration":"batteryLevel()",
+                     "summary":"Current battery level.",
+                     "description":"The value is in percentage ranging between 0 and 1.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"number"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#batterylevel"
+                  },
+                  {
+                     "id":225,
+                     "headline":"Static method",
+                     "shortName":"isCharging",
+                     "longName":"+isCharging()",
+                     "decleration":"static isCharging(): bool",
+                     "copyDecleration":"isCharging()",
+                     "summary":"Whether the device is being charged.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#ischarging"
+                  },
+                  {
+                     "id":224,
+                     "headline":"Static method",
+                     "shortName":"isDischarging",
+                     "longName":"+isDischarging()",
+                     "decleration":"static isDischarging(): bool",
+                     "copyDecleration":"isDischarging()",
+                     "summary":"Whether the device is being not plugged into power and thus discharging.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isdischarging"
+                  },
+                  {
+                     "id":222,
+                     "headline":"Static method",
+                     "shortName":"isFaceDown",
+                     "longName":"+isFaceDown()",
+                     "decleration":"static isFaceDown(): bool",
+                     "copyDecleration":"isFaceDown()",
+                     "summary":"Whether the device is lying parallel to the ground with the screen facing downwards.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isfacedown"
+                  },
+                  {
+                     "id":221,
+                     "headline":"Static method",
+                     "shortName":"isFaceUp",
+                     "longName":"+isFaceUp()",
+                     "decleration":"static isFaceUp(): bool",
+                     "copyDecleration":"isFaceUp()",
+                     "summary":"Whether the device is lying parallel to the ground with the screen facing upwards.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isfaceup"
+                  },
+                  {
+                     "id":226,
+                     "headline":"Static method",
+                     "shortName":"isFullyCharged",
+                     "longName":"+isFullyCharged()",
+                     "decleration":"static isFullyCharged(): bool",
+                     "copyDecleration":"isFullyCharged()",
+                     "summary":"Whether the device is fully charged.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isfullycharged"
+                  },
+                  {
+                     "id":219,
+                     "headline":"Static method",
+                     "shortName":"isInLandscapeLeft",
+                     "longName":"+isInLandscapeLeft()",
+                     "decleration":"static isInLandscapeLeft(): bool",
+                     "copyDecleration":"isInLandscapeLeft()",
+                     "summary":"Whether the device is in landscape with the home button or home indicator on the right side.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isinlandscapeleft"
+                  },
+                  {
+                     "id":220,
+                     "headline":"Static method",
+                     "shortName":"isInLandscapeRight",
+                     "longName":"+isInLandscapeRight()",
+                     "decleration":"static isInLandscapeRight(): bool",
+                     "copyDecleration":"isInLandscapeRight()",
+                     "summary":"Whether the device is in landscape with the home button or home indicator on the left side.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isinlandscaperight"
+                  },
+                  {
+                     "id":217,
+                     "headline":"Static method",
+                     "shortName":"isInPortrait",
+                     "longName":"+isInPortrait()",
+                     "decleration":"static isInPortrait(): bool",
+                     "copyDecleration":"isInPortrait()",
+                     "summary":"Whether the device is in portrait with the home button or home indicator at the bottom.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isinportrait"
+                  },
+                  {
+                     "id":218,
+                     "headline":"Static method",
+                     "shortName":"isInPortraitUpsideDown",
+                     "longName":"+isInPortraitUpsideDown()",
+                     "decleration":"static isInPortraitUpsideDown(): bool",
+                     "copyDecleration":"isInPortraitUpsideDown()",
+                     "summary":"Whether the device is in portrait but upside down with the home button or home indicator at the top.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isinportraitupsidedown"
+                  },
+                  {
+                     "id":212,
+                     "headline":"Static method",
+                     "shortName":"isPad",
+                     "longName":"+isPad()",
+                     "decleration":"static isPad(): bool",
+                     "copyDecleration":"isPad()",
+                     "summary":"Whether the device is a pad.",
+                     "description":"You can use this property to choose behavior of a script depending on\nwhether its running on a phone or a pad.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#ispad"
+                  },
+                  {
+                     "id":211,
+                     "headline":"Static method",
+                     "shortName":"isPhone",
+                     "longName":"+isPhone()",
+                     "decleration":"static isPhone(): bool",
+                     "copyDecleration":"isPhone()",
+                     "summary":"Whether the device is a phone.",
+                     "description":"You can use this property to choose behavior of a script depending on\nwhether its running on a phone or a pad.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isphone"
+                  },
+                  {
+                     "id":230,
+                     "headline":"Static method",
+                     "shortName":"isUsingDarkAppearance",
+                     "longName":"+isUsingDarkAppearance()",
+                     "decleration":"static isUsingDarkAppearance(): bool",
+                     "copyDecleration":"isUsingDarkAppearance()",
+                     "summary":"Whether the device is using dark appearance.",
+                     "description":"This API is not supported in widgets.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#isusingdarkappearance"
+                  },
+                  {
+                     "id":229,
+                     "headline":"Static method",
+                     "shortName":"language",
+                     "longName":"+language()",
+                     "decleration":"static language(): string",
+                     "copyDecleration":"language()",
+                     "summary":"Identifier for the device language.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#language"
+                  },
+                  {
+                     "id":228,
+                     "headline":"Static method",
+                     "shortName":"locale",
+                     "longName":"+locale()",
+                     "decleration":"static locale(): string",
+                     "copyDecleration":"locale()",
+                     "summary":"Identifier for the device locale.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#locale"
+                  },
+                  {
+                     "id":210,
+                     "headline":"Static method",
+                     "shortName":"model",
+                     "longName":"+model()",
+                     "decleration":"static model(): string",
+                     "copyDecleration":"model()",
+                     "summary":"Model of the device, e.g. \"iPhone\".",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#model"
+                  },
+                  {
+                     "id":207,
+                     "headline":"Static method",
+                     "shortName":"name",
+                     "longName":"+name()",
+                     "decleration":"static name(): string",
+                     "copyDecleration":"name()",
+                     "summary":"Name identifying the device.",
+                     "description":"You can find and edit the name of your device in the system settings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#name"
+                  },
+                  {
+                     "id":227,
+                     "headline":"Static method",
+                     "shortName":"preferredLanguages",
+                     "longName":"+preferredLanguages()",
+                     "decleration":"static preferredLanguages(): [string]",
+                     "copyDecleration":"preferredLanguages()",
+                     "summary":"The preferred langauges.",
+                     "description":"The list is ordered according to the language preferences specified in the system settings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[string]"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#preferredlanguages"
+                  },
+                  {
+                     "id":216,
+                     "headline":"Static method",
+                     "shortName":"screenBrightness",
+                     "longName":"+screenBrightness()",
+                     "decleration":"static screenBrightness(): number",
+                     "copyDecleration":"screenBrightness()",
+                     "summary":"Brightness of the screen in percentage.",
+                     "description":"The value range from 0 to 1. To set the screen brightness, refer to the <code>setScreenBrightness()</code> function.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"number"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#screenbrightness"
+                  },
+                  {
+                     "id":214,
+                     "headline":"Static method",
+                     "shortName":"screenResolution",
+                     "longName":"+screenResolution()",
+                     "decleration":"static screenResolution(): Size",
+                     "copyDecleration":"screenResolution()",
+                     "summary":"Resolution of the screen.",
+                     "description":"The value is measured in pixels. The value does not take the rotation of the deviec into account.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Size"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#screenresolution"
+                  },
+                  {
+                     "id":215,
+                     "headline":"Static method",
+                     "shortName":"screenScale",
+                     "longName":"+screenScale()",
+                     "decleration":"static screenScale(): number",
+                     "copyDecleration":"screenScale()",
+                     "summary":"Scale of the screen.",
+                     "description":"Standard resolution displays have a scale of 1.0 where one point on the screen equals one pixel. Retina displays will have a scale factor of 2.0 or 3.0 where one point on the screen is four or nine pixels, respectively.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"number"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#screenscale"
+                  },
+                  {
+                     "id":213,
+                     "headline":"Static method",
+                     "shortName":"screenSize",
+                     "longName":"+screenSize()",
+                     "decleration":"static screenSize(): Size",
+                     "copyDecleration":"screenSize()",
+                     "summary":"Size of the screen.",
+                     "description":"The value is measured in points. For an explanation of the relationship between\npoints and pixels, see the documentation of the <code>screenScale()</code> method.\nThe value takes the device rotation into account, so the value will vary between portrait and landscape.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Size"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#screensize"
+                  },
+                  {
+                     "id":232,
+                     "headline":"Static method",
+                     "shortName":"setScreenBrightness",
+                     "longName":"+setScreenBrightness(percentage)",
+                     "decleration":"static setScreenBrightness(percentage: number)",
+                     "copyDecleration":"setScreenBrightness(percentage)",
+                     "summary":"Sets the brightness of the screen.",
+                     "description":"The value range from 0 to 1. To get the screen brightness, refer to the <code>screenBrightness()</code> function.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"percentage",
+                                 "subtitle":"number",
+                                 "copyDecleration":"percentage",
+                                 "description":"Percentage to set the screen brightness to. Value between 0 and 1."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#setscreenbrightness"
+                  },
+                  {
+                     "id":208,
+                     "headline":"Static method",
+                     "shortName":"systemName",
+                     "longName":"+systemName()",
+                     "decleration":"static systemName(): string",
+                     "copyDecleration":"systemName()",
+                     "summary":"Name of the operating system:",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#systemname"
+                  },
+                  {
+                     "id":209,
+                     "headline":"Static method",
+                     "shortName":"systemVersion",
+                     "longName":"+systemVersion()",
+                     "decleration":"static systemVersion(): string",
+                     "copyDecleration":"systemVersion()",
+                     "summary":"Version of the operating system.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#systemversion"
+                  },
+                  {
+                     "id":231,
+                     "headline":"Static method",
+                     "shortName":"volume",
+                     "longName":"+volume()",
+                     "decleration":"static volume(): number",
+                     "copyDecleration":"volume()",
+                     "summary":"The device volume.",
+                     "description":"The value range from 0 to 1.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"number"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/device/#volume"
+                  }
+               ]
+            }
+         ],
+         "summary":"Provides information about the device.",
+         "description":"Reads information about the current device and its screen.",
+         "url":"https://docs.scriptable.app/device",
+         "pageId":3
+      },
+      {
+         "id":233,
+         "headline":"Type",
+         "shortName":"Dictation",
+         "longName":"Dictation",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":234,
+                     "headline":"Static method",
+                     "shortName":"start",
+                     "longName":"+start(locale)",
+                     "decleration":"static start(locale: string): Promise<string>",
+                     "copyDecleration":"start(locale)",
+                     "summary":"Starts dictation.",
+                     "description":"Presents an interface that shows the dictated string. Press \"Done\"\nwhen you are done dictating the text.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"locale",
+                                 "subtitle":"string",
+                                 "copyDecleration":"locale",
+                                 "description":"Optional string identifier that specifies the language to dictate in. E.g. \"en\" for English, \"it\" for Italian and \"da\" for Danish. Defaults to the locale of the device."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<string>",
+                                 "description":"Promise that provides the dictated text when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/dictation/#start"
+                  }
+               ]
+            }
+         ],
+         "summary":"Presents an interface for dictation.",
+         "description":"Presents an interface that lets you dictate a text. You can specify the locale of the text you want to dictate when calling the start() function. Dictation must manually be stopped from the presented interface when you are finished dictating.",
+         "url":"https://docs.scriptable.app/dictation",
+         "pageId":3
+      },
+      {
+         "id":235,
+         "headline":"Type",
+         "shortName":"DocumentPicker",
+         "longName":"DocumentPicker",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":239,
+                     "headline":"Static method",
+                     "shortName":"export",
+                     "longName":"+export(path)",
+                     "decleration":"static export(path: string): Promise<[string]>",
+                     "copyDecleration":"export(path)",
+                     "summary":"Exports a file to a document.",
+                     "description":"Exports the file to a document with. A picker prompting for a destination to export the document to is presented.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"path",
+                                 "subtitle":"string",
+                                 "copyDecleration":"path",
+                                 "description":"Path of the file to export."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[string]>",
+                                 "description":"Promise that provides paths for the selected file destination when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#export"
+                  },
+                  {
+                     "id":242,
+                     "headline":"Static method",
+                     "shortName":"exportData",
+                     "longName":"+exportData(data, name)",
+                     "decleration":"static exportData(data: Data, name: string): Promise<[string]>",
+                     "copyDecleration":"exportData(data, name)",
+                     "summary":"Exports data.",
+                     "description":"Exports data to a new file. The name of the file can optionally be specified. A picker prompting for a destination to export the document to is presented.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"data",
+                                 "subtitle":"Data",
+                                 "copyDecleration":"data",
+                                 "description":"Data to export."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Optional name of the image to export."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[string]>",
+                                 "description":"Promise that provides the path of the selected destination when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#exportdata"
+                  },
+                  {
+                     "id":241,
+                     "headline":"Static method",
+                     "shortName":"exportImage",
+                     "longName":"+exportImage(image, name)",
+                     "decleration":"static exportImage(image: Image, name: string): Promise<[string]>",
+                     "copyDecleration":"exportImage(image, name)",
+                     "summary":"Exports an image.",
+                     "description":"Exports an image to a new file. The name of the file can optionally be specified. A picker prompting for a destination to export the document to is presented.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"Image to export."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Optional name of the image to export."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[string]>",
+                                 "description":"Promise that provides the path of the selected destination when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#exportimage"
+                  },
+                  {
+                     "id":240,
+                     "headline":"Static method",
+                     "shortName":"exportString",
+                     "longName":"+exportString(content, name)",
+                     "decleration":"static exportString(content: string, name: string): Promise<[string]>",
+                     "copyDecleration":"exportString(content, name)",
+                     "summary":"Exports a string to a document.",
+                     "description":"Exports a string to a new file. The name of the file can optionally be specified. A picker prompting for a destination to export the document to is presented.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"content",
+                                 "subtitle":"string",
+                                 "copyDecleration":"content",
+                                 "description":"Content of the document to export."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Optional name of the document to export."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[string]>",
+                                 "description":"Promise that provides the path of the selected destination when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#exportstring"
+                  },
+                  {
+                     "id":236,
+                     "headline":"Static method",
+                     "shortName":"open",
+                     "longName":"+open(types)",
+                     "decleration":"static open(types: [string]): Promise<[string]>",
+                     "copyDecleration":"open(types)",
+                     "summary":"Opens a document.",
+                     "description":"Presents a document picker for opening a document from the Files app. It is up to the user to specify which types of files can be opened. Types are specified as UTIs, e.g. \"public.plain-text\" or \"public.image\". If you want to open a file of any file type, see the <code>openFile</code> function and if you want to open a folder, see the <code>openFolder</code> function.\n\nWhen fulfilled the returned promise will provide the paths for the selected documents. Use an instance of FileManager to read the contents of the files.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"types",
+                                 "subtitle":"[string]",
+                                 "copyDecleration":"types",
+                                 "description":"Types of files to select. Specified using UTIs. Defaults to all files."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[string]>",
+                                 "description":"Promise that provides paths for the selected documents when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#open"
+                  },
+                  {
+                     "id":237,
+                     "headline":"Static method",
+                     "shortName":"openFile",
+                     "longName":"+openFile()",
+                     "decleration":"static openFile(): Promise<string>",
+                     "copyDecleration":"openFile()",
+                     "summary":"Opens a file of any file type.",
+                     "description":"Presents a document picker for opening a file from the Files app. The document picker will allow the selection of any file.\n\nWhen fulfilled the returned promise will provide the paths for the selected files.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<string>",
+                                 "description":"Promise that provides paths for the selected files when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#openfile"
+                  },
+                  {
+                     "id":238,
+                     "headline":"Static method",
+                     "shortName":"openFolder",
+                     "longName":"+openFolder()",
+                     "decleration":"static openFolder(): Promise<string>",
+                     "copyDecleration":"openFolder()",
+                     "summary":"Opens a folder.",
+                     "description":"Presents a document picker for opening a folder from the Files app.\n\nWhen fulfilled the returned promise will provide the paths for the selected files.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<string>",
+                                 "description":"Promise that provides paths for the selected folders when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/documentpicker/#openfolder"
+                  }
+               ]
+            }
+         ],
+         "summary":"Presents a document picker.",
+         "description":"Use this to present a picker that allows opening a document from Files app or exporting a document to Files app.\nWhen opening a document, the picker will prompt you to select one or more documents after which you will get the path for the documents. Use the FileManager to read the content of these files.\nWhen exporting a document, the picker will ask you to select a destination to store the document.",
+         "url":"https://docs.scriptable.app/documentpicker",
+         "pageId":3
+      },
+      {
+         "id":243,
+         "headline":"Type",
+         "shortName":"DrawContext",
+         "longName":"DrawContext",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":246,
+                     "headline":"Instance property",
+                     "shortName":"opaque",
+                     "longName":"opaque",
+                     "subtitle":"bool",
+                     "decleration":"opaque: bool",
+                     "copyDecleration":"opaque",
+                     "summary":"Determines whether the context is opaque.",
+                     "description":"When enabled your image will be rendered opaque. Default is true.",
+                     "url":"https://docs.scriptable.app/drawcontext/#opaque",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":245,
+                     "headline":"Instance property",
+                     "shortName":"respectScreenScale",
+                     "longName":"respectScreenScale",
+                     "subtitle":"bool",
+                     "decleration":"respectScreenScale: bool",
+                     "copyDecleration":"respectScreenScale",
+                     "summary":"Enable to respect the scale of the screen.",
+                     "description":"Devices have a screen scale that is used to convert between the logical coordinate space and the device coordinate space. For example, retina screens have a screen scale of 2 or 3 meaning that one point in the logical coordinate space is represented by four or nine pixels. Respecting the screen scale will multiply the specified size of the canvas by the screen scale. For example a canvas of size 200 by 200 will be 600 by 600 when the image is rendered on a retina screen with a screen scale of 3.\nWhen respecting the screen scale is disabled, you may experience that your images looks blurry because essentially the size you have specified will be stretched when rendered on the screen. Default is false.",
+                     "url":"https://docs.scriptable.app/drawcontext/#respectscreenscale",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":244,
+                     "headline":"Instance property",
+                     "shortName":"size",
+                     "longName":"size",
+                     "subtitle":"Size",
+                     "decleration":"size: Size",
+                     "copyDecleration":"size",
+                     "summary":"Size of canvas.",
+                     "description":"Specifies the size of the canvas on which you are drawing. The image returned by getImage() will have this exact size,\nexcept if respectScreenScale is true.",
+                     "url":"https://docs.scriptable.app/drawcontext/#size",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":247,
+                     "headline":"Instance method",
+                     "shortName":"new DrawContext",
+                     "longName":"new DrawContext()",
+                     "decleration":"new DrawContext()",
+                     "copyDecleration":"new DrawContext()",
+                     "summary":"Constructs a canvas to draw on.",
+                     "description":"Constructs a new canvas to draw images, shapes and texts on.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-new-drawcontext"
+                  },
+                  {
+                     "id":260,
+                     "headline":"Instance method",
+                     "shortName":"addPath",
+                     "longName":"-addPath(path)",
+                     "decleration":"addPath(path: Path)",
+                     "copyDecleration":"addPath(path)",
+                     "summary":"Adds a path to the context.",
+                     "description":"After adding a path to the context, the path can be stroked or filled by calling strokePath and fillPath. Note that only the path that was added latest will be affected by calls to strokePath and fillPath.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"path",
+                                 "subtitle":"Path",
+                                 "copyDecleration":"path",
+                                 "description":"Path to add to the context."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-addpath"
+                  },
+                  {
+                     "id":250,
+                     "headline":"Instance method",
+                     "shortName":"drawImageAtPoint",
+                     "longName":"-drawImageAtPoint(image, point)",
+                     "decleration":"drawImageAtPoint(image: Image, point: Point)",
+                     "copyDecleration":"drawImageAtPoint(image, point)",
+                     "summary":"Draws an image at the specified point.",
+                     "description":"Draws the image at the point. The top-left corner of the image will be drawn at the specified point.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"Image to draw."
+                              },
+                              {
+                                 "title":"point",
+                                 "subtitle":"Point",
+                                 "copyDecleration":"point",
+                                 "description":"Point at which to draw top-left corner of the image."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-drawimageatpoint"
+                  },
+                  {
+                     "id":249,
+                     "headline":"Instance method",
+                     "shortName":"drawImageInRect",
+                     "longName":"-drawImageInRect(image, rect)",
+                     "decleration":"drawImageInRect(image: Image, rect: Rect)",
+                     "copyDecleration":"drawImageInRect(image, rect)",
+                     "summary":"Draws an image in the specified rect.",
+                     "description":"Draws the image in the rectangle. The image will be scaled to fit within the rectangle.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"Image to draw."
+                              },
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to draw the image in."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-drawimageinrect"
+                  },
+                  {
+                     "id":263,
+                     "headline":"Instance method",
+                     "shortName":"drawText",
+                     "longName":"-drawText(text, pos)",
+                     "decleration":"drawText(text: string, pos: Point)",
+                     "copyDecleration":"drawText(text, pos)",
+                     "summary":"Draws text at a position.",
+                     "description":"Call this to draw a text string to the context. The top-left of the text will be drawn at the specified position.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"text",
+                                 "subtitle":"string",
+                                 "copyDecleration":"text",
+                                 "description":"Text to draw."
+                              },
+                              {
+                                 "title":"pos",
+                                 "subtitle":"Point",
+                                 "copyDecleration":"pos",
+                                 "description":"Position to draw the top-left of the text."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-drawtext"
+                  },
+                  {
+                     "id":264,
+                     "headline":"Instance method",
+                     "shortName":"drawTextInRect",
+                     "longName":"-drawTextInRect(text, rect)",
+                     "decleration":"drawTextInRect(text: string, rect: Rect)",
+                     "copyDecleration":"drawTextInRect(text, rect)",
+                     "summary":"Draws text in a rectangle.",
+                     "description":"Call this to draw a text string in a rectangle. Specify how the text should be aligned within the rectangle by calling setTextAlignedLeft, setTextAlignedCenter or setTextAlignedRight before drawing the text.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"text",
+                                 "subtitle":"string",
+                                 "copyDecleration":"text",
+                                 "description":"Text to draw."
+                              },
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to draw text in."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-drawtextinrect"
+                  },
+                  {
+                     "id":254,
+                     "headline":"Instance method",
+                     "shortName":"fill",
+                     "longName":"-fill(rect)",
+                     "decleration":"fill(rect: Rect)",
+                     "copyDecleration":"fill(rect)",
+                     "summary":"Fills a rectangle.",
+                     "description":"Fills the rectangle with the color set when calling setFillColor.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to fill."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-fill"
+                  },
+                  {
+                     "id":256,
+                     "headline":"Instance method",
+                     "shortName":"fillEllipse",
+                     "longName":"-fillEllipse(rect)",
+                     "decleration":"fillEllipse(rect: Rect)",
+                     "copyDecleration":"fillEllipse(rect)",
+                     "summary":"Fills an ellipse.",
+                     "description":"Fills the ellipse that fits within the supplied rectangle with the color set when calling setFillColor.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle incapsulating the ellipse to fill."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-fillellipse"
+                  },
+                  {
+                     "id":262,
+                     "headline":"Instance method",
+                     "shortName":"fillPath",
+                     "longName":"-fillPath()",
+                     "decleration":"fillPath()",
+                     "copyDecleration":"fillPath()",
+                     "summary":"Fills the path that was added the latest.",
+                     "description":"The path that was latest added to the context is filled with the color set using setFillColor.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-fillpath"
+                  },
+                  {
+                     "id":255,
+                     "headline":"Instance method",
+                     "shortName":"fillRect",
+                     "longName":"-fillRect(rect)",
+                     "decleration":"fillRect(rect: Rect)",
+                     "copyDecleration":"fillRect(rect)",
+                     "summary":"Fills a rectangle.",
+                     "description":"Fills the rectangle with the color set when calling setFillColor.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to fill."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-fillrect"
+                  },
+                  {
+                     "id":248,
+                     "headline":"Instance method",
+                     "shortName":"getImage",
+                     "longName":"-getImage()",
+                     "decleration":"getImage(): Image",
+                     "copyDecleration":"getImage()",
+                     "summary":"Retrieves the image.",
+                     "description":"Call this to retrieve the image you have drawn to the context. Note that this should be called before calling endDrawing().",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Image",
+                                 "description":"The image drawn to the context."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-getimage"
+                  },
+                  {
+                     "id":251,
+                     "headline":"Instance method",
+                     "shortName":"setFillColor",
+                     "longName":"-setFillColor(color)",
+                     "decleration":"setFillColor(color: Color)",
+                     "copyDecleration":"setFillColor(color)",
+                     "summary":"Sets the fill color.",
+                     "description":"Sets the fill color to be used when performing a fill operation. Any fill operation performed afterwards will fill with the specified color until another call to setFillColor is made.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"color",
+                                 "subtitle":"Color",
+                                 "copyDecleration":"color",
+                                 "description":"Color to set for filling."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-setfillcolor"
+                  },
+                  {
+                     "id":266,
+                     "headline":"Instance method",
+                     "shortName":"setFont",
+                     "longName":"-setFont(font)",
+                     "decleration":"setFont(font: Font)",
+                     "copyDecleration":"setFont(font)",
+                     "summary":"Sets the font to use when drawing text.",
+                     "description":"Sets the font to be used when drawing texts to the context.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"font",
+                                 "subtitle":"Font",
+                                 "copyDecleration":"font",
+                                 "description":"Font to use when drawing text."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-setfont"
+                  },
+                  {
+                     "id":265,
+                     "headline":"Instance method",
+                     "shortName":"setFontSize",
+                     "longName":"-setFontSize(size)",
+                     "decleration":"setFontSize(size: number)",
+                     "copyDecleration":"setFontSize(size)",
+                     "summary":"Sets the font size used when drawing text.",
+                     "description":"Sets the font size to be used when drawing texts to the context.",
+                     "deprecation":{
+                        "version":"1.5",
+                        "message":"Use the setFont() function instead."
+                     },
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Font size to use when drawing text."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-setfontsize"
+                  },
+                  {
+                     "id":253,
+                     "headline":"Instance method",
+                     "shortName":"setLineWidth",
+                     "longName":"-setLineWidth(width)",
+                     "decleration":"setLineWidth(width: number)",
+                     "copyDecleration":"setLineWidth(width)",
+                     "summary":"Sets the line width for stroking.",
+                     "description":"Sets the line width to be used when performing a stroke operation.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"width",
+                                 "subtitle":"number",
+                                 "copyDecleration":"width",
+                                 "description":"Line width to use for stroking."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-setlinewidth"
+                  },
+                  {
+                     "id":252,
+                     "headline":"Instance method",
+                     "shortName":"setStrokeColor",
+                     "longName":"-setStrokeColor(color)",
+                     "decleration":"setStrokeColor(color: Color)",
+                     "copyDecleration":"setStrokeColor(color)",
+                     "summary":"Sets the stroke color.",
+                     "description":"Sets the stroke color to be used when performing a stroke operation. Any stroke operation performed afterwards will stroke with the specified color until another call to setStrokeColor is made.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"color",
+                                 "subtitle":"Color",
+                                 "copyDecleration":"color",
+                                 "description":"Color to set for stroking."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-setstrokecolor"
+                  },
+                  {
+                     "id":269,
+                     "headline":"Instance method",
+                     "shortName":"setTextAlignedCenter",
+                     "longName":"-setTextAlignedCenter()",
+                     "decleration":"setTextAlignedCenter()",
+                     "copyDecleration":"setTextAlignedCenter()",
+                     "summary":"Specifies that texts should be center aligned.",
+                     "description":"Sets text alignment to center. Texts drawn after calling this will be center aligned inside the provided rectangle.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-settextalignedcenter"
+                  },
+                  {
+                     "id":268,
+                     "headline":"Instance method",
+                     "shortName":"setTextAlignedLeft",
+                     "longName":"-setTextAlignedLeft()",
+                     "decleration":"setTextAlignedLeft()",
+                     "copyDecleration":"setTextAlignedLeft()",
+                     "summary":"Specifies that texts should be left aligned.",
+                     "description":"Sets text alignment to left. Texts drawn after calling this will be left aligned inside the provided rectangle.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-settextalignedleft"
+                  },
+                  {
+                     "id":270,
+                     "headline":"Instance method",
+                     "shortName":"setTextAlignedRight",
+                     "longName":"-setTextAlignedRight()",
+                     "decleration":"setTextAlignedRight()",
+                     "copyDecleration":"setTextAlignedRight()",
+                     "summary":"Specifies that texts should be right aligned.",
+                     "description":"Sets text alignment to right. Texts drawn after calling this will be right aligned inside the provided rectangle.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-settextalignedright"
+                  },
+                  {
+                     "id":267,
+                     "headline":"Instance method",
+                     "shortName":"setTextColor",
+                     "longName":"-setTextColor(color)",
+                     "decleration":"setTextColor(color: Color)",
+                     "copyDecleration":"setTextColor(color)",
+                     "summary":"Sets the text color used when drawing text.",
+                     "description":"Sets the text color to be used when drawing text strings to the context.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"color",
+                                 "subtitle":"Color",
+                                 "copyDecleration":"color",
+                                 "description":"Color to use when drawing text."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-settextcolor"
+                  },
+                  {
+                     "id":257,
+                     "headline":"Instance method",
+                     "shortName":"stroke",
+                     "longName":"-stroke(rect)",
+                     "decleration":"stroke(rect: Rect)",
+                     "copyDecleration":"stroke(rect)",
+                     "summary":"Strokes a rectangle.",
+                     "description":"Draws a line around the rectangle using the color set when calling setStrokeColor. The line will have the width set when calling setLineWidth.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to stroke."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-stroke"
+                  },
+                  {
+                     "id":259,
+                     "headline":"Instance method",
+                     "shortName":"strokeEllipse",
+                     "longName":"-strokeEllipse(rect)",
+                     "decleration":"strokeEllipse(rect: Rect)",
+                     "copyDecleration":"strokeEllipse(rect)",
+                     "summary":"Strokes an ellipse.",
+                     "description":"Draws a line around the ellipse that fits within the supplied rectangle. The line will have the color set when calling setStrokeColor and the width set when calling setLineWidth.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle incapsulating the ellipse to stroke."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-strokeellipse"
+                  },
+                  {
+                     "id":261,
+                     "headline":"Instance method",
+                     "shortName":"strokePath",
+                     "longName":"-strokePath()",
+                     "decleration":"strokePath()",
+                     "copyDecleration":"strokePath()",
+                     "summary":"Strokes the path that was added the latest.",
+                     "description":"The path that was added the latest to the context is stroked with the color set using setStrokeColor and the line width set using setLineWidth.",
+                     "url":"https://docs.scriptable.app/drawcontext/#-strokepath"
+                  },
+                  {
+                     "id":258,
+                     "headline":"Instance method",
+                     "shortName":"strokeRect",
+                     "longName":"-strokeRect(rect)",
+                     "decleration":"strokeRect(rect: Rect)",
+                     "copyDecleration":"strokeRect(rect)",
+                     "summary":"Strokes a rectangle.",
+                     "description":"Draws a line around the rectangle using the color set when calling setStrokeColor. The line will have the width set when calling setLineWidth.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"rect",
+                                 "subtitle":"Rect",
+                                 "copyDecleration":"rect",
+                                 "description":"Rectangle to stroke."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/drawcontext/#-strokerect"
+                  }
+               ]
+            }
+         ],
+         "summary":"Context for drawing images.",
+         "description":"An instance of DrawContext is a canvas on which you can draw an image using shapes, texts and other images. You must specify the size of your canvas by setting the size property. At any point after beginning your drawing and before ending your drawing can you call getImage() to get an image object of your drawing. When you are done drawing your image, you should call endDrawing().",
+         "url":"https://docs.scriptable.app/drawcontext",
+         "pageId":3
+      }
+   ]
+}

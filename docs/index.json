@@ -1,0 +1,6232 @@
+[
+	{
+		pageEntryId: 432,
+		title: 'actions',
+		subtitle: 'Notification',
+		copyDecleration: 'actions',
+		summary: 'Actions added to the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 150,
+		title: 'add(contact, containerIdentifier)',
+		subtitle: 'Contact',
+		copyDecleration: 'add(contact, containerIdentifier)',
+		summary: 'Queues a contact to be added.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 167,
+		title: 'add(group, containerIdentifier)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'add(group, containerIdentifier)',
+		summary: 'Queues a contacts group to be added.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 440,
+		title: 'addAction(title, url, destructive)',
+		subtitle: 'Notification',
+		copyDecleration: 'addAction(title, url, destructive)',
+		summary: 'Adds an action button.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 5,
+		title: 'addAction(title)',
+		subtitle: 'Alert',
+		copyDecleration: 'addAction(title)',
+		summary: 'Adds an action to the alert.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 660,
+		title: 'addButton(title)',
+		subtitle: 'UITableRow',
+		copyDecleration: 'addButton(title)',
+		summary: 'Adds a button cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 7,
+		title: 'addCancelAction(title)',
+		subtitle: 'Alert',
+		copyDecleration: 'addCancelAction(title)',
+		summary: 'Adds a cancel action to the alert.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 656,
+		title: 'addCell(cell)',
+		subtitle: 'UITableRow',
+		copyDecleration: 'addCell(cell)',
+		summary: 'Adds a cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 462,
+		title: 'addCurve(point, control1, control2)',
+		subtitle: 'Path',
+		copyDecleration: 'addCurve(point, control1, control2)',
+		summary: 'Adds a cubic curve to a point.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 406,
+		title: 'addDataAttachment(data, mimeType, filename)',
+		subtitle: 'Mail',
+		copyDecleration: 'addDataAttachment(data, mimeType, filename)',
+		summary: 'Adds a data attachment to the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 414,
+		title: 'addDataAttachment(data, uti, filename)',
+		subtitle: 'Message',
+		copyDecleration: 'addDataAttachment(data, uti, filename)',
+		summary: 'Adds a data attachment to the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 377,
+		title: 'addDate(date)',
+		subtitle: 'ListWidget',
+		copyDecleration: 'addDate(date)',
+		summary: 'Add date to the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 731,
+		title: 'addDate(date)',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'addDate(date)',
+		summary: 'Add date to the widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 6,
+		title: 'addDestructiveAction(title)',
+		subtitle: 'Alert',
+		copyDecleration: 'addDestructiveAction(title)',
+		summary: 'Adds a destructive action to the alert.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 460,
+		title: 'addEllipse(rect)',
+		subtitle: 'Path',
+		copyDecleration: 'addEllipse(rect)',
+		summary: 'Adds an ellipse.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 405,
+		title: 'addFileAttachment(filePath)',
+		subtitle: 'Mail',
+		copyDecleration: 'addFileAttachment(filePath)',
+		summary: 'Adds a file attachment to the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 413,
+		title: 'addFileAttachment(filePath)',
+		subtitle: 'Message',
+		copyDecleration: 'addFileAttachment(filePath)',
+		summary: 'Adds a file attachment to the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 586,
+		title: 'addFileDataToMultipart(data, mimeType, name, filename)',
+		subtitle: 'Request',
+		copyDecleration: 'addFileDataToMultipart(data, mimeType, name, filename)',
+		summary: 'Adds a file to a multipart request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 587,
+		title: 'addFileToMultipart(filePath, name, filename)',
+		subtitle: 'Request',
+		copyDecleration: 'addFileToMultipart(filePath, name, filename)',
+		summary: 'Adds a file to a multipart request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 378,
+		title: 'addImage(image)',
+		subtitle: 'ListWidget',
+		copyDecleration: 'addImage(image)',
+		summary: 'Add image to the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 658,
+		title: 'addImage(image)',
+		subtitle: 'UITableRow',
+		copyDecleration: 'addImage(image)',
+		summary: 'Adds an image cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 732,
+		title: 'addImage(image)',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'addImage(image)',
+		summary: 'Add image to the stack.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 404,
+		title: 'addImageAttachment(image)',
+		subtitle: 'Mail',
+		copyDecleration: 'addImageAttachment(image)',
+		summary: 'Adds an image attachment to the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 412,
+		title: 'addImageAttachment(image)',
+		subtitle: 'Message',
+		copyDecleration: 'addImageAttachment(image)',
+		summary: 'Adds an image attachment to the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 659,
+		title: 'addImageAtURL(url)',
+		subtitle: 'UITableRow',
+		copyDecleration: 'addImageAtURL(url)',
+		summary: 'Adds an image cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 588,
+		title: 'addImageToMultipart(image, name, filename)',
+		subtitle: 'Request',
+		copyDecleration: 'addImageToMultipart(image, name, filename)',
+		summary: 'Adds an image to a multipart request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 458,
+		title: 'addLine(point)',
+		subtitle: 'Path',
+		copyDecleration: 'addLine(point)',
+		summary: 'Adds a line to a point.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 464,
+		title: 'addLines(points)',
+		subtitle: 'Path',
+		copyDecleration: 'addLines(points)',
+		summary: 'Adds a set of lines.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 165,
+		title: 'addMember(contact)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'addMember(contact)',
+		summary: 'Adds a contact to the group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 72,
+		title: 'addParameter(name, value)',
+		subtitle: 'CallbackURL',
+		copyDecleration: 'addParameter(name, value)',
+		summary: 'Construct CallbackURL.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 585,
+		title: 'addParameterToMultipart(name, value)',
+		subtitle: 'Request',
+		copyDecleration: 'addParameterToMultipart(name, value)',
+		summary: 'Adds a parameter to a multipart request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 260,
+		title: 'addPath(path)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'addPath(path)',
+		summary: 'Adds a path to the context.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 463,
+		title: 'addQuadCurve(point, control)',
+		subtitle: 'Path',
+		copyDecleration: 'addQuadCurve(point, control)',
+		summary: 'Adds a quadratic curve to a point.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 459,
+		title: 'addRect(rect)',
+		subtitle: 'Path',
+		copyDecleration: 'addRect(rect)',
+		summary: 'Adds a rectangle.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 465,
+		title: 'addRects(rects)',
+		subtitle: 'Path',
+		copyDecleration: 'addRects(rects)',
+		summary: 'Adds a set of rectangles.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 57,
+		title: 'addRecurrenceRule(recurrenceRule)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'addRecurrenceRule(recurrenceRule)',
+		summary: 'Adds a recurrence rule.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 538,
+		title: 'addRecurrenceRule(recurrenceRule)',
+		subtitle: 'Reminder',
+		copyDecleration: 'addRecurrenceRule(recurrenceRule)',
+		summary: 'Adds a recurrence rule.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 461,
+		title: 'addRoundedRect(rect, cornerWidth, cornerHeight)',
+		subtitle: 'Path',
+		copyDecleration: 'addRoundedRect(rect, cornerWidth, cornerHeight)',
+		summary: 'Adds a rounded rectangle.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 628,
+		title: 'addRow(row)',
+		subtitle: 'UITable',
+		copyDecleration: 'addRow(row)',
+		summary: 'Adds a row.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 9,
+		title: 'addSecureTextField(placeholder, text)',
+		subtitle: 'Alert',
+		copyDecleration: 'addSecureTextField(placeholder, text)',
+		summary: 'Adds a secure text field prompting for user input.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 379,
+		title: 'addSpacer(length)',
+		subtitle: 'ListWidget',
+		copyDecleration: 'addSpacer(length)',
+		summary: 'Add spacer.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 733,
+		title: 'addSpacer(length)',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'addSpacer(length)',
+		summary: 'Add spacer.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 380,
+		title: 'addStack()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'addStack()',
+		summary: 'Add stack.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 734,
+		title: 'addStack()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'addStack()',
+		summary: 'Add stack.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 292,
+		title: 'addTag(filePath, tag)',
+		subtitle: 'FileManager',
+		copyDecleration: 'addTag(filePath, tag)',
+		summary: 'Adds a tag to a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 376,
+		title: 'addText(text)',
+		subtitle: 'ListWidget',
+		copyDecleration: 'addText(text)',
+		summary: 'Add text to the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 730,
+		title: 'addText(text)',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'addText(text)',
+		summary: 'Add text to the stack.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 657,
+		title: 'addText(title, subtitle)',
+		subtitle: 'UITableRow',
+		copyDecleration: 'addText(title, subtitle)',
+		summary: 'Adds a text cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 8,
+		title: 'addTextField(placeholder, text)',
+		subtitle: 'Alert',
+		copyDecleration: 'addTextField(placeholder, text)',
+		summary: 'Adds a text field prompting for user input.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 1,
+		title: 'Alert',
+		copyDecleration: 'Alert',
+		summary: 'Presents an alert.',
+		tags: ['uialertcontroller', 'sheet', 'prompt'],
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 16,
+		title: 'all',
+		subtitle: 'args',
+		copyDecleration: 'all',
+		summary: 'All arguments supplied by a share sheet.',
+		deprecation: { version: '1.3' },
+		pageId: 1
+	},
+	{
+		pageEntryId: 158,
+		title: 'all()',
+		subtitle: 'ContactsContainer',
+		copyDecleration: 'all()',
+		summary: 'Fetches all contacts containers.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 543,
+		title: 'all(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'all(calendars)',
+		summary: 'Fetches all reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 148,
+		title: 'all(containers)',
+		subtitle: 'Contact',
+		copyDecleration: 'all(containers)',
+		summary: 'Fetches contacts.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 164,
+		title: 'all(containers)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'all(containers)',
+		summary: 'Fetches contacts groups.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 544,
+		title: 'allCompleted(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allCompleted(calendars)',
+		summary: 'Fetches all completed reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 442,
+		title: 'allDelivered()',
+		subtitle: 'Notification',
+		copyDecleration: 'allDelivered()',
+		summary: 'Delivered notifications displayed in the Notification Center.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 567,
+		title: 'allDueBetween(startDate, endDate, calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueBetween(startDate, endDate, calendars)',
+		summary: 'Fetches due reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 561,
+		title: 'allDueLastWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueLastWeek(calendars)',
+		summary: 'Fetches all reminders due last week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 558,
+		title: 'allDueNextWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueNextWeek(calendars)',
+		summary: 'Fetches all reminders due next week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 555,
+		title: 'allDueThisWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueThisWeek(calendars)',
+		summary: 'Fetches all reminders due this week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 546,
+		title: 'allDueToday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueToday(calendars)',
+		summary: 'Fetches all reminders due today.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 549,
+		title: 'allDueTomorrow(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueTomorrow(calendars)',
+		summary: 'Fetches all reminders due tomorrow.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 552,
+		title: 'allDueYesterday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allDueYesterday(calendars)',
+		summary: 'Fetches all reminders due yesterday.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 297,
+		title: 'allExtendedAttributes(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'allExtendedAttributes(filePath)',
+		summary: 'Reads all extended attributes on a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 310,
+		title: 'allFileBookmarks()',
+		subtitle: 'FileManager',
+		copyDecleration: 'allFileBookmarks()',
+		summary: 'Reads all file bookmarks created in settings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 545,
+		title: 'allIncomplete(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'allIncomplete(calendars)',
+		summary: 'Fetches all incomplete reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 579,
+		title: 'allowInsecureRequest',
+		subtitle: 'Request',
+		copyDecleration: 'allowInsecureRequest',
+		summary: 'Allow the request even if it is deemed insecure.',
+		tags: ['ssl', 'certificate'],
+		pageId: 7
+	},
+	{
+		pageEntryId: 30,
+		title: 'allowsContentModifications',
+		subtitle: 'Calendar',
+		copyDecleration: 'allowsContentModifications',
+		summary:
+			'Indicates whether items can be added, edited, and deleted in the calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 662,
+		title: 'allParameters()',
+		subtitle: 'URLScheme',
+		copyDecleration: 'allParameters()',
+		summary: 'Gets all parameters from invocation of URL scheme.',
+		deprecation: { version: '1.3' },
+		pageId: 8
+	},
+	{
+		pageEntryId: 441,
+		title: 'allPending()',
+		subtitle: 'Notification',
+		copyDecleration: 'allPending()',
+		summary: 'All pending notifications.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 291,
+		title: 'allTags(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'allTags(filePath)',
+		summary: 'Reads all tags from a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 80,
+		title: 'alpha',
+		subtitle: 'Color',
+		copyDecleration: 'alpha',
+		summary: 'Alpha of the color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 601,
+		title: 'applyBlackWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyBlackWeight()',
+		summary: 'Configures the symbol to use an black weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 599,
+		title: 'applyBoldWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyBoldWeight()',
+		summary: 'Configures the symbol to use an bold weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 698,
+		title: 'applyDateStyle()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'applyDateStyle()',
+		summary: 'Display entire date.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 717,
+		title: 'applyFillingContentMode()',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'applyFillingContentMode()',
+		summary: 'Uses filling content mode.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 716,
+		title: 'applyFittingContentMode()',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'applyFittingContentMode()',
+		summary: 'Uses fitting content mode.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 592,
+		title: 'applyFont(font)',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyFont(font)',
+		summary: 'Configures the symbol with the specified font information.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 600,
+		title: 'applyHeavyWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyHeavyWeight()',
+		summary: 'Configures the symbol to use an heavy weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 595,
+		title: 'applyLightWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyLightWeight()',
+		summary: 'Configures the symbol to use an light weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 597,
+		title: 'applyMediumWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyMediumWeight()',
+		summary: 'Configures the symbol to use an medium weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 700,
+		title: 'applyOffsetStyle()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'applyOffsetStyle()',
+		summary: 'Display date as offset from now.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 596,
+		title: 'applyRegularWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyRegularWeight()',
+		summary: 'Configures the symbol to use an regular weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 699,
+		title: 'applyRelativeStyle()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'applyRelativeStyle()',
+		summary: 'Display date as relative to now.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 598,
+		title: 'applySemiboldWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applySemiboldWeight()',
+		summary: 'Configures the symbol to use an semibold weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 594,
+		title: 'applyThinWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyThinWeight()',
+		summary: 'Configures the symbol to use an thin weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 701,
+		title: 'applyTimerStyle()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'applyTimerStyle()',
+		summary: 'Display date as timer counting from now.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 697,
+		title: 'applyTimeStyle()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'applyTimeStyle()',
+		summary: 'Display time component of the date.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 593,
+		title: 'applyUltraLightWeight()',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'applyUltraLightWeight()',
+		summary: 'Configures the symbol to use an ultra light weight.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 14,
+		title: 'args',
+		copyDecleration: 'args',
+		summary: 'Arguments passed to the script.',
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 52,
+		title: 'attendees',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'attendees',
+		summary: 'Attendees associated with the event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 53,
+		title: 'availability',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'availability',
+		summary: 'Availability during the event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 369,
+		title: 'backgroundColor',
+		subtitle: 'ListWidget',
+		copyDecleration: 'backgroundColor',
+		summary: 'Background color of the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 654,
+		title: 'backgroundColor',
+		subtitle: 'UITableRow',
+		copyDecleration: 'backgroundColor',
+		summary: 'Background color.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 721,
+		title: 'backgroundColor',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'backgroundColor',
+		summary: 'Background color of the widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 371,
+		title: 'backgroundGradient',
+		subtitle: 'ListWidget',
+		copyDecleration: 'backgroundGradient',
+		summary: 'Background gradient.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 723,
+		title: 'backgroundGradient',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'backgroundGradient',
+		summary: 'Background gradient.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 370,
+		title: 'backgroundImage',
+		subtitle: 'ListWidget',
+		copyDecleration: 'backgroundImage',
+		summary: 'Background image.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 722,
+		title: 'backgroundImage',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'backgroundImage',
+		summary: 'Background image.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 424,
+		title: 'badge',
+		subtitle: 'Notification',
+		copyDecleration: 'badge',
+		summary: "Number to display in the app icon's badge.",
+		pageId: 5
+	},
+	{
+		pageEntryId: 223,
+		title: 'batteryLevel()',
+		subtitle: 'Device',
+		copyDecleration: 'batteryLevel()',
+		summary: 'Current battery level.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 397,
+		title: 'bccRecipients',
+		subtitle: 'Mail',
+		copyDecleration: 'bccRecipients',
+		summary: 'Recipients to set BCC on the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 69,
+		title: 'between(startDate, endDate, calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'between(startDate, endDate, calendars)',
+		summary: 'Events that occurs between two dates.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 118,
+		title: 'birthday',
+		subtitle: 'Contact',
+		copyDecleration: 'birthday',
+		summary: 'Birthday.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 81,
+		title: 'black()',
+		subtitle: 'Color',
+		copyDecleration: 'black()',
+		summary: 'Constructs a black color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 343,
+		title: 'blackMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'blackMonospacedSystemFont(size)',
+		summary: 'Creates a monospaced system font with the black weight.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 352,
+		title: 'blackRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'blackRoundedSystemFont(size)',
+		summary: 'Creates a rounded system font with the black weight.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 333,
+		title: 'blackSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'blackSystemFont(size)',
+		summary: 'Creates a font with the system appearance with the black weight.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 79,
+		title: 'blue',
+		subtitle: 'Color',
+		copyDecleration: 'blue',
+		summary: 'Amount of blue in the color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 88,
+		title: 'blue()',
+		subtitle: 'Color',
+		copyDecleration: 'blue()',
+		summary: 'Constructs a blue color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 399,
+		title: 'body',
+		subtitle: 'Mail',
+		copyDecleration: 'body',
+		summary: 'Body of the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 409,
+		title: 'body',
+		subtitle: 'Message',
+		copyDecleration: 'body',
+		summary: 'Body of the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 422,
+		title: 'body',
+		subtitle: 'Notification',
+		copyDecleration: 'body',
+		summary: 'Body of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 575,
+		title: 'body',
+		subtitle: 'Request',
+		copyDecleration: 'body',
+		summary: 'Body to send with the request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 319,
+		title: 'body()',
+		subtitle: 'Font',
+		copyDecleration: 'body()',
+		summary: 'Preferred font for body texts.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 341,
+		title: 'boldMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'boldMonospacedSystemFont(size)',
+		summary: 'Creates a bold monospaced system font..',
+		pageId: 4
+	},
+	{
+		pageEntryId: 350,
+		title: 'boldRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'boldRoundedSystemFont(size)',
+		summary: 'Creates a bold and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 331,
+		title: 'boldSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'boldSystemFont(size)',
+		summary: 'Creates a bold system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 302,
+		title: 'bookmarkedPath(name)',
+		subtitle: 'FileManager',
+		copyDecleration: 'bookmarkedPath(name)',
+		summary: 'Get path to a bookmarked file or folder.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 303,
+		title: 'bookmarkExists(name)',
+		subtitle: 'FileManager',
+		copyDecleration: 'bookmarkExists(name)',
+		summary: 'Check if a bookmark exists.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 709,
+		title: 'borderColor',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'borderColor',
+		summary: 'Border color.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 728,
+		title: 'borderColor',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'borderColor',
+		summary: 'Border color.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 708,
+		title: 'borderWidth',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'borderWidth',
+		summary: 'Border width.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 727,
+		title: 'borderWidth',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'borderWidth',
+		summary: 'Border width.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 739,
+		title: 'bottomAlignContent()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'bottomAlignContent()',
+		summary: 'Bottom aligns the content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 94,
+		title: 'brown()',
+		subtitle: 'Color',
+		copyDecleration: 'brown()',
+		summary: 'Constructs a brown color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 644,
+		title: 'button(title)',
+		subtitle: 'UITableCell',
+		copyDecleration: 'button(title)',
+		summary: 'Constructs a button cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 287,
+		title: 'cacheDirectory()',
+		subtitle: 'FileManager',
+		copyDecleration: 'cacheDirectory()',
+		summary: 'Path of cache directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 55,
+		title: 'calendar',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'calendar',
+		summary: 'Calendar the event is stored in.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 536,
+		title: 'calendar',
+		subtitle: 'Reminder',
+		copyDecleration: 'calendar',
+		summary: 'Calendar the reminder is stored in.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 26,
+		title: 'Calendar',
+		copyDecleration: 'Calendar',
+		summary: 'Holds reminders and events.',
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 44,
+		title: 'CalendarEvent',
+		copyDecleration: 'CalendarEvent',
+		summary: 'Manages events in calendars.',
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 70,
+		title: 'CallbackURL',
+		copyDecleration: 'CallbackURL',
+		summary: 'Open x-callback-url requests.',
+		tags: ['cross'],
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 320,
+		title: 'callout()',
+		subtitle: 'Font',
+		copyDecleration: 'callout()',
+		summary: 'Preferred font for callouts.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 322,
+		title: 'caption1()',
+		subtitle: 'Font',
+		copyDecleration: 'caption1()',
+		summary: 'Preferred font for standard captions.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 323,
+		title: 'caption2()',
+		subtitle: 'Font',
+		copyDecleration: 'caption2()',
+		summary: 'Preferred font for alternate captions.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 396,
+		title: 'ccRecipients',
+		subtitle: 'Mail',
+		copyDecleration: 'ccRecipients',
+		summary: 'Recipients to set CC on the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 649,
+		title: 'cellSpacing',
+		subtitle: 'UITableRow',
+		copyDecleration: 'cellSpacing',
+		summary: 'Spacing between cells.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 738,
+		title: 'centerAlignContent()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'centerAlignContent()',
+		summary: 'Center aligns the content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 646,
+		title: 'centerAligned()',
+		subtitle: 'UITableCell',
+		copyDecleration: 'centerAligned()',
+		summary: 'Center aligns content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 714,
+		title: 'centerAlignImage()',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'centerAlignImage()',
+		summary: 'Center aligns the image.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 695,
+		title: 'centerAlignText()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'centerAlignText()',
+		summary: 'Center aligns the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 754,
+		title: 'centerAlignText()',
+		subtitle: 'WidgetText',
+		copyDecleration: 'centerAlignText()',
+		summary: 'Center aligns the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 95,
+		title: 'clear()',
+		subtitle: 'Color',
+		copyDecleration: 'clear()',
+		summary: 'Constructs a transparent color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 466,
+		title: 'closeSubpath()',
+		subtitle: 'Path',
+		copyDecleration: 'closeSubpath()',
+		summary: 'Closes a sub path.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 31,
+		title: 'color',
+		subtitle: 'Calendar',
+		copyDecleration: 'color',
+		summary: 'Color of calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 75,
+		title: 'Color',
+		copyDecleration: 'Color',
+		summary: 'Stores color data including opacity.',
+		tags: ['uicolor'],
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 363,
+		title: 'colors',
+		subtitle: 'LinearGradient',
+		copyDecleration: 'colors',
+		summary: 'Colors of the gradient.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 607,
+		title: 'complete()',
+		subtitle: 'Script',
+		copyDecleration: 'complete()',
+		summary: 'Informs the system about script completion.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 570,
+		title: 'completedBetween(startDate, endDate, calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedBetween(startDate, endDate, calendars)',
+		summary: 'Fetches completed reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 568,
+		title: 'completedDueBetween(startDate, endDate, calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueBetween(startDate, endDate, calendars)',
+		summary: 'Fetches completed reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 562,
+		title: 'completedDueLastWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueLastWeek(calendars)',
+		summary: 'Fetches completed reminders due last week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 559,
+		title: 'completedDueNextWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueNextWeek(calendars)',
+		summary: 'Fetches completed reminders due next week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 556,
+		title: 'completedDueThisWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueThisWeek(calendars)',
+		summary: 'Fetches completed reminders due this week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 547,
+		title: 'completedDueToday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueToday(calendars)',
+		summary: 'Fetches completed reminders due today.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 550,
+		title: 'completedDueTomorrow(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueTomorrow(calendars)',
+		summary: 'Fetches completed reminders due tomorrow.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 553,
+		title: 'completedDueYesterday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedDueYesterday(calendars)',
+		summary: 'Fetches completed reminders due yesterday.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 566,
+		title: 'completedLastWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedLastWeek(calendars)',
+		summary: 'Fetches reminders completed last week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 565,
+		title: 'completedThisWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedThisWeek(calendars)',
+		summary: 'Fetches reminders completed this week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 564,
+		title: 'completedToday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'completedToday(calendars)',
+		summary: 'Fetches reminders completed today.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 534,
+		title: 'completionDate',
+		subtitle: 'Reminder',
+		copyDecleration: 'completionDate',
+		summary: 'Completion date of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 513,
+		title:
+			'complexMonthly(interval, daysOfTheWeek, daysOfTheMonth, setPositions)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexMonthly(interval, daysOfTheWeek, daysOfTheMonth, setPositions)',
+		summary: 'Constructs a complex monthly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 514,
+		title:
+			'complexMonthlyEndDate(interval, daysOfTheWeek, daysOfTheMonth, setPositions, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexMonthlyEndDate(interval, daysOfTheWeek, daysOfTheMonth, setPositions, endDate)',
+		summary: 'Constructs a complex monthly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 515,
+		title:
+			'complexMonthlyOccurrenceCount(interval, daysOfTheWeek, daysOfTheMonth, setPositions, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexMonthlyOccurrenceCount(interval, daysOfTheWeek, daysOfTheMonth, setPositions, occurrenceCount)',
+		summary:
+			'Constructs a complex monthly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 510,
+		title: 'complexWeekly(interval, daysOfTheWeek, setPositions)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'complexWeekly(interval, daysOfTheWeek, setPositions)',
+		summary: 'Constructs a complex weekly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 511,
+		title:
+			'complexWeeklyEndDate(interval, daysOfTheWeek, setPositions, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexWeeklyEndDate(interval, daysOfTheWeek, setPositions, endDate)',
+		summary: 'Constructs a complex weekly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 512,
+		title:
+			'complexWeeklyOccurrenceCount(interval, daysOfTheWeek, setPositions, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexWeeklyOccurrenceCount(interval, daysOfTheWeek, setPositions, occurrenceCount)',
+		summary:
+			'Constructs a complex weekly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 516,
+		title:
+			'complexYearly(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexYearly(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions)',
+		summary: 'Constructs a complex yearly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 517,
+		title:
+			'complexYearlyEndDate(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexYearlyEndDate(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions, endDate)',
+		summary: 'Constructs a complex yearly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 518,
+		title:
+			'complexYearlyOccurrenceCount(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration:
+			'complexYearlyOccurrenceCount(interval, daysOfTheWeek, monthsOfTheYear, weeksOfTheYear, daysOfTheYear, setPositions, occurrenceCount)',
+		summary:
+			'Constructs a complex yearly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 98,
+		title: 'config',
+		copyDecleration: 'config',
+		summary: 'Configuration the script runs with.',
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 106,
+		title: 'console',
+		copyDecleration: 'console',
+		summary: 'Adds messages to the log.',
+		isRootEntry: true,
+		pageId: 1
+	},
+	{
+		pageEntryId: 111,
+		title: 'Contact',
+		copyDecleration: 'Contact',
+		summary: 'Contact in the address book.',
+		tags: ['carddav', 'address', 'book', 'person'],
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 154,
+		title: 'ContactsContainer',
+		copyDecleration: 'ContactsContainer',
+		summary: 'Collection of contacts.',
+		tags: ['carddav', 'address', 'book', 'person'],
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 160,
+		title: 'ContactsGroup',
+		copyDecleration: 'ContactsGroup',
+		summary: 'Group of contacts.',
+		tags: ['carddav', 'address', 'book', 'person'],
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 710,
+		title: 'containerRelativeShape',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'containerRelativeShape',
+		summary: 'Shape the image relative to its container.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 358,
+		title: 'contains(key)',
+		subtitle: 'Keychain',
+		copyDecleration: 'contains(key)',
+		summary: 'Check if keychain contains a key.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 282,
+		title: 'copy(sourceFilePath, destinationFilePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'copy(sourceFilePath, destinationFilePath)',
+		summary: 'Copies a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 449,
+		title: 'copy(string)',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'copy(string)',
+		summary: 'Copies a string to the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 453,
+		title: 'copyImage(image)',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'copyImage(image)',
+		summary: 'Copies an image to the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 451,
+		title: 'copyString(string)',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'copyString(string)',
+		summary: 'Copies a string to the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 707,
+		title: 'cornerRadius',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'cornerRadius',
+		summary: 'Radius of the corners.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 726,
+		title: 'cornerRadius',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'cornerRadius',
+		summary: 'Radius of the corners.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 198,
+		title: 'countdownDuration',
+		subtitle: 'DatePicker',
+		copyDecleration: 'countdownDuration',
+		summary: 'Countdown duration displayed by the date picker.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 285,
+		title: 'createDirectory(path, intermediateDirectories)',
+		subtitle: 'FileManager',
+		copyDecleration: 'createDirectory(path, intermediateDirectories)',
+		summary: 'Creates a directory at the specified path.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 39,
+		title: 'createForReminders(title)',
+		subtitle: 'Calendar',
+		copyDecleration: 'createForReminders(title)',
+		summary: 'Create a new calendar that holds reminders.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 535,
+		title: 'creationDate',
+		subtitle: 'Reminder',
+		copyDecleration: 'creationDate',
+		summary: 'Creation date of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 307,
+		title: 'creationDate(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'creationDate(filePath)',
+		summary: 'Reads the creation date of a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 387,
+		title: 'current()',
+		subtitle: 'Location',
+		copyDecleration: 'current()',
+		summary: 'Fetches your location.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 433,
+		title: 'current()',
+		subtitle: 'Notification',
+		copyDecleration: 'current()',
+		summary: 'Notification a script is running in.',
+		deprecation: { version: '1.3' },
+		pageId: 5
+	},
+	{
+		pageEntryId: 89,
+		title: 'cyan()',
+		subtitle: 'Color',
+		copyDecleration: 'cyan()',
+		summary: 'Constructs a cyan color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 498,
+		title: 'daily(interval)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'daily(interval)',
+		summary: 'Constructs a daily recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 499,
+		title: 'dailyEndDate(interval, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'dailyEndDate(interval, endDate)',
+		summary: 'Constructs a daily recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 500,
+		title: 'dailyOccurrenceCount(interval, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'dailyOccurrenceCount(interval, occurrenceCount)',
+		summary: 'Constructs a daily recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 82,
+		title: 'darkGray()',
+		subtitle: 'Color',
+		copyDecleration: 'darkGray()',
+		summary: 'Constructs a dark gray color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 170,
+		title: 'Data',
+		copyDecleration: 'Data',
+		summary: 'Raw data representation.',
+		tags: ['base64', 'base', '64', 'nsdata'],
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 684,
+		title: 'date',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'date',
+		summary: 'Date to show in a widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 184,
+		title: 'date(str)',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'date(str)',
+		summary: 'Creates a date from a string.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 180,
+		title: 'dateFormat',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'dateFormat',
+		summary: 'Date format to be used by the formatter.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 179,
+		title: 'DateFormatter',
+		copyDecleration: 'DateFormatter',
+		summary: 'Converts between dates and strings.',
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 195,
+		title: 'DatePicker',
+		copyDecleration: 'DatePicker',
+		summary: 'Presents a date picker.',
+		tags: ['uidatepicker', 'uipicker', 'count', 'down', 'countdown', 'timer'],
+		isRootEntry: true,
+		pageId: 2
+	},
+	{
+		pageEntryId: 126,
+		title: 'dates',
+		subtitle: 'Contact',
+		copyDecleration: 'dates',
+		summary: 'Dates.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 157,
+		title: 'default()',
+		subtitle: 'ContactsContainer',
+		copyDecleration: 'default()',
+		summary: 'Fetches default contacts container.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 42,
+		title: 'defaultForEvents()',
+		subtitle: 'Calendar',
+		copyDecleration: 'defaultForEvents()',
+		summary: 'Default calendar for events.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 41,
+		title: 'defaultForReminders()',
+		subtitle: 'Calendar',
+		copyDecleration: 'defaultForReminders()',
+		summary: 'Default calendar for reminders.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 152,
+		title: 'delete(contact)',
+		subtitle: 'Contact',
+		copyDecleration: 'delete(contact)',
+		summary: 'Queues a contact to be deleted.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 169,
+		title: 'delete(group)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'delete(group)',
+		summary: 'Queues a contacts group to be deleted.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 429,
+		title: 'deliveryDate',
+		subtitle: 'Notification',
+		copyDecleration: 'deliveryDate',
+		summary: 'Delivery date of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 128,
+		title: 'departmentName',
+		subtitle: 'Contact',
+		copyDecleration: 'departmentName',
+		summary: 'Name of the department associated with the contact.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 206,
+		title: 'Device',
+		copyDecleration: 'Device',
+		summary: 'Provides information about the device.',
+		tags: ['iphone', 'ipad', 'screen', 'resolution', 'brightness'],
+		isRootEntry: true,
+		pageId: 3
+	},
+	{
+		pageEntryId: 233,
+		title: 'Dictation',
+		copyDecleration: 'Dictation',
+		summary: 'Presents an interface for dictation.',
+		tags: ['speak', 'record', 'speech'],
+		isRootEntry: true,
+		pageId: 3
+	},
+	{
+		pageEntryId: 758,
+		title: 'didEndDocument',
+		subtitle: 'XMLParser',
+		copyDecleration: 'didEndDocument',
+		summary: 'Function called when the parser ends parsing a document.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 760,
+		title: 'didEndElement',
+		subtitle: 'XMLParser',
+		copyDecleration: 'didEndElement',
+		summary: 'Function called when ended parsing an element.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 757,
+		title: 'didStartDocument',
+		subtitle: 'XMLParser',
+		copyDecleration: 'didStartDocument',
+		summary: 'Function called when the parser begins parsing a document.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 759,
+		title: 'didStartElement',
+		subtitle: 'XMLParser',
+		copyDecleration: 'didStartElement',
+		summary: 'Function called when starting to parse an element.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 652,
+		title: 'dismissOnSelect',
+		subtitle: 'UITableRow',
+		copyDecleration: 'dismissOnSelect',
+		summary: 'Whether to dismiss the table when the row is selected.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 636,
+		title: 'dismissOnTap',
+		subtitle: 'UITableCell',
+		copyDecleration: 'dismissOnTap',
+		summary: 'Whether to dismiss the table when the button is tapped.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 235,
+		title: 'DocumentPicker',
+		copyDecleration: 'DocumentPicker',
+		summary: 'Presents a document picker.',
+		tags: ['file', 'export', 'import', 'open', 'load', 'save', 'read', 'write'],
+		isRootEntry: true,
+		pageId: 3
+	},
+	{
+		pageEntryId: 288,
+		title: 'documentsDirectory()',
+		subtitle: 'FileManager',
+		copyDecleration: 'documentsDirectory()',
+		summary: 'Path of documents directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 304,
+		title: 'downloadFileFromiCloud(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'downloadFileFromiCloud(filePath)',
+		summary: 'Download file from iCloud if necessary.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 243,
+		title: 'DrawContext',
+		copyDecleration: 'DrawContext',
+		summary: 'Context for drawing images.',
+		tags: ['draw', 'canvas', 'paint'],
+		isRootEntry: true,
+		pageId: 3
+	},
+	{
+		pageEntryId: 250,
+		title: 'drawImageAtPoint(image, point)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'drawImageAtPoint(image, point)',
+		summary: 'Draws an image at the specified point.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 249,
+		title: 'drawImageInRect(image, rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'drawImageInRect(image, rect)',
+		summary: 'Draws an image in the specified rect.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 263,
+		title: 'drawText(text, pos)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'drawText(text, pos)',
+		summary: 'Draws text at a position.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 264,
+		title: 'drawTextInRect(text, rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'drawTextInRect(text, rect)',
+		summary: 'Draws text in a rectangle.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 532,
+		title: 'dueDate',
+		subtitle: 'Reminder',
+		copyDecleration: 'dueDate',
+		summary: 'Due date of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 533,
+		title: 'dueDateIncludesTime',
+		subtitle: 'Reminder',
+		copyDecleration: 'dueDateIncludesTime',
+		summary: 'Whether the due date includes a time.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 97,
+		title: 'dynamic(lightColor, darkColor)',
+		subtitle: 'Color',
+		copyDecleration: 'dynamic(lightColor, darkColor)',
+		summary: 'Creates a dynamic color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 120,
+		title: 'emailAddresses',
+		subtitle: 'Contact',
+		copyDecleration: 'emailAddresses',
+		summary: 'Email addresses.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 50,
+		title: 'endDate',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'endDate',
+		summary: 'End date of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 366,
+		title: 'endPoint',
+		subtitle: 'LinearGradient',
+		copyDecleration: 'endPoint',
+		summary: 'Point to end the gradient.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 109,
+		title: 'error(message)',
+		subtitle: 'console',
+		copyDecleration: 'error(message)',
+		summary: 'Logs an error message to the console.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 679,
+		title: 'evaluateJavaScript(javaScript, useCallback)',
+		subtitle: 'WebView',
+		copyDecleration: 'evaluateJavaScript(javaScript, useCallback)',
+		summary: 'Evaluates JavaScript in the web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 239,
+		title: 'export(path)',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'export(path)',
+		summary: 'Exports a file to a document.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 242,
+		title: 'exportData(data, name)',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'exportData(data, name)',
+		summary: 'Exports data.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 241,
+		title: 'exportImage(image, name)',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'exportImage(image, name)',
+		summary: 'Exports an image.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 417,
+		title: 'exports',
+		subtitle: 'module',
+		copyDecleration: 'exports',
+		summary: 'Exported functions and modules.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 240,
+		title: 'exportString(content, name)',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'exportString(content, name)',
+		summary: 'Exports a string to a document.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 116,
+		title: 'familyName',
+		subtitle: 'Contact',
+		copyDecleration: 'familyName',
+		summary: 'Family name.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 283,
+		title: 'fileExists(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'fileExists(filePath)',
+		summary: 'Checks if the file exists.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 301,
+		title: 'fileExtension(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'fileExtension(filePath)',
+		summary: 'Get extension of a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 271,
+		title: 'FileManager',
+		copyDecleration: 'FileManager',
+		summary: 'Read and write files on disk.',
+		tags: [
+			'disk',
+			'file',
+			'write',
+			'save',
+			'read',
+			'load',
+			'xattr',
+			'tag',
+			'extended',
+			'attribute'
+		],
+		isRootEntry: true,
+		pageId: 4
+	},
+	{
+		pageEntryId: 416,
+		title: 'filename',
+		subtitle: 'module',
+		copyDecleration: 'filename',
+		summary: 'Path to file containing the module.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 300,
+		title: 'fileName(filePath, includeFileExtension)',
+		subtitle: 'FileManager',
+		copyDecleration: 'fileName(filePath, includeFileExtension)',
+		summary: 'Get name of a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 309,
+		title: 'fileSize(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'fileSize(filePath)',
+		summary: 'Size of the file in kilobytes.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 19,
+		title: 'fileURLs',
+		subtitle: 'args',
+		copyDecleration: 'fileURLs',
+		summary: 'File URLs supplied by a share sheet or a shortcut action.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 254,
+		title: 'fill(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'fill(rect)',
+		summary: 'Fills a rectangle.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 256,
+		title: 'fillEllipse(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'fillEllipse(rect)',
+		summary: 'Fills an ellipse.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 262,
+		title: 'fillPath()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'fillPath()',
+		summary: 'Fills the path that was added the latest.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 255,
+		title: 'fillRect(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'fillRect(rect)',
+		summary: 'Fills a rectangle.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 40,
+		title: 'findOrCreateForReminders(title)',
+		subtitle: 'Calendar',
+		copyDecleration: 'findOrCreateForReminders(title)',
+		summary: 'Find or create a new calendar that holds reminders.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 686,
+		title: 'font',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'font',
+		summary: 'Font and text size of the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 745,
+		title: 'font',
+		subtitle: 'WidgetText',
+		copyDecleration: 'font',
+		summary: 'Font and text size of the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 311,
+		title: 'Font',
+		copyDecleration: 'Font',
+		summary: 'Represents a font and text size.',
+		tags: ['text'],
+		isRootEntry: true,
+		pageId: 4
+	},
+	{
+		pageEntryId: 321,
+		title: 'footnote()',
+		subtitle: 'Font',
+		copyDecleration: 'footnote()',
+		summary: 'Preferred font for footnotes.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 36,
+		title: 'forEvents()',
+		subtitle: 'Calendar',
+		copyDecleration: 'forEvents()',
+		summary: 'Fetches calendars for events.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 38,
+		title: 'forEventsByTitle(title)',
+		subtitle: 'Calendar',
+		copyDecleration: 'forEventsByTitle(title)',
+		summary: 'Fetches a calendar that holds events.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 664,
+		title: 'forOpeningScript()',
+		subtitle: 'URLScheme',
+		copyDecleration: 'forOpeningScript()',
+		summary: 'URL for opening the script.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 665,
+		title: 'forOpeningScriptSettings()',
+		subtitle: 'URLScheme',
+		copyDecleration: 'forOpeningScriptSettings()',
+		summary: 'URL for opening script settings.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 35,
+		title: 'forReminders()',
+		subtitle: 'Calendar',
+		copyDecleration: 'forReminders()',
+		summary: 'Fetches calendars for reminders.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 37,
+		title: 'forRemindersByTitle(title)',
+		subtitle: 'Calendar',
+		copyDecleration: 'forRemindersByTitle(title)',
+		summary: 'Fetches a calendar that holds reminders.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 666,
+		title: 'forRunningScript()',
+		subtitle: 'URLScheme',
+		copyDecleration: 'forRunningScript()',
+		summary: 'URL for running script.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 761,
+		title: 'foundCharacters',
+		subtitle: 'XMLParser',
+		copyDecleration: 'foundCharacters',
+		summary: 'Function called when the parser finds characters of an element.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 173,
+		title: 'fromBase64String(base64String)',
+		subtitle: 'Data',
+		copyDecleration: 'fromBase64String(base64String)',
+		summary: 'Creates data from base64 encoded string.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 469,
+		title: 'fromCamera()',
+		subtitle: 'Photos',
+		copyDecleration: 'fromCamera()',
+		summary: 'Opens the camera for taking an image.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 356,
+		title: 'fromData(data)',
+		subtitle: 'Image',
+		copyDecleration: 'fromData(data)',
+		summary: 'Creates an image from raw data.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 172,
+		title: 'fromFile(filePath)',
+		subtitle: 'Data',
+		copyDecleration: 'fromFile(filePath)',
+		summary: 'Reads data from file path.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 355,
+		title: 'fromFile(filePath)',
+		subtitle: 'Image',
+		copyDecleration: 'fromFile(filePath)',
+		summary: 'Creates an image from file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 174,
+		title: 'fromJPEG(image)',
+		subtitle: 'Data',
+		copyDecleration: 'fromJPEG(image)',
+		summary: 'Creates data from JPEG image.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 468,
+		title: 'fromLibrary()',
+		subtitle: 'Photos',
+		copyDecleration: 'fromLibrary()',
+		summary: 'Presents the photo library for picking an image.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 175,
+		title: 'fromPNG(image)',
+		subtitle: 'Data',
+		copyDecleration: 'fromPNG(image)',
+		summary: 'Creates data from PNG image.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 171,
+		title: 'fromString(string)',
+		subtitle: 'Data',
+		copyDecleration: 'fromString(string)',
+		summary: 'Creates data from string.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 360,
+		title: 'get(key)',
+		subtitle: 'Keychain',
+		copyDecleration: 'get(key)',
+		summary: 'Reads a value from the keychain.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 178,
+		title: 'getBytes()',
+		subtitle: 'Data',
+		copyDecleration: 'getBytes()',
+		summary: 'Gets bytes from data.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 680,
+		title: 'getHTML()',
+		subtitle: 'WebView',
+		copyDecleration: 'getHTML()',
+		summary: 'Reads and returns HTML from the loaded website.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 248,
+		title: 'getImage()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'getImage()',
+		summary: 'Retrieves the image.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 74,
+		title: 'getURL()',
+		subtitle: 'CallbackURL',
+		copyDecleration: 'getURL()',
+		summary: 'Creates the callback URL.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 298,
+		title: 'getUTI(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'getUTI(filePath)',
+		summary: 'Gets the UTI of the specified file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 114,
+		title: 'givenName',
+		subtitle: 'Contact',
+		copyDecleration: 'givenName',
+		summary: 'Given name.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 85,
+		title: 'gray()',
+		subtitle: 'Color',
+		copyDecleration: 'gray()',
+		summary: 'Constructs a gray color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 78,
+		title: 'green',
+		subtitle: 'Color',
+		copyDecleration: 'green',
+		summary: 'Amount of green in the color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 87,
+		title: 'green()',
+		subtitle: 'Color',
+		copyDecleration: 'green()',
+		summary: 'Constructs a green color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 574,
+		title: 'headers',
+		subtitle: 'Request',
+		copyDecleration: 'headers',
+		summary: 'HTTP headers to send with the request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 317,
+		title: 'headline()',
+		subtitle: 'Font',
+		copyDecleration: 'headline()',
+		summary: 'Preferred font for headings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 342,
+		title: 'heavyMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'heavyMonospacedSystemFont(size)',
+		summary: 'Creates a heavy monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 351,
+		title: 'heavyRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'heavyRoundedSystemFont(size)',
+		summary: 'Creates a heavy and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 332,
+		title: 'heavySystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'heavySystemFont(size)',
+		summary: 'Creates a heavy system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 493,
+		title: 'height',
+		subtitle: 'Rect',
+		copyDecleration: 'height',
+		summary: 'Height of rectangle.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 614,
+		title: 'height',
+		subtitle: 'Size',
+		copyDecleration: 'height',
+		summary: 'Height value.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 650,
+		title: 'height',
+		subtitle: 'UITableRow',
+		copyDecleration: 'height',
+		summary: 'Height of the row.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 76,
+		title: 'hex',
+		subtitle: 'Color',
+		copyDecleration: 'hex',
+		summary: 'HEX representation.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 273,
+		title: 'iCloud()',
+		subtitle: 'FileManager',
+		copyDecleration: 'iCloud()',
+		summary: 'Creates an iCloud FileManager.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 27,
+		title: 'identifier',
+		subtitle: 'Calendar',
+		copyDecleration: 'identifier',
+		summary: 'Calendar identifier.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 45,
+		title: 'identifier',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'identifier',
+		summary: 'Identifier of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 112,
+		title: 'identifier',
+		subtitle: 'Contact',
+		copyDecleration: 'identifier',
+		summary: 'Uniquely identifies the contact on the device.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 155,
+		title: 'identifier',
+		subtitle: 'ContactsContainer',
+		copyDecleration: 'identifier',
+		summary: 'Identifier of the contacts container.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 161,
+		title: 'identifier',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'identifier',
+		summary: 'Identifier of the contacts group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 419,
+		title: 'identifier',
+		subtitle: 'Notification',
+		copyDecleration: 'identifier',
+		summary: 'Identifier of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 526,
+		title: 'identifier',
+		subtitle: 'Reminder',
+		copyDecleration: 'identifier',
+		summary: 'Identifier of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 119,
+		title: 'image',
+		subtitle: 'Contact',
+		copyDecleration: 'image',
+		summary: 'Profile picture.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 590,
+		title: 'image',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'image',
+		summary: 'Convert the symbol to an image.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 703,
+		title: 'image',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'image',
+		summary: 'Image to show in widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 353,
+		title: 'Image',
+		copyDecleration: 'Image',
+		summary: 'Manages image data.',
+		tags: ['uiimage'],
+		isRootEntry: true,
+		pageId: 4
+	},
+	{
+		pageEntryId: 642,
+		title: 'image(image)',
+		subtitle: 'UITableCell',
+		copyDecleration: 'image(image)',
+		summary: 'Constructs an image cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 643,
+		title: 'imageAtURL(url)',
+		subtitle: 'UITableCell',
+		copyDecleration: 'imageAtURL(url)',
+		summary: 'Constructs an image cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 706,
+		title: 'imageOpacity',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'imageOpacity',
+		summary: 'Opacity when shown in widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 20,
+		title: 'images',
+		subtitle: 'args',
+		copyDecleration: 'images',
+		summary: 'Images supplied by a share sheet or a shortcut action.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 705,
+		title: 'imageSize',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'imageSize',
+		summary: 'Size of the image in the widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 766,
+		title: 'importModule',
+		copyDecleration: 'importModule',
+		summary: 'Imports module with specified name.',
+		tags: ['require', 'dependency'],
+		isRootEntry: true,
+		pageId: 9
+	},
+	{
+		pageEntryId: 569,
+		title: 'incompleteDueBetween(startDate, endDate, calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueBetween(startDate, endDate, calendars)',
+		summary: 'Fetches incomplete reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 563,
+		title: 'incompleteDueLastWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueLastWeek(calendars)',
+		summary: 'Fetches incomplete reminders due last week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 560,
+		title: 'incompleteDueNextWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueNextWeek(calendars)',
+		summary: 'Fetches incomplete reminders due next week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 557,
+		title: 'incompleteDueThisWeek(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueThisWeek(calendars)',
+		summary: 'Fetches incomplete reminders due this week.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 548,
+		title: 'incompleteDueToday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueToday(calendars)',
+		summary: 'Fetches incomplete reminders due today.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 551,
+		title: 'incompleteDueTomorrow(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueTomorrow(calendars)',
+		summary: 'Fetches incomplete reminders due tomorrow.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 554,
+		title: 'incompleteDueYesterday(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'incompleteDueYesterday(calendars)',
+		summary: 'Fetches incomplete reminders due yesterday.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 149,
+		title: 'inGroups(groups)',
+		subtitle: 'Contact',
+		copyDecleration: 'inGroups(groups)',
+		summary: 'Fetches contacts in groups.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 200,
+		title: 'initialDate',
+		subtitle: 'DatePicker',
+		copyDecleration: 'initialDate',
+		summary: 'The initially selected date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 623,
+		title: 'invalidate()',
+		subtitle: 'Timer',
+		copyDecleration: 'invalidate()',
+		summary: 'Stops the timer from firing.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 51,
+		title: 'isAllDay',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'isAllDay',
+		summary: 'Whether the event is an all-day event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 135,
+		title: 'isBirthdayAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isBirthdayAvailable',
+		summary: 'Whether or not birthday is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 400,
+		title: 'isBodyHTML',
+		subtitle: 'Mail',
+		copyDecleration: 'isBodyHTML',
+		summary: 'Whether body is HTML.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 225,
+		title: 'isCharging()',
+		subtitle: 'Device',
+		copyDecleration: 'isCharging()',
+		summary: 'Whether the device is being charged.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 529,
+		title: 'isCompleted',
+		subtitle: 'Reminder',
+		copyDecleration: 'isCompleted',
+		summary: 'Whether the reminder is completed.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 146,
+		title: 'isDatesAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isDatesAvailable',
+		summary: 'Whether or not dates are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 144,
+		title: 'isDepartmentNameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isDepartmentNameAvailable',
+		summary: 'Whether or not department name is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 284,
+		title: 'isDirectory(path)',
+		subtitle: 'FileManager',
+		copyDecleration: 'isDirectory(path)',
+		summary: 'Checks if a path points to a directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 224,
+		title: 'isDischarging()',
+		subtitle: 'Device',
+		copyDecleration: 'isDischarging()',
+		summary:
+			'Whether the device is being not plugged into power and thus discharging.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 136,
+		title: 'isEmailAddressesAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isEmailAddressesAvailable',
+		summary: 'Whether or not email addresses are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 222,
+		title: 'isFaceDown()',
+		subtitle: 'Device',
+		copyDecleration: 'isFaceDown()',
+		summary:
+			'Whether the device is lying parallel to the ground with the screen facing downwards.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 221,
+		title: 'isFaceUp()',
+		subtitle: 'Device',
+		copyDecleration: 'isFaceUp()',
+		summary:
+			'Whether the device is lying parallel to the ground with the screen facing upwards.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 133,
+		title: 'isFamilyNameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isFamilyNameAvailable',
+		summary: 'Whether or not family name is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 306,
+		title: 'isFileDownloaded(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'isFileDownloaded(filePath)',
+		summary: 'Checks if a file have been downloaded.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 305,
+		title: 'isFileStoredIniCloud(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'isFileStoredIniCloud(filePath)',
+		summary: 'Checks if a file is stored in iCloud.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 226,
+		title: 'isFullyCharged()',
+		subtitle: 'Device',
+		copyDecleration: 'isFullyCharged()',
+		summary: 'Whether the device is fully charged.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 131,
+		title: 'isGiveNameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isGiveNameAvailable',
+		summary: 'Whether or not given name is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 651,
+		title: 'isHeader',
+		subtitle: 'UITableRow',
+		copyDecleration: 'isHeader',
+		summary: 'Whether the cell is a header.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 140,
+		title: 'isImageAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isImageAvailable',
+		summary: 'Whether or not image is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 219,
+		title: 'isInLandscapeLeft()',
+		subtitle: 'Device',
+		copyDecleration: 'isInLandscapeLeft()',
+		summary:
+			'Whether the device is in landscape with the home button or home indicator on the right side.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 220,
+		title: 'isInLandscapeRight()',
+		subtitle: 'Device',
+		copyDecleration: 'isInLandscapeRight()',
+		summary:
+			'Whether the device is in landscape with the home button or home indicator on the left side.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 217,
+		title: 'isInPortrait()',
+		subtitle: 'Device',
+		copyDecleration: 'isInPortrait()',
+		summary:
+			'Whether the device is in portrait with the home button or home indicator at the bottom.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 218,
+		title: 'isInPortraitUpsideDown()',
+		subtitle: 'Device',
+		copyDecleration: 'isInPortraitUpsideDown()',
+		summary:
+			'Whether the device is in portrait but upside down with the home button or home indicator at the top.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 145,
+		title: 'isJobTitleAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isJobTitleAvailable',
+		summary: 'Whether or not job title is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 132,
+		title: 'isMiddleNameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isMiddleNameAvailable',
+		summary: 'Whether or not middle name is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 130,
+		title: 'isNamePrefixAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isNamePrefixAvailable',
+		summary: 'Whether or not name prefix is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 134,
+		title: 'isNicknameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isNicknameAvailable',
+		summary: 'Whether or not nickname is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 141,
+		title: 'isNoteAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isNoteAvailable',
+		summary: 'Whether or not note is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 143,
+		title: 'isOrganizationNameAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isOrganizationNameAvailable',
+		summary: 'Whether or not organization name is available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 530,
+		title: 'isOverdue',
+		subtitle: 'Reminder',
+		copyDecleration: 'isOverdue',
+		summary: 'Whether the reminder is overdue.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 212,
+		title: 'isPad()',
+		subtitle: 'Device',
+		copyDecleration: 'isPad()',
+		summary: 'Whether the device is a pad.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 211,
+		title: 'isPhone()',
+		subtitle: 'Device',
+		copyDecleration: 'isPhone()',
+		summary: 'Whether the device is a phone.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 137,
+		title: 'isPhoneNumbersAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isPhoneNumbersAvailable',
+		summary: 'Whether or not phone numbers are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 138,
+		title: 'isPostalAddressesAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isPostalAddressesAvailable',
+		summary: 'Whether or not postal addresses are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 139,
+		title: 'isSocialProfilesAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isSocialProfilesAvailable',
+		summary: 'Whether or not social profiles are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 29,
+		title: 'isSubscribed',
+		subtitle: 'Calendar',
+		copyDecleration: 'isSubscribed',
+		summary: 'Whether the calendar is a subscribed calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 142,
+		title: 'isURLAddressesAvailable',
+		subtitle: 'Contact',
+		copyDecleration: 'isURLAddressesAvailable',
+		summary: 'Whether or not URL addresses are available.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 230,
+		title: 'isUsingDarkAppearance()',
+		subtitle: 'Device',
+		copyDecleration: 'isUsingDarkAppearance()',
+		summary: 'Whether the device is using dark appearance.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 334,
+		title: 'italicSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'italicSystemFont(size)',
+		summary: 'Creates an italic system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 129,
+		title: 'jobTitle',
+		subtitle: 'Contact',
+		copyDecleration: 'jobTitle',
+		summary: "The contact's job title.",
+		pageId: 2
+	},
+	{
+		pageEntryId: 290,
+		title: 'joinPath(lhsPath, rhsPath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'joinPath(lhsPath, rhsPath)',
+		summary: 'Joins two path components.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 357,
+		title: 'Keychain',
+		copyDecleration: 'Keychain',
+		summary: 'Secure storage for credentials.',
+		isRootEntry: true,
+		pageId: 4
+	},
+	{
+		pageEntryId: 229,
+		title: 'language()',
+		subtitle: 'Device',
+		copyDecleration: 'language()',
+		summary: 'Identifier for the device language.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 313,
+		title: 'largeTitle()',
+		subtitle: 'Font',
+		copyDecleration: 'largeTitle()',
+		summary: 'Preferred font for large titles.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 68,
+		title: 'lastWeek(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'lastWeek(calendars)',
+		summary: 'Events that occurred last week.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 470,
+		title: 'latestPhoto()',
+		subtitle: 'Photos',
+		copyDecleration: 'latestPhoto()',
+		summary: 'Get latest photo.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 471,
+		title: 'latestPhotos(count)',
+		subtitle: 'Photos',
+		copyDecleration: 'latestPhotos(count)',
+		summary: 'Get latest photos.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 472,
+		title: 'latestScreenshot()',
+		subtitle: 'Photos',
+		copyDecleration: 'latestScreenshot()',
+		summary: 'Get latest screenshot.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 473,
+		title: 'latestScreenshots(count)',
+		subtitle: 'Photos',
+		copyDecleration: 'latestScreenshots(count)',
+		summary: 'Get latest screenshots.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 740,
+		title: 'layoutHorizontally()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'layoutHorizontally()',
+		summary: 'Layout elements horizontally.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 741,
+		title: 'layoutVertically()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'layoutVertically()',
+		summary: 'Layout elements vertically.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 645,
+		title: 'leftAligned()',
+		subtitle: 'UITableCell',
+		copyDecleration: 'leftAligned()',
+		summary: 'Left aligns content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 713,
+		title: 'leftAlignImage()',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'leftAlignImage()',
+		summary: 'Left aligns the image.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 694,
+		title: 'leftAlignText()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'leftAlignText()',
+		summary: 'Left aligns the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 753,
+		title: 'leftAlignText()',
+		subtitle: 'WidgetText',
+		copyDecleration: 'leftAlignText()',
+		summary: 'Left aligns the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 15,
+		title: 'length',
+		subtitle: 'args',
+		copyDecleration: 'length',
+		summary: 'Number of arguments supplied by a share sheet.',
+		deprecation: { version: '1.3' },
+		pageId: 1
+	},
+	{
+		pageEntryId: 719,
+		title: 'length',
+		subtitle: 'WidgetSpacer',
+		copyDecleration: 'length',
+		summary: 'Text to show in widget.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 289,
+		title: 'libraryDirectory()',
+		subtitle: 'FileManager',
+		copyDecleration: 'libraryDirectory()',
+		summary: 'Path of library directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 83,
+		title: 'lightGray()',
+		subtitle: 'Color',
+		copyDecleration: 'lightGray()',
+		summary: 'Constructs a light gray color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 337,
+		title: 'lightMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'lightMonospacedSystemFont(size)',
+		summary: 'Creates a light monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 346,
+		title: 'lightRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'lightRoundedSystemFont(size)',
+		summary: 'Creates a light and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 327,
+		title: 'lightSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'lightSystemFont(size)',
+		summary: 'Creates a light system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 362,
+		title: 'LinearGradient',
+		copyDecleration: 'LinearGradient',
+		summary: 'Linear gradient.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 688,
+		title: 'lineLimit',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'lineLimit',
+		summary: 'Maximum number of lines.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 747,
+		title: 'lineLimit',
+		subtitle: 'WidgetText',
+		copyDecleration: 'lineLimit',
+		summary: 'Maximum number of lines.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 299,
+		title: 'listContents(directoryPath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'listContents(directoryPath)',
+		summary: 'Lists content of directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 368,
+		title: 'ListWidget',
+		copyDecleration: 'ListWidget',
+		summary: 'Widget showing a list of elements.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 581,
+		title: 'load()',
+		subtitle: 'Request',
+		copyDecleration: 'load()',
+		summary: 'Sends request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 673,
+		title: 'loadFile(fileURL, preferredSize, fullscreen)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadFile(fileURL, preferredSize, fullscreen)',
+		summary: 'Loads a file and renders it.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 678,
+		title: 'loadFile(fileURL)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadFile(fileURL)',
+		summary: 'Loads file in the web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 672,
+		title: 'loadHTML(html, baseURL, preferredSize, fullscreen)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadHTML(html, baseURL, preferredSize, fullscreen)',
+		summary: 'Loads HTML and renders it.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 677,
+		title: 'loadHTML(html, baseURL)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadHTML(html, baseURL)',
+		summary: 'Loads HTML in web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 584,
+		title: 'loadImage()',
+		subtitle: 'Request',
+		copyDecleration: 'loadImage()',
+		summary: 'Sends request and parses response as an image.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 583,
+		title: 'loadJSON()',
+		subtitle: 'Request',
+		copyDecleration: 'loadJSON()',
+		summary: 'Sends request and parses response as JSON.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 676,
+		title: 'loadRequest(request)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadRequest(request)',
+		summary: 'Loads request in web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 582,
+		title: 'loadString()',
+		subtitle: 'Request',
+		copyDecleration: 'loadString()',
+		summary: 'Sends request and parses response as a string.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 674,
+		title: 'loadURL(url, preferredSize, fullscreen)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadURL(url, preferredSize, fullscreen)',
+		summary: 'Loads URL in web view and presents the web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 675,
+		title: 'loadURL(url)',
+		subtitle: 'WebView',
+		copyDecleration: 'loadURL(url)',
+		summary: 'Loads URL in web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 272,
+		title: 'local()',
+		subtitle: 'FileManager',
+		copyDecleration: 'local()',
+		summary: 'Creates a local FileManager.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 181,
+		title: 'locale',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'locale',
+		summary: 'Locale to use when formatting.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 520,
+		title: 'locale',
+		subtitle: 'RelativeDateTimeFormatter',
+		copyDecleration: 'locale',
+		summary: 'Locale to use when formatting.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 228,
+		title: 'locale()',
+		subtitle: 'Device',
+		copyDecleration: 'locale()',
+		summary: 'Identifier for the device locale.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 47,
+		title: 'location',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'location',
+		summary: 'Location of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 386,
+		title: 'Location',
+		copyDecleration: 'Location',
+		summary: 'Fetches your location.',
+		tags: [
+			'gps',
+			'cellular',
+			'corelocation',
+			'coordinate',
+			'latitude',
+			'longitude'
+		],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 364,
+		title: 'locations',
+		subtitle: 'LinearGradient',
+		copyDecleration: 'locations',
+		summary: 'Locations of each color.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 107,
+		title: 'log(message)',
+		subtitle: 'console',
+		copyDecleration: 'log(message)',
+		summary: 'Logs a message to the console.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 110,
+		title: 'logError(message)',
+		subtitle: 'console',
+		copyDecleration: 'logError(message)',
+		summary: 'Logs an error message to the console.',
+		deprecation: { version: '1.3' },
+		pageId: 1
+	},
+	{
+		pageEntryId: 91,
+		title: 'magenta()',
+		subtitle: 'Color',
+		copyDecleration: 'magenta()',
+		summary: 'Constructs a magenta color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 394,
+		title: 'Mail',
+		copyDecleration: 'Mail',
+		summary: 'Sends a mail.',
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 197,
+		title: 'maximumDate',
+		subtitle: 'DatePicker',
+		copyDecleration: 'maximumDate',
+		summary: 'Maximum date that is selected in the picker.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 488,
+		title: 'maxX',
+		subtitle: 'Rect',
+		copyDecleration: 'maxX',
+		summary: 'Maximum X value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 489,
+		title: 'maxY',
+		subtitle: 'Rect',
+		copyDecleration: 'maxY',
+		summary: 'Maximum Y value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 339,
+		title: 'mediumMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'mediumMonospacedSystemFont(size)',
+		summary: 'Creates a medium monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 348,
+		title: 'mediumRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'mediumRoundedSystemFont(size)',
+		summary: 'Creates a medium and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 329,
+		title: 'mediumSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'mediumSystemFont(size)',
+		summary: 'Creates a medium system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 3,
+		title: 'message',
+		subtitle: 'Alert',
+		copyDecleration: 'message',
+		summary: 'Detailed message displayed in the alert.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 407,
+		title: 'Message',
+		copyDecleration: 'Message',
+		summary: 'Sends a message.',
+		tags: ['sms', 'imessage'],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 573,
+		title: 'method',
+		subtitle: 'Request',
+		copyDecleration: 'method',
+		summary: 'HTTP method used for the request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 115,
+		title: 'middleName',
+		subtitle: 'Contact',
+		copyDecleration: 'middleName',
+		summary: 'Middle name.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 196,
+		title: 'minimumDate',
+		subtitle: 'DatePicker',
+		copyDecleration: 'minimumDate',
+		summary: 'Minimum date that is selected in the picker.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 689,
+		title: 'minimumScaleFactor',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'minimumScaleFactor',
+		summary: 'Minimum amount the text scales down to.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 748,
+		title: 'minimumScaleFactor',
+		subtitle: 'WidgetText',
+		copyDecleration: 'minimumScaleFactor',
+		summary: 'Minimum amount the text scales down to.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 199,
+		title: 'minuteInterval',
+		subtitle: 'DatePicker',
+		copyDecleration: 'minuteInterval',
+		summary: 'Interval at which the date picker displays minutes.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 486,
+		title: 'minX',
+		subtitle: 'Rect',
+		copyDecleration: 'minX',
+		summary: 'Minimum X value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 487,
+		title: 'minY',
+		subtitle: 'Rect',
+		copyDecleration: 'minY',
+		summary: 'Minimum Y value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 210,
+		title: 'model()',
+		subtitle: 'Device',
+		copyDecleration: 'model()',
+		summary: 'Model of the device, e.g. "iPhone".',
+		pageId: 3
+	},
+	{
+		pageEntryId: 308,
+		title: 'modificationDate(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'modificationDate(filePath)',
+		summary: 'Reads the modification date of a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 415,
+		title: 'module',
+		copyDecleration: 'module',
+		summary: 'The current module.',
+		tags: ['require', 'dependency'],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 504,
+		title: 'monthly(interval)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'monthly(interval)',
+		summary: 'Constructs a monthly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 505,
+		title: 'monthlyEndDate(interval, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'monthlyEndDate(interval, endDate)',
+		summary: 'Constructs a monthly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 506,
+		title: 'monthlyOccurrenceCount(interval, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'monthlyOccurrenceCount(interval, occurrenceCount)',
+		summary: 'Constructs a monthly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 457,
+		title: 'move(point)',
+		subtitle: 'Path',
+		copyDecleration: 'move(point)',
+		summary: 'Moves to a point.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 281,
+		title: 'move(sourceFilePath, destinationFilePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'move(sourceFilePath, destinationFilePath)',
+		summary: 'Moves a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 156,
+		title: 'name',
+		subtitle: 'ContactsContainer',
+		copyDecleration: 'name',
+		summary: 'Name of the contacts container.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 162,
+		title: 'name',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'name',
+		summary: 'Name of the contacts group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 207,
+		title: 'name()',
+		subtitle: 'Device',
+		copyDecleration: 'name()',
+		summary: 'Name identifying the device.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 606,
+		title: 'name()',
+		subtitle: 'Script',
+		copyDecleration: 'name()',
+		summary: 'Name of the script.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 591,
+		title: 'named(symbolName)',
+		subtitle: 'SFSymbol',
+		copyDecleration: 'named(symbolName)',
+		summary: 'Constructs a SF symbol.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 113,
+		title: 'namePrefix',
+		subtitle: 'Contact',
+		copyDecleration: 'namePrefix',
+		summary: 'Name prefix.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 4,
+		title: 'new Alert()',
+		subtitle: 'Alert',
+		copyDecleration: 'new Alert()',
+		summary: 'Constructs a new alert.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 56,
+		title: 'new CalendarEvent()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'new CalendarEvent()',
+		summary: 'Constructs an event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 71,
+		title: 'new CallbackURL(baseURL)',
+		subtitle: 'CallbackURL',
+		copyDecleration: 'new CallbackURL(baseURL)',
+		summary: 'Construct CallbackURL.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 96,
+		title: 'new Color(hex, alpha)',
+		subtitle: 'Color',
+		copyDecleration: 'new Color(hex, alpha)',
+		summary: 'Constructs a color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 147,
+		title: 'new Contact()',
+		subtitle: 'Contact',
+		copyDecleration: 'new Contact()',
+		summary: 'Constructs a contact.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 163,
+		title: 'new ContactsGroup()',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'new ContactsGroup()',
+		summary: 'Constructs a contacts group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 182,
+		title: 'new DateFormatter()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'new DateFormatter()',
+		summary: 'Constructs a date formatter.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 201,
+		title: 'new DatePicker()',
+		subtitle: 'DatePicker',
+		copyDecleration: 'new DatePicker()',
+		summary: 'Constructs a new date picker.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 247,
+		title: 'new DrawContext()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'new DrawContext()',
+		summary: 'Constructs a canvas to draw on.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 312,
+		title: 'new Font(name, size)',
+		subtitle: 'Font',
+		copyDecleration: 'new Font(name, size)',
+		summary: 'Constructs a new font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 367,
+		title: 'new LinearGradient()',
+		subtitle: 'LinearGradient',
+		copyDecleration: 'new LinearGradient()',
+		summary: 'Constructs a linear gradient.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 375,
+		title: 'new ListWidget()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'new ListWidget()',
+		summary: 'Constructs a new list widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 402,
+		title: 'new Mail()',
+		subtitle: 'Mail',
+		copyDecleration: 'new Mail()',
+		summary: 'Constructs a mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 410,
+		title: 'new Message()',
+		subtitle: 'Message',
+		copyDecleration: 'new Message()',
+		summary: 'Constructs a message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 434,
+		title: 'new Notification()',
+		subtitle: 'Notification',
+		copyDecleration: 'new Notification()',
+		summary: 'Constructs a notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 456,
+		title: 'new Path()',
+		subtitle: 'Path',
+		copyDecleration: 'new Path()',
+		summary: 'Constructs a path.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 482,
+		title: 'new Point(x, y)',
+		subtitle: 'Point',
+		copyDecleration: 'new Point(x, y)',
+		summary: 'Constructs a new point.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 496,
+		title: 'new Rect(x, y, width, height)',
+		subtitle: 'Rect',
+		copyDecleration: 'new Rect(x, y, width, height)',
+		summary: 'Constructs a rectangle.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 521,
+		title: 'new RelativeDateTimeFormatter()',
+		subtitle: 'RelativeDateTimeFormatter',
+		copyDecleration: 'new RelativeDateTimeFormatter()',
+		summary: 'Constructs a relative date and time formatter.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 537,
+		title: 'new Reminder()',
+		subtitle: 'Reminder',
+		copyDecleration: 'new Reminder()',
+		summary: 'Constructs a reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 580,
+		title: 'new Request(url)',
+		subtitle: 'Request',
+		copyDecleration: 'new Request(url)',
+		summary: 'Constructs a request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 615,
+		title: 'new Size(width, height)',
+		subtitle: 'Size',
+		copyDecleration: 'new Size(width, height)',
+		summary: 'Constructs a new size.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 621,
+		title: 'new Timer()',
+		subtitle: 'Timer',
+		copyDecleration: 'new Timer()',
+		summary: 'Constructs a timer.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 627,
+		title: 'new UITable()',
+		subtitle: 'UITable',
+		copyDecleration: 'new UITable()',
+		summary: 'Constructs a table.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 655,
+		title: 'new UITableRow()',
+		subtitle: 'UITableRow',
+		copyDecleration: 'new UITableRow()',
+		summary: 'Constructs a row.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 671,
+		title: 'new WebView()',
+		subtitle: 'WebView',
+		copyDecleration: 'new WebView()',
+		summary: 'Constructs web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 764,
+		title: 'new XMLParser(string)',
+		subtitle: 'XMLParser',
+		copyDecleration: 'new XMLParser(string)',
+		summary: 'Constructs an XMLParser.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 430,
+		title: 'nextTriggerDate',
+		subtitle: 'Notification',
+		copyDecleration: 'nextTriggerDate',
+		summary: 'Next trigger date of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 67,
+		title: 'nextWeek(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'nextWeek(calendars)',
+		summary: 'Events that occur next week.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 117,
+		title: 'nickname',
+		subtitle: 'Contact',
+		copyDecleration: 'nickname',
+		summary: 'Nickname.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 124,
+		title: 'note',
+		subtitle: 'Contact',
+		copyDecleration: 'note',
+		summary: 'Note for the contact.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 48,
+		title: 'notes',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'notes',
+		summary: 'Notes associated with event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 528,
+		title: 'notes',
+		subtitle: 'Reminder',
+		copyDecleration: 'notes',
+		summary: 'Notes associated with reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 25,
+		title: 'notification',
+		subtitle: 'args',
+		copyDecleration: 'notification',
+		summary: 'Notification being handled by the script.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 418,
+		title: 'Notification',
+		copyDecleration: 'Notification',
+		summary: 'Schedules and manages notifications.',
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 577,
+		title: 'onRedirect',
+		subtitle: 'Request',
+		copyDecleration: 'onRedirect',
+		summary: 'Function called upon redirect.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 653,
+		title: 'onSelect',
+		subtitle: 'UITableRow',
+		copyDecleration: 'onSelect',
+		summary: 'Called when the row is selected.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 635,
+		title: 'onTap',
+		subtitle: 'UITableCell',
+		copyDecleration: 'onTap',
+		summary: 'Called when the button is tapped.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 246,
+		title: 'opaque',
+		subtitle: 'DrawContext',
+		copyDecleration: 'opaque',
+		summary: 'Determines whether the context is opaque.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 73,
+		title: 'open()',
+		subtitle: 'CallbackURL',
+		copyDecleration: 'open()',
+		summary: 'Opens the callback URL.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 236,
+		title: 'open(types)',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'open(types)',
+		summary: 'Opens a document.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 604,
+		title: 'open(url)',
+		subtitle: 'Safari',
+		copyDecleration: 'open(url)',
+		summary: 'Presents a website.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 237,
+		title: 'openFile()',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'openFile()',
+		summary: 'Opens a file of any file type.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 238,
+		title: 'openFolder()',
+		subtitle: 'DocumentPicker',
+		copyDecleration: 'openFolder()',
+		summary: 'Opens a folder.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 603,
+		title: 'openInApp(url, fullscreen)',
+		subtitle: 'Safari',
+		copyDecleration: 'openInApp(url, fullscreen)',
+		summary: 'Presents a website in-app.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 428,
+		title: 'openURL',
+		subtitle: 'Notification',
+		copyDecleration: 'openURL',
+		summary: 'URL to open when notification is tapped.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 92,
+		title: 'orange()',
+		subtitle: 'Color',
+		copyDecleration: 'orange()',
+		summary: 'Constructs a orange color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 127,
+		title: 'organizationName',
+		subtitle: 'Contact',
+		copyDecleration: 'organizationName',
+		summary: 'Name of the organization associated with the contact.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 494,
+		title: 'origin',
+		subtitle: 'Rect',
+		copyDecleration: 'origin',
+		summary: 'Point that specifies the rectangles origin.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 663,
+		title: 'parameter(name)',
+		subtitle: 'URLScheme',
+		copyDecleration: 'parameter(name)',
+		summary: 'Gets a parameters from invocation of URL scheme.',
+		deprecation: { version: '1.3' },
+		pageId: 8
+	},
+	{
+		pageEntryId: 765,
+		title: 'parse()',
+		subtitle: 'XMLParser',
+		copyDecleration: 'parse()',
+		summary: 'Starts parsing.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 762,
+		title: 'parseErrorOccurred',
+		subtitle: 'XMLParser',
+		copyDecleration: 'parseErrorOccurred',
+		summary: 'Function called when the parser encounters an error.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 450,
+		title: 'paste()',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'paste()',
+		summary: 'Pastes a string from the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 448,
+		title: 'Pasteboard',
+		copyDecleration: 'Pasteboard',
+		summary: 'Copy and paste strings or images.',
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 454,
+		title: 'pasteImage()',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'pasteImage()',
+		summary: 'Pastes an image from the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 452,
+		title: 'pasteString()',
+		subtitle: 'Pasteboard',
+		copyDecleration: 'pasteString()',
+		summary: 'Pastes a string from the pasteboard.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 455,
+		title: 'Path',
+		copyDecleration: 'Path',
+		summary: 'A path describes a shape.',
+		tags: ['cgpath', 'shape'],
+		isRootEntry: true,
+		pageId: 5
+	},
+	{
+		pageEntryId: 153,
+		title: 'persistChanges()',
+		subtitle: 'Contact',
+		copyDecleration: 'persistChanges()',
+		summary: 'Persist queued changes to the address book.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 121,
+		title: 'phoneNumbers',
+		subtitle: 'Contact',
+		copyDecleration: 'phoneNumbers',
+		summary: 'Phone numbers.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 467,
+		title: 'Photos',
+		copyDecleration: 'Photos',
+		summary: 'Provides access to your photo library.',
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 205,
+		title: 'pickCountdownDuration()',
+		subtitle: 'DatePicker',
+		copyDecleration: 'pickCountdownDuration()',
+		summary:
+			'Presents the date picker for selecting the duration of a countdown.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 203,
+		title: 'pickDate()',
+		subtitle: 'DatePicker',
+		copyDecleration: 'pickDate()',
+		summary: 'Presents the date picker displaying day, month and year.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 204,
+		title: 'pickDateAndTime()',
+		subtitle: 'DatePicker',
+		copyDecleration: 'pickDateAndTime()',
+		summary: 'Presents the date picker displaying date and time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 202,
+		title: 'pickTime()',
+		subtitle: 'DatePicker',
+		copyDecleration: 'pickTime()',
+		summary: 'Presents the date picker displaying hours and minutes.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 17,
+		title: 'plainTexts',
+		subtitle: 'args',
+		copyDecleration: 'plainTexts',
+		summary: 'Plain texts supplied by a share sheet or a shortcut action.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 479,
+		title: 'Point',
+		copyDecleration: 'Point',
+		summary: 'Structure representing a point.',
+		tags: ['cgpoint'],
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 122,
+		title: 'postalAddresses',
+		subtitle: 'Contact',
+		copyDecleration: 'postalAddresses',
+		summary: 'Postal addresses.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 423,
+		title: 'preferredContentHeight',
+		subtitle: 'Notification',
+		copyDecleration: 'preferredContentHeight',
+		summary: 'Preferred height of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 227,
+		title: 'preferredLanguages()',
+		subtitle: 'Device',
+		copyDecleration: 'preferredLanguages()',
+		summary: 'The preferred langauges.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 401,
+		title: 'preferredSendingEmailAddress',
+		subtitle: 'Mail',
+		copyDecleration: 'preferredSendingEmailAddress',
+		summary: 'Preferred email address to use in the from field.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 11,
+		title: 'present()',
+		subtitle: 'Alert',
+		copyDecleration: 'present()',
+		summary: 'Presents the alert modally.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 611,
+		title: 'present(activityItems)',
+		subtitle: 'ShareSheet',
+		copyDecleration: 'present(activityItems)',
+		summary: 'Presents the activity picker.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 632,
+		title: 'present(fullscreen)',
+		subtitle: 'UITable',
+		copyDecleration: 'present(fullscreen)',
+		summary: 'Presents the table.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 681,
+		title: 'present(fullscreen)',
+		subtitle: 'WebView',
+		copyDecleration: 'present(fullscreen)',
+		summary: 'Presents the web view.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 484,
+		title: 'present(item, fullscreen)',
+		subtitle: 'QuickLook',
+		copyDecleration: 'present(item, fullscreen)',
+		summary: 'Presents the item.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 12,
+		title: 'presentAlert()',
+		subtitle: 'Alert',
+		copyDecleration: 'presentAlert()',
+		summary: 'Presents the alert modally.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 62,
+		title: 'presentCreate()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'presentCreate()',
+		summary: 'Presents a view for creating a calendar event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 61,
+		title: 'presentEdit()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'presentEdit()',
+		summary: 'Presents a view for editing the calendar event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 385,
+		title: 'presentLarge()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'presentLarge()',
+		summary: 'Presents a preview of the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 384,
+		title: 'presentMedium()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'presentMedium()',
+		summary: 'Presents a preview of the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 43,
+		title: 'presentPicker(allowMultiple)',
+		subtitle: 'Calendar',
+		copyDecleration: 'presentPicker(allowMultiple)',
+		summary: 'Presents a view for picking calendars.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 13,
+		title: 'presentSheet()',
+		subtitle: 'Alert',
+		copyDecleration: 'presentSheet()',
+		summary: 'Presents the alert as a sheet.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 383,
+		title: 'presentSmall()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'presentSmall()',
+		summary: 'Presents a preview of the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 531,
+		title: 'priority',
+		subtitle: 'Reminder',
+		copyDecleration: 'priority',
+		summary: 'Priority of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 93,
+		title: 'purple()',
+		subtitle: 'Color',
+		copyDecleration: 'purple()',
+		summary: 'Constructs a purple color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 21,
+		title: 'queryParameters',
+		subtitle: 'args',
+		copyDecleration: 'queryParameters',
+		summary: 'Query parameters from a URL scheme.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 483,
+		title: 'QuickLook',
+		copyDecleration: 'QuickLook',
+		summary: 'Presents an item.',
+		tags: ['qlpreviewcontroller', 'preview'],
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 274,
+		title: 'read(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'read(filePath)',
+		summary: 'Read contents of a file as data.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 294,
+		title: 'readExtendedAttribute(filePath, name)',
+		subtitle: 'FileManager',
+		copyDecleration: 'readExtendedAttribute(filePath, name)',
+		summary: 'Reads an extended attribute from a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 276,
+		title: 'readImage(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'readImage(filePath)',
+		summary: 'Read contents of a file as an image.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 275,
+		title: 'readString(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'readString(filePath)',
+		summary: 'Read contents of a file as string.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 408,
+		title: 'recipients',
+		subtitle: 'Message',
+		copyDecleration: 'recipients',
+		summary: 'Recipients of the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 485,
+		title: 'Rect',
+		copyDecleration: 'Rect',
+		summary: 'Structure representing a rectangle.',
+		tags: ['cgrect', 'cgsize', 'cgpoint', 'size', 'point'],
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 497,
+		title: 'RecurrenceRule',
+		copyDecleration: 'RecurrenceRule',
+		summary: 'Recurrence rule used with reminders and calendar events.',
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 77,
+		title: 'red',
+		subtitle: 'Color',
+		copyDecleration: 'red',
+		summary: 'Amount of red in the color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 86,
+		title: 'red()',
+		subtitle: 'Color',
+		copyDecleration: 'red()',
+		summary: 'Constructs a red color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 374,
+		title: 'refreshAfterDate',
+		subtitle: 'ListWidget',
+		copyDecleration: 'refreshAfterDate',
+		summary: 'Earliest date to refresh the widget.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 338,
+		title: 'regularMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'regularMonospacedSystemFont(size)',
+		summary: 'Creates a regular monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 347,
+		title: 'regularRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'regularRoundedSystemFont(size)',
+		summary: 'Creates a regular and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 328,
+		title: 'regularSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'regularSystemFont(size)',
+		summary: 'Creates a regular system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 519,
+		title: 'RelativeDateTimeFormatter',
+		copyDecleration: 'RelativeDateTimeFormatter',
+		summary:
+			'Creates a textual representation of the amount of time between two dates.',
+		isRootEntry: true,
+		pageId: 6
+	},
+	{
+		pageEntryId: 631,
+		title: 'reload()',
+		subtitle: 'UITable',
+		copyDecleration: 'reload()',
+		summary: 'Reloads the table.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 525,
+		title: 'Reminder',
+		copyDecleration: 'Reminder',
+		summary: 'Manages reminders in calendars.',
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 34,
+		title: 'remove()',
+		subtitle: 'Calendar',
+		copyDecleration: 'remove()',
+		summary: 'Removes calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 60,
+		title: 'remove()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'remove()',
+		summary: 'Removes event from calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 436,
+		title: 'remove()',
+		subtitle: 'Notification',
+		copyDecleration: 'remove()',
+		summary: 'Removes the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 541,
+		title: 'remove()',
+		subtitle: 'Reminder',
+		copyDecleration: 'remove()',
+		summary: 'Removes reminder from calendar.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 280,
+		title: 'remove(filePath)',
+		subtitle: 'FileManager',
+		copyDecleration: 'remove(filePath)',
+		summary: 'Removes a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 361,
+		title: 'remove(key)',
+		subtitle: 'Keychain',
+		copyDecleration: 'remove(key)',
+		summary: 'Remove key from keychain.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 444,
+		title: 'removeAllDelivered()',
+		subtitle: 'Notification',
+		copyDecleration: 'removeAllDelivered()',
+		summary: 'Removes all delivered notifications.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 443,
+		title: 'removeAllPending()',
+		subtitle: 'Notification',
+		copyDecleration: 'removeAllPending()',
+		summary: 'Removes all pending notifications.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 58,
+		title: 'removeAllRecurrenceRules()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'removeAllRecurrenceRules()',
+		summary: 'Removes all recurrence rules.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 539,
+		title: 'removeAllRecurrenceRules()',
+		subtitle: 'Reminder',
+		copyDecleration: 'removeAllRecurrenceRules()',
+		summary: 'Removes all recurrence rules.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 630,
+		title: 'removeAllRows()',
+		subtitle: 'UITable',
+		copyDecleration: 'removeAllRows()',
+		summary: 'Removes all rows.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 446,
+		title: 'removeDelivered(identifiers)',
+		subtitle: 'Notification',
+		copyDecleration: 'removeDelivered(identifiers)',
+		summary: 'Removes delivered notifications.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 296,
+		title: 'removeExtendedAttribute(filePath, name)',
+		subtitle: 'FileManager',
+		copyDecleration: 'removeExtendedAttribute(filePath, name)',
+		summary: 'Removes an extended attribute from a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 474,
+		title: 'removeLatestPhoto()',
+		subtitle: 'Photos',
+		copyDecleration: 'removeLatestPhoto()',
+		summary: 'Removes latest photo.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 475,
+		title: 'removeLatestPhotos(count)',
+		subtitle: 'Photos',
+		copyDecleration: 'removeLatestPhotos(count)',
+		summary: 'Removes latest photos.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 476,
+		title: 'removeLatestScreenshot()',
+		subtitle: 'Photos',
+		copyDecleration: 'removeLatestScreenshot()',
+		summary: 'Removes latest screenshot.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 477,
+		title: 'removeLatestScreenshots(count)',
+		subtitle: 'Photos',
+		copyDecleration: 'removeLatestScreenshots(count)',
+		summary: 'Removes latest screenshots.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 166,
+		title: 'removeMember(contact)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'removeMember(contact)',
+		summary: 'Removes a contact from the group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 445,
+		title: 'removePending(identifiers)',
+		subtitle: 'Notification',
+		copyDecleration: 'removePending(identifiers)',
+		summary: 'Removes pending notifications.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 629,
+		title: 'removeRow(row)',
+		subtitle: 'UITable',
+		copyDecleration: 'removeRow(row)',
+		summary: 'Removes a row.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 293,
+		title: 'removeTag(filePath, tag)',
+		subtitle: 'FileManager',
+		copyDecleration: 'removeTag(filePath, tag)',
+		summary: 'Removes a tag from a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 620,
+		title: 'repeats',
+		subtitle: 'Timer',
+		copyDecleration: 'repeats',
+		summary: 'Whether the timer should repeat.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 571,
+		title: 'Request',
+		copyDecleration: 'Request',
+		summary: 'Performs HTTP requests.',
+		tags: ['multipart', 'upload', 'network', 'file'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 447,
+		title: 'resetCurrent()',
+		subtitle: 'Notification',
+		copyDecleration: 'resetCurrent()',
+		summary: 'Resets the current notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 704,
+		title: 'resizable',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'resizable',
+		summary: 'Whether the image is resizable.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 245,
+		title: 'respectScreenScale',
+		subtitle: 'DrawContext',
+		copyDecleration: 'respectScreenScale',
+		summary: 'Enable to respect the scale of the screen.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 578,
+		title: 'response',
+		subtitle: 'Request',
+		copyDecleration: 'response',
+		summary: 'Response of the request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 393,
+		title: 'reverseGeocode(latitude, longitude, locale)',
+		subtitle: 'Location',
+		copyDecleration: 'reverseGeocode(latitude, longitude, locale)',
+		summary: 'Performs reverse-geocoding for a location.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 647,
+		title: 'rightAligned()',
+		subtitle: 'UITableCell',
+		copyDecleration: 'rightAligned()',
+		summary: 'Right aligns content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 715,
+		title: 'rightAlignImage()',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'rightAlignImage()',
+		summary: 'Right aligns the image.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 696,
+		title: 'rightAlignText()',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'rightAlignText()',
+		summary: 'Right aligns the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 755,
+		title: 'rightAlignText()',
+		subtitle: 'WidgetText',
+		copyDecleration: 'rightAlignText()',
+		summary: 'Right aligns the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 104,
+		title: 'runsFromHomeScreen',
+		subtitle: 'config',
+		copyDecleration: 'runsFromHomeScreen',
+		pageId: 1
+	},
+	{
+		pageEntryId: 100,
+		title: 'runsInActionExtension',
+		subtitle: 'config',
+		copyDecleration: 'runsInActionExtension',
+		pageId: 1
+	},
+	{
+		pageEntryId: 99,
+		title: 'runsInApp',
+		subtitle: 'config',
+		copyDecleration: 'runsInApp',
+		pageId: 1
+	},
+	{
+		pageEntryId: 103,
+		title: 'runsInNotification',
+		subtitle: 'config',
+		copyDecleration: 'runsInNotification',
+		pageId: 1
+	},
+	{
+		pageEntryId: 102,
+		title: 'runsInWidget',
+		subtitle: 'config',
+		copyDecleration: 'runsInWidget',
+		pageId: 1
+	},
+	{
+		pageEntryId: 101,
+		title: 'runsWithSiri',
+		subtitle: 'config',
+		copyDecleration: 'runsWithSiri',
+		pageId: 1
+	},
+	{
+		pageEntryId: 602,
+		title: 'Safari',
+		copyDecleration: 'Safari',
+		summary: 'Presents a website.',
+		tags: ['sfsafariviewcontroller', 'website', 'url', 'internet', 'browser'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 33,
+		title: 'save()',
+		subtitle: 'Calendar',
+		copyDecleration: 'save()',
+		summary: 'Saves calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 59,
+		title: 'save()',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'save()',
+		summary: 'Saves event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 540,
+		title: 'save()',
+		subtitle: 'Reminder',
+		copyDecleration: 'save()',
+		summary: 'Saves reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 478,
+		title: 'save(image)',
+		subtitle: 'Photos',
+		copyDecleration: 'save(image)',
+		summary: 'Save an image.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 435,
+		title: 'schedule()',
+		subtitle: 'Notification',
+		copyDecleration: 'schedule()',
+		summary: 'Schedules the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 622,
+		title: 'schedule(callback)',
+		subtitle: 'Timer',
+		copyDecleration: 'schedule(callback)',
+		summary: 'Schedules the timer.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 624,
+		title: 'schedule(timeInterval, repeats, callback)',
+		subtitle: 'Timer',
+		copyDecleration: 'schedule(timeInterval, repeats, callback)',
+		summary: 'Schedules a timer.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 542,
+		title: 'scheduled(calendars)',
+		subtitle: 'Reminder',
+		copyDecleration: 'scheduled(calendars)',
+		summary: 'Fetches the schedule of reminders.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 216,
+		title: 'screenBrightness()',
+		subtitle: 'Device',
+		copyDecleration: 'screenBrightness()',
+		summary: 'Brightness of the screen in percentage.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 214,
+		title: 'screenResolution()',
+		subtitle: 'Device',
+		copyDecleration: 'screenResolution()',
+		summary: 'Resolution of the screen.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 215,
+		title: 'screenScale()',
+		subtitle: 'Device',
+		copyDecleration: 'screenScale()',
+		summary: 'Scale of the screen.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 213,
+		title: 'screenSize()',
+		subtitle: 'Device',
+		copyDecleration: 'screenSize()',
+		summary: 'Size of the screen.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 605,
+		title: 'Script',
+		copyDecleration: 'Script',
+		summary: 'Access information about the script.',
+		tags: ['terminate', 'finish'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 431,
+		title: 'scriptName',
+		subtitle: 'Notification',
+		copyDecleration: 'scriptName',
+		summary: 'Name of script to run in rich notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 340,
+		title: 'semiboldMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'semiboldMonospacedSystemFont(size)',
+		summary: 'Creates a semibold monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 349,
+		title: 'semiboldRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'semiboldRoundedSystemFont(size)',
+		summary: 'Creates a semibold and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 330,
+		title: 'semiboldSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'semiboldSystemFont(size)',
+		summary: 'Creates a semibold system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 403,
+		title: 'send()',
+		subtitle: 'Mail',
+		copyDecleration: 'send()',
+		summary: 'Send the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 411,
+		title: 'send()',
+		subtitle: 'Message',
+		copyDecleration: 'send()',
+		summary: 'Send the message.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 359,
+		title: 'set(key, value)',
+		subtitle: 'Keychain',
+		copyDecleration: 'set(key, value)',
+		summary: 'Add value for a specified key to keychain.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 388,
+		title: 'setAccuracyToBest()',
+		subtitle: 'Location',
+		copyDecleration: 'setAccuracyToBest()',
+		summary: 'Uses best accuracy. This is default.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 390,
+		title: 'setAccuracyToHundredMeters()',
+		subtitle: 'Location',
+		copyDecleration: 'setAccuracyToHundredMeters()',
+		summary: 'Sets accuracy to within hundred meters.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 391,
+		title: 'setAccuracyToKilometer()',
+		subtitle: 'Location',
+		copyDecleration: 'setAccuracyToKilometer()',
+		summary: 'Sets accuracy to within one kilometer.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 389,
+		title: 'setAccuracyToTenMeters()',
+		subtitle: 'Location',
+		copyDecleration: 'setAccuracyToTenMeters()',
+		summary: 'Sets accuracy to within ten meters.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 392,
+		title: 'setAccuracyToThreeKilometers()',
+		subtitle: 'Location',
+		copyDecleration: 'setAccuracyToThreeKilometers()',
+		summary: 'Sets accuracy to within three kilometers.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 438,
+		title: 'setDailyTrigger(hour, minute, repeats)',
+		subtitle: 'Notification',
+		copyDecleration: 'setDailyTrigger(hour, minute, repeats)',
+		summary: 'Sets the notification to be triggered daily.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 251,
+		title: 'setFillColor(color)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setFillColor(color)',
+		summary: 'Sets the fill color.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 266,
+		title: 'setFont(font)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setFont(font)',
+		summary: 'Sets the font to use when drawing text.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 265,
+		title: 'setFontSize(size)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setFontSize(size)',
+		summary: 'Sets the font size used when drawing text.',
+		deprecation: { version: '1.5' },
+		pageId: 3
+	},
+	{
+		pageEntryId: 253,
+		title: 'setLineWidth(width)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setLineWidth(width)',
+		summary: 'Sets the line width for stroking.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 381,
+		title: 'setPadding(top, leading, bottom, trailing)',
+		subtitle: 'ListWidget',
+		copyDecleration: 'setPadding(top, leading, bottom, trailing)',
+		summary: 'Set padding.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 735,
+		title: 'setPadding(top, leading, bottom, trailing)',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'setPadding(top, leading, bottom, trailing)',
+		summary: 'Set padding.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 232,
+		title: 'setScreenBrightness(percentage)',
+		subtitle: 'Device',
+		copyDecleration: 'setScreenBrightness(percentage)',
+		summary: 'Sets the brightness of the screen.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 608,
+		title: 'setShortcutOutput(value)',
+		subtitle: 'Script',
+		copyDecleration: 'setShortcutOutput(value)',
+		summary: 'Sets output when running the script as a shortcut action.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 252,
+		title: 'setStrokeColor(color)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setStrokeColor(color)',
+		summary: 'Sets the stroke color.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 269,
+		title: 'setTextAlignedCenter()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setTextAlignedCenter()',
+		summary: 'Specifies that texts should be center aligned.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 268,
+		title: 'setTextAlignedLeft()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setTextAlignedLeft()',
+		summary: 'Specifies that texts should be left aligned.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 270,
+		title: 'setTextAlignedRight()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setTextAlignedRight()',
+		summary: 'Specifies that texts should be right aligned.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 267,
+		title: 'setTextColor(color)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'setTextColor(color)',
+		summary: 'Sets the text color used when drawing text.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 437,
+		title: 'setTriggerDate(date)',
+		subtitle: 'Notification',
+		copyDecleration: 'setTriggerDate(date)',
+		summary: 'Sets the notification to be triggered on a date and time.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 439,
+		title: 'setWeeklyTrigger(weekday, hour, minute, repeats)',
+		subtitle: 'Notification',
+		copyDecleration: 'setWeeklyTrigger(weekday, hour, minute, repeats)',
+		summary: 'Sets the notification to be triggered weekly.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 609,
+		title: 'setWidget(widget)',
+		subtitle: 'Script',
+		copyDecleration: 'setWidget(widget)',
+		summary: 'Sets the widget to be displayed.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 589,
+		title: 'SFSymbol',
+		copyDecleration: 'SFSymbol',
+		summary: 'Representation of a SF symbol.',
+		tags: ['image'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 690,
+		title: 'shadowColor',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'shadowColor',
+		summary: 'Color of the shadow.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 749,
+		title: 'shadowColor',
+		subtitle: 'WidgetText',
+		copyDecleration: 'shadowColor',
+		summary: 'Color of the shadow.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 692,
+		title: 'shadowOffset',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'shadowOffset',
+		summary: 'Offset of the shadow.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 751,
+		title: 'shadowOffset',
+		subtitle: 'WidgetText',
+		copyDecleration: 'shadowOffset',
+		summary: 'Offset of the shadow.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 691,
+		title: 'shadowRadius',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'shadowRadius',
+		summary: 'Size of the shadow.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 750,
+		title: 'shadowRadius',
+		subtitle: 'WidgetText',
+		copyDecleration: 'shadowRadius',
+		summary: 'Size of the shadow.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 610,
+		title: 'ShareSheet',
+		copyDecleration: 'ShareSheet',
+		summary: 'Offers standard activities to perform on items.',
+		tags: ['share', 'send', 'sms', 'mail', 'airdrop', 'tweet'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 23,
+		title: 'shortcutParameter',
+		subtitle: 'args',
+		copyDecleration: 'shortcutParameter',
+		summary: 'Parameter passed to a Shortcut.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 670,
+		title: 'shouldAllowRequest',
+		subtitle: 'WebView',
+		copyDecleration: 'shouldAllowRequest',
+		summary: 'Function called upon load of a request.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 626,
+		title: 'showSeparators',
+		subtitle: 'UITable',
+		copyDecleration: 'showSeparators',
+		summary: 'Whether to show separators.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 22,
+		title: 'siriShortcutArguments',
+		subtitle: 'args',
+		copyDecleration: 'siriShortcutArguments',
+		summary: 'Arguments passed from a Siri Shortcut.',
+		deprecation: { version: '1.4' },
+		pageId: 1
+	},
+	{
+		pageEntryId: 244,
+		title: 'size',
+		subtitle: 'DrawContext',
+		copyDecleration: 'size',
+		summary: 'Size of canvas.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 354,
+		title: 'size',
+		subtitle: 'Image',
+		copyDecleration: 'size',
+		summary: 'Size of the image in pixels.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 495,
+		title: 'size',
+		subtitle: 'Rect',
+		copyDecleration: 'size',
+		summary: 'Size of the rectangle.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 725,
+		title: 'size',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'size',
+		summary: 'Size of the stack.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 612,
+		title: 'Size',
+		copyDecleration: 'Size',
+		summary: 'Structure representing a size.',
+		tags: ['cgsize'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 123,
+		title: 'socialProfiles',
+		subtitle: 'Contact',
+		copyDecleration: 'socialProfiles',
+		summary: 'Social profiles.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 427,
+		title: 'sound',
+		subtitle: 'Notification',
+		copyDecleration: 'sound',
+		summary: 'Sound of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 372,
+		title: 'spacing',
+		subtitle: 'ListWidget',
+		copyDecleration: 'spacing',
+		summary: 'Spacing between elements.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 724,
+		title: 'spacing',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'spacing',
+		summary: 'Spacing between elements.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 617,
+		title: 'speak(text)',
+		subtitle: 'Speech',
+		copyDecleration: 'speak(text)',
+		pageId: 7
+	},
+	{
+		pageEntryId: 616,
+		title: 'Speech',
+		copyDecleration: 'Speech',
+		summary: 'Speaks a text.',
+		tags: ['siri', 'say', 'pronounce'],
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 234,
+		title: 'start(locale)',
+		subtitle: 'Dictation',
+		copyDecleration: 'start(locale)',
+		summary: 'Starts dictation.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 49,
+		title: 'startDate',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'startDate',
+		summary: 'Start date of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 365,
+		title: 'startPoint',
+		subtitle: 'LinearGradient',
+		copyDecleration: 'startPoint',
+		summary: 'Point to start the gradient.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 763,
+		title: 'string',
+		subtitle: 'XMLParser',
+		copyDecleration: 'string',
+		summary: 'XML string to be parsed.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 668,
+		title: 'string()',
+		subtitle: 'UUID',
+		copyDecleration: 'string()',
+		summary: 'Get string value.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 522,
+		title: 'string(date, referenceDate)',
+		subtitle: 'RelativeDateTimeFormatter',
+		copyDecleration: 'string(date, referenceDate)',
+		summary:
+			'Creates a localized string communicating the amount of time between two dates.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 183,
+		title: 'string(date)',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'string(date)',
+		summary: 'Creates a string from a date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 257,
+		title: 'stroke(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'stroke(rect)',
+		summary: 'Strokes a rectangle.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 259,
+		title: 'strokeEllipse(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'strokeEllipse(rect)',
+		summary: 'Strokes an ellipse.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 261,
+		title: 'strokePath()',
+		subtitle: 'DrawContext',
+		copyDecleration: 'strokePath()',
+		summary: 'Strokes the path that was added the latest.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 258,
+		title: 'strokeRect(rect)',
+		subtitle: 'DrawContext',
+		copyDecleration: 'strokeRect(rect)',
+		summary: 'Strokes a rectangle.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 318,
+		title: 'subheadline()',
+		subtitle: 'Font',
+		copyDecleration: 'subheadline()',
+		summary: 'Preferred font for subheadings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 398,
+		title: 'subject',
+		subtitle: 'Mail',
+		copyDecleration: 'subject',
+		summary: 'Subject of the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 421,
+		title: 'subtitle',
+		subtitle: 'Notification',
+		copyDecleration: 'subtitle',
+		summary: 'Subtitle of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 638,
+		title: 'subtitleColor',
+		subtitle: 'UITableCell',
+		copyDecleration: 'subtitleColor',
+		summary: 'Color of the subtitle.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 640,
+		title: 'subtitleFont',
+		subtitle: 'UITableCell',
+		copyDecleration: 'subtitleFont',
+		summary: 'Font of the subtitle.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 32,
+		title: 'supportsAvailability(availability)',
+		subtitle: 'Calendar',
+		copyDecleration: 'supportsAvailability(availability)',
+		summary: 'Checks if the calendar supports availability.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 324,
+		title: 'systemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'systemFont(size)',
+		summary: 'Creates a system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 208,
+		title: 'systemName()',
+		subtitle: 'Device',
+		copyDecleration: 'systemName()',
+		summary: 'Name of the operating system:',
+		pageId: 3
+	},
+	{
+		pageEntryId: 209,
+		title: 'systemVersion()',
+		subtitle: 'Device',
+		copyDecleration: 'systemVersion()',
+		summary: 'Version of the operating system.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 286,
+		title: 'temporaryDirectory()',
+		subtitle: 'FileManager',
+		copyDecleration: 'temporaryDirectory()',
+		summary: 'Path of temporary directory.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 743,
+		title: 'text',
+		subtitle: 'WidgetText',
+		copyDecleration: 'text',
+		summary: 'Text to show in a widget.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 641,
+		title: 'text(title, subtitle)',
+		subtitle: 'UITableCell',
+		copyDecleration: 'text(title, subtitle)',
+		summary: 'Constructs a text cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 685,
+		title: 'textColor',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'textColor',
+		summary: 'Color of the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 744,
+		title: 'textColor',
+		subtitle: 'WidgetText',
+		copyDecleration: 'textColor',
+		summary: 'Color of the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 10,
+		title: 'textFieldValue(index)',
+		subtitle: 'Alert',
+		copyDecleration: 'textFieldValue(index)',
+		summary: 'Retrieves value of a text field.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 687,
+		title: 'textOpacity',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'textOpacity',
+		summary: 'Opacity of the text.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 746,
+		title: 'textOpacity',
+		subtitle: 'WidgetText',
+		copyDecleration: 'textOpacity',
+		summary: 'Opacity of the text.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 336,
+		title: 'thinMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'thinMonospacedSystemFont(size)',
+		summary: 'Creates a thin monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 345,
+		title: 'thinRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'thinRoundedSystemFont(size)',
+		summary: 'Creates a thin and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 326,
+		title: 'thinSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'thinSystemFont(size)',
+		summary: 'Creates a thin system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 66,
+		title: 'thisWeek(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'thisWeek(calendars)',
+		summary: 'Events that occur this week.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 425,
+		title: 'threadIdentifier',
+		subtitle: 'Notification',
+		copyDecleration: 'threadIdentifier',
+		summary: 'Identifier for grouping the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 619,
+		title: 'timeInterval',
+		subtitle: 'Timer',
+		copyDecleration: 'timeInterval',
+		summary: 'The frequency at which the timer fires, in milliseconds.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 576,
+		title: 'timeoutInterval',
+		subtitle: 'Request',
+		copyDecleration: 'timeoutInterval',
+		summary: 'Timeout interval of the request.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 618,
+		title: 'Timer',
+		copyDecleration: 'Timer',
+		summary: 'A timer that fires after a time interval has elapsed.',
+		isRootEntry: true,
+		pageId: 7
+	},
+	{
+		pageEntryId: 54,
+		title: 'timeZone',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'timeZone',
+		summary: 'Time zone of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 711,
+		title: 'tintColor',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'tintColor',
+		summary: 'Tint color of the image.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 2,
+		title: 'title',
+		subtitle: 'Alert',
+		copyDecleration: 'title',
+		summary: 'Title displayed in the alert. Usually a short string.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 28,
+		title: 'title',
+		subtitle: 'Calendar',
+		copyDecleration: 'title',
+		summary: 'Title of calendar.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 46,
+		title: 'title',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'title',
+		summary: 'Title of event.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 420,
+		title: 'title',
+		subtitle: 'Notification',
+		copyDecleration: 'title',
+		summary: 'Title of the notification.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 527,
+		title: 'title',
+		subtitle: 'Reminder',
+		copyDecleration: 'title',
+		summary: 'Title of reminder.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 314,
+		title: 'title1()',
+		subtitle: 'Font',
+		copyDecleration: 'title1()',
+		summary: 'Preferred font for first level hierarchical headings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 315,
+		title: 'title2()',
+		subtitle: 'Font',
+		copyDecleration: 'title2()',
+		summary: 'Preferred font for second level hierarchical headings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 316,
+		title: 'title3()',
+		subtitle: 'Font',
+		copyDecleration: 'title3()',
+		summary: 'Preferred font for third level hierarchical headings.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 637,
+		title: 'titleColor',
+		subtitle: 'UITableCell',
+		copyDecleration: 'titleColor',
+		summary: 'Color of the title.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 639,
+		title: 'titleFont',
+		subtitle: 'UITableCell',
+		copyDecleration: 'titleFont',
+		summary: 'Font of the title.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 177,
+		title: 'toBase64String()',
+		subtitle: 'Data',
+		copyDecleration: 'toBase64String()',
+		summary: 'Creates a base64 encoded string.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 63,
+		title: 'today(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'today(calendars)',
+		summary: 'Events occurring today.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 64,
+		title: 'tomorrow(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'tomorrow(calendars)',
+		summary: 'Events occurring tomorrow.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 737,
+		title: 'topAlignContent()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'topAlignContent()',
+		summary: 'Top aligns the content.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 176,
+		title: 'toRawString()',
+		subtitle: 'Data',
+		copyDecleration: 'toRawString()',
+		summary: 'Creates a string from the data.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 395,
+		title: 'toRecipients',
+		subtitle: 'Mail',
+		copyDecleration: 'toRecipients',
+		summary: 'Recipients of the mail.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 625,
+		title: 'UITable',
+		copyDecleration: 'UITable',
+		summary: 'Renders a table.',
+		tags: ['uitableview', 'uicollectionview', 'grid'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 633,
+		title: 'UITableCell',
+		copyDecleration: 'UITableCell',
+		summary: 'Cell in a UITableRow.',
+		tags: ['uitableview', 'uicollectionview', 'grid'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 648,
+		title: 'UITableRow',
+		copyDecleration: 'UITableRow',
+		summary: 'Row in a UITable.',
+		tags: ['uitableview', 'uicollectionview', 'grid', 'list'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 335,
+		title: 'ultraLightMonospacedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'ultraLightMonospacedSystemFont(size)',
+		summary: 'Creates an ultra light monospaced system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 344,
+		title: 'ultraLightRoundedSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'ultraLightRoundedSystemFont(size)',
+		summary: 'Creates an ultra light and rounded system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 325,
+		title: 'ultraLightSystemFont(size)',
+		subtitle: 'Font',
+		copyDecleration: 'ultraLightSystemFont(size)',
+		summary: 'Creates an ultra light system font.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 151,
+		title: 'update(contact)',
+		subtitle: 'Contact',
+		copyDecleration: 'update(contact)',
+		summary: 'Queues an update to a contact.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 168,
+		title: 'update(group)',
+		subtitle: 'ContactsGroup',
+		copyDecleration: 'update(group)',
+		summary: 'Queues an update to a contacts group.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 373,
+		title: 'url',
+		subtitle: 'ListWidget',
+		copyDecleration: 'url',
+		summary: 'URL to open.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 572,
+		title: 'url',
+		subtitle: 'Request',
+		copyDecleration: 'url',
+		summary: 'URL to send request to.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 693,
+		title: 'url',
+		subtitle: 'WidgetDate',
+		copyDecleration: 'url',
+		summary: 'URL to open.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 712,
+		title: 'url',
+		subtitle: 'WidgetImage',
+		copyDecleration: 'url',
+		summary: 'URL to open.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 729,
+		title: 'url',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'url',
+		summary: 'URL to open.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 752,
+		title: 'url',
+		subtitle: 'WidgetText',
+		copyDecleration: 'url',
+		summary: 'URL to open.',
+		pageId: 9
+	},
+	{
+		pageEntryId: 125,
+		title: 'urlAddresses',
+		subtitle: 'Contact',
+		copyDecleration: 'urlAddresses',
+		summary: 'URL addresses.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 18,
+		title: 'urls',
+		subtitle: 'args',
+		copyDecleration: 'urls',
+		summary: 'URLs supplied by a share sheet or a shortcut action.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 661,
+		title: 'URLScheme',
+		copyDecleration: 'URLScheme',
+		summary: 'Manages URL schemes for Scriptable.',
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 382,
+		title: 'useDefaultPadding()',
+		subtitle: 'ListWidget',
+		copyDecleration: 'useDefaultPadding()',
+		summary: 'Use the default padding.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 736,
+		title: 'useDefaultPadding()',
+		subtitle: 'WidgetStack',
+		copyDecleration: 'useDefaultPadding()',
+		summary: 'Use the default padding.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 189,
+		title: 'useFullDateStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useFullDateStyle()',
+		summary: 'Use a full style for the date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 194,
+		title: 'useFullTimeStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useFullTimeStyle()',
+		summary: 'Use a full style for the time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 188,
+		title: 'useLongDateStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useLongDateStyle()',
+		summary: 'Use a long style for the date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 193,
+		title: 'useLongTimeStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useLongTimeStyle()',
+		summary: 'Use a long style for the time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 187,
+		title: 'useMediumDateStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useMediumDateStyle()',
+		summary: 'Use a medium style for the date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 192,
+		title: 'useMediumTimeStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useMediumTimeStyle()',
+		summary: 'Use a short style for the time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 523,
+		title: 'useNamedDateTimeStyle()',
+		subtitle: 'RelativeDateTimeFormatter',
+		copyDecleration: 'useNamedDateTimeStyle()',
+		summary: 'Prefers named dates and times.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 185,
+		title: 'useNoDateStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useNoDateStyle()',
+		summary: 'Use no style for the date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 190,
+		title: 'useNoTimeStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useNoTimeStyle()',
+		summary: 'Use no style for the time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 524,
+		title: 'useNumericDateTimeStyle()',
+		subtitle: 'RelativeDateTimeFormatter',
+		copyDecleration: 'useNumericDateTimeStyle()',
+		summary: 'Prefers numeric dates and times.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 426,
+		title: 'userInfo',
+		subtitle: 'Notification',
+		copyDecleration: 'userInfo',
+		summary: 'Custom information.',
+		pageId: 5
+	},
+	{
+		pageEntryId: 186,
+		title: 'useShortDateStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useShortDateStyle()',
+		summary: 'Use a short style for the date.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 191,
+		title: 'useShortTimeStyle()',
+		subtitle: 'DateFormatter',
+		copyDecleration: 'useShortTimeStyle()',
+		summary: 'Use a short style for the time.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 667,
+		title: 'UUID',
+		copyDecleration: 'UUID',
+		summary: 'Unique identifier.',
+		tags: ['NSUUID', 'unique', 'identifier'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 231,
+		title: 'volume()',
+		subtitle: 'Device',
+		copyDecleration: 'volume()',
+		summary: 'The device volume.',
+		pageId: 3
+	},
+	{
+		pageEntryId: 682,
+		title: 'waitForLoad()',
+		subtitle: 'WebView',
+		copyDecleration: 'waitForLoad()',
+		summary: 'Waits for the web view to load.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 108,
+		title: 'warn(message)',
+		subtitle: 'console',
+		copyDecleration: 'warn(message)',
+		summary: 'Logs a warning message to the console.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 669,
+		title: 'WebView',
+		copyDecleration: 'WebView',
+		summary: 'Presents websites and evaluates JavaScript on websites.',
+		tags: [
+			'html',
+			'safari',
+			'internet',
+			'browser',
+			'url',
+			'website',
+			'image',
+			'photo',
+			'file'
+		],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 501,
+		title: 'weekly(interval)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'weekly(interval)',
+		summary: 'Constructs a weekly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 502,
+		title: 'weeklyEndDate(interval, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'weeklyEndDate(interval, endDate)',
+		summary: 'Constructs a weekly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 503,
+		title: 'weeklyOccurrenceCount(interval, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'weeklyOccurrenceCount(interval, occurrenceCount)',
+		summary: 'Constructs a weekly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 84,
+		title: 'white()',
+		subtitle: 'Color',
+		copyDecleration: 'white()',
+		summary: 'Constructs a white color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 683,
+		title: 'WidgetDate',
+		copyDecleration: 'WidgetDate',
+		summary: 'Date element shown in a widget.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 105,
+		title: 'widgetFamily',
+		subtitle: 'config',
+		copyDecleration: 'widgetFamily',
+		pageId: 1
+	},
+	{
+		pageEntryId: 702,
+		title: 'WidgetImage',
+		copyDecleration: 'WidgetImage',
+		summary: 'Image element shown in widget.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 24,
+		title: 'widgetParameter',
+		subtitle: 'args',
+		copyDecleration: 'widgetParameter',
+		summary: 'Parameter passed to a widget.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 718,
+		title: 'WidgetSpacer',
+		copyDecleration: 'WidgetSpacer',
+		summary: 'Spacer element shown in widget.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 720,
+		title: 'WidgetStack',
+		copyDecleration: 'WidgetStack',
+		summary: 'Stack element shown in widget.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 8
+	},
+	{
+		pageEntryId: 742,
+		title: 'WidgetText',
+		copyDecleration: 'WidgetText',
+		summary: 'Text element shown in a widget.',
+		tags: ['widget'],
+		isRootEntry: true,
+		pageId: 9
+	},
+	{
+		pageEntryId: 492,
+		title: 'width',
+		subtitle: 'Rect',
+		copyDecleration: 'width',
+		summary: 'Width of rectangle.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 613,
+		title: 'width',
+		subtitle: 'Size',
+		copyDecleration: 'width',
+		summary: 'Width value.',
+		pageId: 7
+	},
+	{
+		pageEntryId: 634,
+		title: 'widthWeight',
+		subtitle: 'UITableCell',
+		copyDecleration: 'widthWeight',
+		summary: 'Relative width of the cell.',
+		pageId: 8
+	},
+	{
+		pageEntryId: 159,
+		title: 'withIdentifier(identifier)',
+		subtitle: 'ContactsContainer',
+		copyDecleration: 'withIdentifier(identifier)',
+		summary: 'Fetches a contacts container.',
+		pageId: 2
+	},
+	{
+		pageEntryId: 277,
+		title: 'write(filePath, content)',
+		subtitle: 'FileManager',
+		copyDecleration: 'write(filePath, content)',
+		summary: 'Write data to a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 295,
+		title: 'writeExtendedAttribute(filePath, value, name)',
+		subtitle: 'FileManager',
+		copyDecleration: 'writeExtendedAttribute(filePath, value, name)',
+		summary: 'Writes an extended attribute to a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 279,
+		title: 'writeImage(filePath, image)',
+		subtitle: 'FileManager',
+		copyDecleration: 'writeImage(filePath, image)',
+		summary: 'Write an image to a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 278,
+		title: 'writeString(filePath, content)',
+		subtitle: 'FileManager',
+		copyDecleration: 'writeString(filePath, content)',
+		summary: 'Write a string to a file.',
+		pageId: 4
+	},
+	{
+		pageEntryId: 480,
+		title: 'x',
+		subtitle: 'Point',
+		copyDecleration: 'x',
+		summary: 'X value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 490,
+		title: 'x',
+		subtitle: 'Rect',
+		copyDecleration: 'x',
+		summary: 'X value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 756,
+		title: 'XMLParser',
+		copyDecleration: 'XMLParser',
+		summary: 'Event driven XML parser.',
+		tags: ['nsxmlparser'],
+		isRootEntry: true,
+		pageId: 9
+	},
+	{
+		pageEntryId: 481,
+		title: 'y',
+		subtitle: 'Point',
+		copyDecleration: 'y',
+		summary: 'Y value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 491,
+		title: 'y',
+		subtitle: 'Rect',
+		copyDecleration: 'y',
+		summary: 'Y value.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 507,
+		title: 'yearly(interval)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'yearly(interval)',
+		summary: 'Constructs a yearly recurrence rule.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 508,
+		title: 'yearlyEndDate(interval, endDate)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'yearlyEndDate(interval, endDate)',
+		summary: 'Constructs a yearly recurrence rule with an end date.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 509,
+		title: 'yearlyOccurrenceCount(interval, occurrenceCount)',
+		subtitle: 'RecurrenceRule',
+		copyDecleration: 'yearlyOccurrenceCount(interval, occurrenceCount)',
+		summary: 'Constructs a yearly recurrence rule with an occurrence count.',
+		pageId: 6
+	},
+	{
+		pageEntryId: 90,
+		title: 'yellow()',
+		subtitle: 'Color',
+		copyDecleration: 'yellow()',
+		summary: 'Constructs a yellow color.',
+		pageId: 1
+	},
+	{
+		pageEntryId: 65,
+		title: 'yesterday(calendars)',
+		subtitle: 'CalendarEvent',
+		copyDecleration: 'yesterday(calendars)',
+		summary: 'Events that occurred yesterday.',
+		pageId: 1
+	}
+];

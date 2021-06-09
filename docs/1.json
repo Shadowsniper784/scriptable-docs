@@ -1,0 +1,2231 @@
+{
+   "pageId":1,
+   "details":[
+      {
+         "id":1,
+         "headline":"Type",
+         "shortName":"Alert",
+         "longName":"Alert",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":3,
+                     "headline":"Instance property",
+                     "shortName":"message",
+                     "longName":"message",
+                     "subtitle":"string",
+                     "decleration":"message: string",
+                     "copyDecleration":"message",
+                     "summary":"Detailed message displayed in the alert.",
+                     "url":"https://docs.scriptable.app/alert/#message",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":2,
+                     "headline":"Instance property",
+                     "shortName":"title",
+                     "longName":"title",
+                     "subtitle":"string",
+                     "decleration":"title: string",
+                     "copyDecleration":"title",
+                     "summary":"Title displayed in the alert. Usually a short string.",
+                     "url":"https://docs.scriptable.app/alert/#title",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":4,
+                     "headline":"Instance method",
+                     "shortName":"new Alert",
+                     "longName":"new Alert()",
+                     "decleration":"new Alert()",
+                     "copyDecleration":"new Alert()",
+                     "summary":"Constructs a new alert.",
+                     "url":"https://docs.scriptable.app/alert/#-new-alert"
+                  },
+                  {
+                     "id":5,
+                     "headline":"Instance method",
+                     "shortName":"addAction",
+                     "longName":"-addAction(title)",
+                     "decleration":"addAction(title: string)",
+                     "copyDecleration":"addAction(title)",
+                     "summary":"Adds an action to the alert.",
+                     "description":"Adds an action button to the alert. To check if an action was selected, you should use the first parameter provided when the promise returned by presentAlert() and presentSheet() is resolved.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title",
+                                 "description":"Title of the action."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-addaction"
+                  },
+                  {
+                     "id":7,
+                     "headline":"Instance method",
+                     "shortName":"addCancelAction",
+                     "longName":"-addCancelAction(title)",
+                     "decleration":"addCancelAction(title: string)",
+                     "copyDecleration":"addCancelAction(title)",
+                     "summary":"Adds a cancel action to the alert.",
+                     "description":"Adds a cancel action to the alert. When a cancel action is selected, the index provided by presentAlert() or presentSheet() will always be -1. Please note that when running on the iPad and presenting using presentSheet(), the action will not be shown in the list of actions. The operation is cancelled by tapping outside the sheet.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title",
+                                 "description":"Title of the action."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-addcancelaction"
+                  },
+                  {
+                     "id":6,
+                     "headline":"Instance method",
+                     "shortName":"addDestructiveAction",
+                     "longName":"-addDestructiveAction(title)",
+                     "decleration":"addDestructiveAction(title: string)",
+                     "copyDecleration":"addDestructiveAction(title)",
+                     "summary":"Adds a destructive action to the alert.",
+                     "description":"Destructive action titles have a red text color, signaling that the action may modify or delete data.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title",
+                                 "description":"Title of the action."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-adddestructiveaction"
+                  },
+                  {
+                     "id":9,
+                     "headline":"Instance method",
+                     "shortName":"addSecureTextField",
+                     "longName":"-addSecureTextField(placeholder, text)",
+                     "decleration":"addSecureTextField(placeholder: string, text: string)",
+                     "copyDecleration":"addSecureTextField(placeholder, text)",
+                     "summary":"Adds a secure text field prompting for user input.",
+                     "description":"Adds a secure text field to the alert controller prompting for user input. Values entered into a secure text field will be hidden behind dots. Retrieve the value for the text field using textFieldValue() and supply the index of the text field. Indices for text fields are assigned in the same order as they are added to the alert starting at 0.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"placeholder",
+                                 "subtitle":"string",
+                                 "copyDecleration":"placeholder",
+                                 "description":"Optional placeholder that will be displayed when the text field is empty."
+                              },
+                              {
+                                 "title":"text",
+                                 "subtitle":"string",
+                                 "copyDecleration":"text",
+                                 "description":"Optional default value for the text field."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-addsecuretextfield"
+                  },
+                  {
+                     "id":8,
+                     "headline":"Instance method",
+                     "shortName":"addTextField",
+                     "longName":"-addTextField(placeholder, text)",
+                     "decleration":"addTextField(placeholder: string, text: string)",
+                     "copyDecleration":"addTextField(placeholder, text)",
+                     "summary":"Adds a text field prompting for user input.",
+                     "description":"Adds a text field to the alert controller prompting for user input. Retrieve the value for the text field using textFieldValue() and supply\\e\nthe index of the text field. Indices for text fields are assigned in the same order as they are added to the alert starting at 0.\n\nText fields are not supported when using the sheet presentation.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"placeholder",
+                                 "subtitle":"string",
+                                 "copyDecleration":"placeholder",
+                                 "description":"Optional placeholder that will be displayed when the text field is empty."
+                              },
+                              {
+                                 "title":"text",
+                                 "subtitle":"string",
+                                 "copyDecleration":"text",
+                                 "description":"Optional default value for the text field."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-addtextfield"
+                  },
+                  {
+                     "id":11,
+                     "headline":"Instance method",
+                     "shortName":"present",
+                     "longName":"-present()",
+                     "decleration":"present(): Promise<number>",
+                     "copyDecleration":"present()",
+                     "summary":"Presents the alert modally.",
+                     "description":"This is a shorthand for presentAlert().",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<number>",
+                                 "description":"A promise carrying the selected action index when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-present"
+                  },
+                  {
+                     "id":12,
+                     "headline":"Instance method",
+                     "shortName":"presentAlert",
+                     "longName":"-presentAlert()",
+                     "decleration":"presentAlert(): Promise<number>",
+                     "copyDecleration":"presentAlert()",
+                     "summary":"Presents the alert modally.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<number>",
+                                 "description":"A promise carrying the selected action index when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-presentalert"
+                  },
+                  {
+                     "id":13,
+                     "headline":"Instance method",
+                     "shortName":"presentSheet",
+                     "longName":"-presentSheet()",
+                     "decleration":"presentSheet(): Promise<number>",
+                     "copyDecleration":"presentSheet()",
+                     "summary":"Presents the alert as a sheet.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<number>",
+                                 "description":"A promise carrying the selected action index when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-presentsheet"
+                  },
+                  {
+                     "id":10,
+                     "headline":"Instance method",
+                     "shortName":"textFieldValue",
+                     "longName":"-textFieldValue(index)",
+                     "decleration":"textFieldValue(index: number): string",
+                     "copyDecleration":"textFieldValue(index)",
+                     "summary":"Retrieves value of a text field.",
+                     "description":"Retrieves the value of a text field added using addTextField() or addSecureTextField(). Indices for text fields are assigned in the same order as they are added to the alert starting at 0.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"index",
+                                 "subtitle":"number",
+                                 "copyDecleration":"index",
+                                 "description":"Index of text field to retrieve for value."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Value of the text field at the specified index."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/alert/#-textfieldvalue"
+                  }
+               ]
+            }
+         ],
+         "summary":"Presents an alert.",
+         "description":"Use this to configure an alert presented modally or as a sheet. After configuring the alert, call presentAlert() or presentSheet() to present the alert.\nThe two presentations methods will return a value which carries the index of the action that was selected when fulfilled.",
+         "url":"https://docs.scriptable.app/alert",
+         "pageId":1
+      },
+      {
+         "id":14,
+         "headline":"Global variable",
+         "shortName":"args",
+         "longName":"args",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":16,
+                     "headline":"Instance property",
+                     "shortName":"all",
+                     "longName":"all",
+                     "subtitle":"[any]",
+                     "decleration":"all: [any]",
+                     "copyDecleration":"all",
+                     "summary":"All arguments supplied by a share sheet.",
+                     "description":"All arguments supplied by the share sheet.",
+                     "deprecation":{
+                        "version":"1.3",
+                        "message":"Instead of relying on this property, access the array containing the data type you are interested in."
+                     },
+                     "url":"https://docs.scriptable.app/args/#all",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":19,
+                     "headline":"Instance property",
+                     "shortName":"fileURLs",
+                     "longName":"fileURLs",
+                     "subtitle":"[string]",
+                     "decleration":"fileURLs: [string]",
+                     "copyDecleration":"fileURLs",
+                     "summary":"File URLs supplied by a share sheet or a shortcut action.",
+                     "description":"All file URLs passed to the script from a share sheet or a shortcut action.\n\nIf you have enabled \"File URLs\" as a share sheet input from the script settings, the script can be run from any share sheet throughout the system that shares URLs pointing to a file.\n\nWhen large files are passed from a share sheet or a shortcut action, the system may terminate the process due to memory constraints. In that case, you should enable \"Run in App\" in the script settings or in the shortcut.",
+                     "url":"https://docs.scriptable.app/args/#fileurls",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":20,
+                     "headline":"Instance property",
+                     "shortName":"images",
+                     "longName":"images",
+                     "subtitle":"[Image]",
+                     "decleration":"images: [Image]",
+                     "copyDecleration":"images",
+                     "summary":"Images supplied by a share sheet or a shortcut action.",
+                     "description":"All images passed to the script from a share sheet or a shortcut action.\n\nIf you have enabled \"Images\" as a share sheet input from the script settings, the script can be run from any share sheet throughout the system that shares images.\n\nWhen large images are passed from a share sheet or a shortcut action, the system may terminate the process due to memory constraints. In that case, you should enable \"Run in App\" in the script settings or in the shortcut.",
+                     "url":"https://docs.scriptable.app/args/#images",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":15,
+                     "headline":"Instance property",
+                     "shortName":"length",
+                     "longName":"length",
+                     "subtitle":"number",
+                     "decleration":"length: number",
+                     "copyDecleration":"length",
+                     "summary":"Number of arguments supplied by a share sheet.",
+                     "description":"The number of arguments passed to the script from the share seeht.",
+                     "deprecation":{
+                        "version":"1.3",
+                        "message":"Instead of relying on this property, take the length of the array containing the data type you are interested in."
+                     },
+                     "url":"https://docs.scriptable.app/args/#length",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":25,
+                     "headline":"Instance property",
+                     "shortName":"notification",
+                     "longName":"notification",
+                     "subtitle":"Notification",
+                     "decleration":"notification: Notification",
+                     "copyDecleration":"notification",
+                     "summary":"Notification being handled by the script.",
+                     "description":"The notification that a script is being run in or the application was opened from.\n\nThe notification contains all information that was set when the notification was originally scheduled, including the <code>userInfo</code> property which can be used to contain custom data that might be relevant when running the script.",
+                     "url":"https://docs.scriptable.app/args/#notification",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":17,
+                     "headline":"Instance property",
+                     "shortName":"plainTexts",
+                     "longName":"plainTexts",
+                     "subtitle":"[string]",
+                     "decleration":"plainTexts: [string]",
+                     "copyDecleration":"plainTexts",
+                     "summary":"Plain texts supplied by a share sheet or a shortcut action.",
+                     "description":"All plain texts passed to the script from a share sheet or a shortcut action.\n\nIf you have enabled \"Text\" as a share sheet input from the script settings, the script can be run from any share sheet throughout the system that shares plain text.",
+                     "url":"https://docs.scriptable.app/args/#plaintexts",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":21,
+                     "headline":"Instance property",
+                     "shortName":"queryParameters",
+                     "longName":"queryParameters",
+                     "subtitle":"{string: string}",
+                     "decleration":"queryParameters: {string: string}",
+                     "copyDecleration":"queryParameters",
+                     "summary":"Query parameters from a URL scheme.",
+                     "description":"Query parameters are supplied to a script when running it from a URL scheme. See the documentation on Scriptables URL schems for more information.",
+                     "url":"https://docs.scriptable.app/args/#queryparameters",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":23,
+                     "headline":"Instance property",
+                     "shortName":"shortcutParameter",
+                     "longName":"shortcutParameter",
+                     "subtitle":"any",
+                     "decleration":"shortcutParameter: any",
+                     "copyDecleration":"shortcutParameter",
+                     "summary":"Parameter passed to a Shortcut.",
+                     "description":"When creating a shortcut using the Shortcuts app, you can pass an input parameter that can be read in your script using <code>args.shortcutParameter</code>.\n\nThis parameter can be any text, list, dictionary or file and will be exposed in your script using the appropriate type. When passing a file, the \"Run Script\" action will attempt to read the file as JSON or a plain text. If the file cannot be read as JSON or a plain text, a path to the file will be passed as the input parameter.",
+                     "url":"https://docs.scriptable.app/args/#shortcutparameter",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":22,
+                     "headline":"Instance property",
+                     "shortName":"siriShortcutArguments",
+                     "longName":"siriShortcutArguments",
+                     "subtitle":"{string: string}",
+                     "decleration":"siriShortcutArguments: {string: string}",
+                     "copyDecleration":"siriShortcutArguments",
+                     "summary":"Arguments passed from a Siri Shortcut.",
+                     "description":"When creating a Siri Shortcut in Scriptable, you can define arguments that are passed to the script when the shortcut is run. This lets you differentiate the behavior of a script based on some predefiend arguments.\n\nFor example, a script that checks the wather may expect an argument with the key \"city\". When creating a Siri Shortcut for the script, the argument should be passed with the value containing the name of the city to check the weather for.",
+                     "deprecation":{
+                        "version":"1.4",
+                        "message":"Instead of using args.shortcutArguments, pass an input parameter to the shortcut action using the Shortcuts app and read the parameter using <code>args.shortcutParameter</code>."
+                     },
+                     "url":"https://docs.scriptable.app/args/#sirishortcutarguments",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":18,
+                     "headline":"Instance property",
+                     "shortName":"urls",
+                     "longName":"urls",
+                     "subtitle":"[string]",
+                     "decleration":"urls: [string]",
+                     "copyDecleration":"urls",
+                     "summary":"URLs supplied by a share sheet or a shortcut action.",
+                     "description":"All URLs passed to the script from a share sheet or a shortcut action.\n\nIf you have enabled \"URLs\" as a share sheet input from the script settings, the script can be run from any share sheet throughout the system that shares URLs.",
+                     "url":"https://docs.scriptable.app/args/#urls",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":24,
+                     "headline":"Instance property",
+                     "shortName":"widgetParameter",
+                     "longName":"widgetParameter",
+                     "subtitle":"any",
+                     "decleration":"widgetParameter: any",
+                     "copyDecleration":"widgetParameter",
+                     "summary":"Parameter passed to a widget.",
+                     "description":"When creating a widget on the Home screen, you can define a parameter that can be read in your script using <code>args.widgetParameter</code>.\n\nThe parameter can be used to differentiate the behavior of multiple widgets.",
+                     "url":"https://docs.scriptable.app/args/#widgetparameter",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  }
+               ]
+            }
+         ],
+         "summary":"Arguments passed to the script.",
+         "description":"Arguments are passed to the script when the script is executed from a share sheet. You can specify the types of arguments a script supports from the script settings.",
+         "url":"https://docs.scriptable.app/args",
+         "pageId":1
+      },
+      {
+         "id":26,
+         "headline":"Type",
+         "shortName":"Calendar",
+         "longName":"Calendar",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":30,
+                     "headline":"Instance property",
+                     "shortName":"allowsContentModifications",
+                     "longName":"allowsContentModifications",
+                     "subtitle":"bool",
+                     "decleration":"allowsContentModifications: bool",
+                     "copyDecleration":"allowsContentModifications",
+                     "summary":"Indicates whether items can be added, edited, and deleted in the calendar.",
+                     "url":"https://docs.scriptable.app/calendar/#allowscontentmodifications",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":31,
+                     "headline":"Instance property",
+                     "shortName":"color",
+                     "longName":"color",
+                     "subtitle":"Color",
+                     "decleration":"color: Color",
+                     "copyDecleration":"color",
+                     "summary":"Color of calendar.",
+                     "url":"https://docs.scriptable.app/calendar/#color",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":27,
+                     "headline":"Instance property",
+                     "shortName":"identifier",
+                     "longName":"identifier",
+                     "subtitle":"string",
+                     "decleration":"identifier: string",
+                     "copyDecleration":"identifier",
+                     "summary":"Calendar identifier.",
+                     "url":"https://docs.scriptable.app/calendar/#identifier",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":29,
+                     "headline":"Instance property",
+                     "shortName":"isSubscribed",
+                     "longName":"isSubscribed",
+                     "subtitle":"bool",
+                     "decleration":"isSubscribed: bool",
+                     "copyDecleration":"isSubscribed",
+                     "summary":"Whether the calendar is a subscribed calendar.",
+                     "url":"https://docs.scriptable.app/calendar/#issubscribed",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":28,
+                     "headline":"Instance property",
+                     "shortName":"title",
+                     "longName":"title",
+                     "subtitle":"string",
+                     "decleration":"title: string",
+                     "copyDecleration":"title",
+                     "summary":"Title of calendar.",
+                     "url":"https://docs.scriptable.app/calendar/#title",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":39,
+                     "headline":"Static method",
+                     "shortName":"createForReminders",
+                     "longName":"+createForReminders(title)",
+                     "decleration":"static createForReminders(title: string): Promise<Calendar>",
+                     "copyDecleration":"createForReminders(title)",
+                     "summary":"Create a new calendar that holds reminders.",
+                     "description":"This will create a new list for reminders in the Reminders app. The list is automatically saved so there is no need to call <code>save()</code> after creating the list.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title"
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the created calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#createforreminders"
+                  },
+                  {
+                     "id":42,
+                     "headline":"Static method",
+                     "shortName":"defaultForEvents",
+                     "longName":"+defaultForEvents()",
+                     "decleration":"static defaultForEvents(): Promise<Calendar>",
+                     "copyDecleration":"defaultForEvents()",
+                     "summary":"Default calendar for events.",
+                     "description":"A calendar can only hold either reminders or events. Call this function to get the default calendar that can hold events.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#defaultforevents"
+                  },
+                  {
+                     "id":41,
+                     "headline":"Static method",
+                     "shortName":"defaultForReminders",
+                     "longName":"+defaultForReminders()",
+                     "decleration":"static defaultForReminders(): Promise<Calendar>",
+                     "copyDecleration":"defaultForReminders()",
+                     "summary":"Default calendar for reminders.",
+                     "description":"A calendar can only hold either reminders or events. Call this function to get the default calendar that can hold reminders.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#defaultforreminders"
+                  },
+                  {
+                     "id":40,
+                     "headline":"Static method",
+                     "shortName":"findOrCreateForReminders",
+                     "longName":"+findOrCreateForReminders(title)",
+                     "decleration":"static findOrCreateForReminders(title: string): Promise<Calendar>",
+                     "copyDecleration":"findOrCreateForReminders(title)",
+                     "summary":"Find or create a new calendar that holds reminders.",
+                     "description":"This will attempt to find a calendar for reminders with the specified name. If no calendar is found, a new calendar is created and the calendar will appear as a reminder list in the Reminders app. If multiple calendars are found for the specified name, the first one will be returned.  The list is automatically saved so there is no need to call <code>save()</code> in the case the list was created.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title"
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#findorcreateforreminders"
+                  },
+                  {
+                     "id":36,
+                     "headline":"Static method",
+                     "shortName":"forEvents",
+                     "longName":"+forEvents()",
+                     "decleration":"static forEvents(): Promise<[Calendar]>",
+                     "copyDecleration":"forEvents()",
+                     "summary":"Fetches calendars for events.",
+                     "description":"A calendar can only hold either reminders or events. Call this function to fetch all calendars that can hold events.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[Calendar]>",
+                                 "description":"Promise that provides the calendars when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#forevents"
+                  },
+                  {
+                     "id":38,
+                     "headline":"Static method",
+                     "shortName":"forEventsByTitle",
+                     "longName":"+forEventsByTitle(title)",
+                     "decleration":"static forEventsByTitle(title: string): Promise<Calendar>",
+                     "copyDecleration":"forEventsByTitle(title)",
+                     "summary":"Fetches a calendar that holds events.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title",
+                                 "description":"Title of calendar."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#foreventsbytitle"
+                  },
+                  {
+                     "id":35,
+                     "headline":"Static method",
+                     "shortName":"forReminders",
+                     "longName":"+forReminders()",
+                     "decleration":"static forReminders(): Promise<[Calendar]>",
+                     "copyDecleration":"forReminders()",
+                     "summary":"Fetches calendars for reminders.",
+                     "description":"A calendar can only hold either reminders or events. Call this function to fetch all calendars that can hold reminders.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[Calendar]>",
+                                 "description":"Promise that provides the calendars when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#forreminders"
+                  },
+                  {
+                     "id":37,
+                     "headline":"Static method",
+                     "shortName":"forRemindersByTitle",
+                     "longName":"+forRemindersByTitle(title)",
+                     "decleration":"static forRemindersByTitle(title: string): Promise<Calendar>",
+                     "copyDecleration":"forRemindersByTitle(title)",
+                     "summary":"Fetches a calendar that holds reminders.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"title",
+                                 "subtitle":"string",
+                                 "copyDecleration":"title",
+                                 "description":"Title of calendar."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Calendar>",
+                                 "description":"Promise that provides the calendar when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#forremindersbytitle"
+                  },
+                  {
+                     "id":43,
+                     "headline":"Static method",
+                     "shortName":"presentPicker",
+                     "longName":"+presentPicker(allowMultiple)",
+                     "decleration":"static presentPicker(allowMultiple: bool): Promise<[Calendar]>",
+                     "copyDecleration":"presentPicker(allowMultiple)",
+                     "summary":"Presents a view for picking calendars.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"allowMultiple",
+                                 "subtitle":"bool",
+                                 "copyDecleration":"allowMultiple",
+                                 "description":"Whether to allow picking multiple calenders. Defaults to false."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[Calendar]>",
+                                 "description":"Promise that provides the calendars when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#presentpicker"
+                  },
+                  {
+                     "id":34,
+                     "headline":"Instance method",
+                     "shortName":"remove",
+                     "longName":"-remove()",
+                     "decleration":"remove()",
+                     "copyDecleration":"remove()",
+                     "summary":"Removes calendar.",
+                     "description":"The calendar is removed immediately. This cannot be undone.",
+                     "url":"https://docs.scriptable.app/calendar/#-remove"
+                  },
+                  {
+                     "id":33,
+                     "headline":"Instance method",
+                     "shortName":"save",
+                     "longName":"-save()",
+                     "decleration":"save()",
+                     "copyDecleration":"save()",
+                     "summary":"Saves calendar.",
+                     "description":"Saves changes to the calendar.",
+                     "url":"https://docs.scriptable.app/calendar/#-save"
+                  },
+                  {
+                     "id":32,
+                     "headline":"Instance method",
+                     "shortName":"supportsAvailability",
+                     "longName":"-supportsAvailability(availability)",
+                     "decleration":"supportsAvailability(availability: string): bool",
+                     "copyDecleration":"supportsAvailability(availability)",
+                     "summary":"Checks if the calendar supports availability.",
+                     "description":"The following values are supported:\n\n- busy\n- free\n- tentative\n- unavailable\n\nNot all calendars support all of these availabilities and some calendars may not support availability at all. Use this function to check if the calendar supports a specific availability.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"availability",
+                                 "subtitle":"string",
+                                 "copyDecleration":"availability",
+                                 "description":"Availability to check against."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the calendar supports the availability, otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendar/#-supportsavailability"
+                  }
+               ]
+            }
+         ],
+         "summary":"Holds reminders and events.",
+         "description":"Use the Calendar type to get a specific calendar. The calendar is used with the Reminder and CalendarEvent types when fetching reminders or events from a specific calendar or when inserting into a calendar. If you are fetching reminders or events from all calendars, you do not need to pass the calendars when performing the fetch with the Reminder or CalendarEvent types.",
+         "url":"https://docs.scriptable.app/calendar",
+         "pageId":1
+      },
+      {
+         "id":44,
+         "headline":"Type",
+         "shortName":"CalendarEvent",
+         "longName":"CalendarEvent",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":52,
+                     "headline":"Instance property",
+                     "shortName":"attendees",
+                     "longName":"attendees",
+                     "subtitle":"[any]",
+                     "decleration":"attendees: [any]",
+                     "copyDecleration":"attendees",
+                     "summary":"Attendees associated with the event.",
+                     "description":"An array of objects on the following form:\n\n<code>{\n  \"isCurrentUser\": false,\n  \"name\": \"John Appleseed\",\n  \"status\": \"accepted\",\n  \"type\": \"person\",\n  \"role\": \"required\"\n}</code>\n\nNote that the property is read-only since iOS does not expose API to modify the attendees of an event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#attendees",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":53,
+                     "headline":"Instance property",
+                     "shortName":"availability",
+                     "longName":"availability",
+                     "subtitle":"string",
+                     "decleration":"availability: string",
+                     "copyDecleration":"availability",
+                     "summary":"Availability during the event.",
+                     "description":"Indicates how the event should be treated for scheduling purposes. The following values are supported:\n\n- busy\n- free\n- tentative\n- unavailable\n\nBe aware that not all calendars support all of these availabilities and some calendars may not support availability at all. Use <code>Calendar.supportsAvailability()</code> to check if a calendar supports a specific availability.",
+                     "url":"https://docs.scriptable.app/calendarevent/#availability",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":55,
+                     "headline":"Instance property",
+                     "shortName":"calendar",
+                     "longName":"calendar",
+                     "subtitle":"Calendar",
+                     "decleration":"calendar: Calendar",
+                     "copyDecleration":"calendar",
+                     "summary":"Calendar the event is stored in.",
+                     "url":"https://docs.scriptable.app/calendarevent/#calendar",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":50,
+                     "headline":"Instance property",
+                     "shortName":"endDate",
+                     "longName":"endDate",
+                     "subtitle":"Date",
+                     "decleration":"endDate: Date",
+                     "copyDecleration":"endDate",
+                     "summary":"End date of event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#enddate",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":45,
+                     "headline":"Instance property",
+                     "shortName":"identifier",
+                     "longName":"identifier",
+                     "subtitle":"string",
+                     "decleration":"identifier: string",
+                     "copyDecleration":"identifier",
+                     "summary":"Identifier of event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#identifier",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":51,
+                     "headline":"Instance property",
+                     "shortName":"isAllDay",
+                     "longName":"isAllDay",
+                     "subtitle":"bool",
+                     "decleration":"isAllDay: bool",
+                     "copyDecleration":"isAllDay",
+                     "summary":"Whether the event is an all-day event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#isallday",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":47,
+                     "headline":"Instance property",
+                     "shortName":"location",
+                     "longName":"location",
+                     "subtitle":"string",
+                     "decleration":"location: string",
+                     "copyDecleration":"location",
+                     "summary":"Location of event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#location",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":48,
+                     "headline":"Instance property",
+                     "shortName":"notes",
+                     "longName":"notes",
+                     "subtitle":"string",
+                     "decleration":"notes: string",
+                     "copyDecleration":"notes",
+                     "summary":"Notes associated with event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#notes",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":49,
+                     "headline":"Instance property",
+                     "shortName":"startDate",
+                     "longName":"startDate",
+                     "subtitle":"Date",
+                     "decleration":"startDate: Date",
+                     "copyDecleration":"startDate",
+                     "summary":"Start date of event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#startdate",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":54,
+                     "headline":"Instance property",
+                     "shortName":"timeZone",
+                     "longName":"timeZone",
+                     "subtitle":"string",
+                     "decleration":"timeZone: string",
+                     "copyDecleration":"timeZone",
+                     "summary":"Time zone of event.",
+                     "description":"Geopolitical region identifier that identifies the time zone, e.g. \"Europe/Copenhagen\", \"America/New_York\" and \"Asia/Tokyo\".",
+                     "url":"https://docs.scriptable.app/calendarevent/#timezone",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":46,
+                     "headline":"Instance property",
+                     "shortName":"title",
+                     "longName":"title",
+                     "subtitle":"string",
+                     "decleration":"title: string",
+                     "copyDecleration":"title",
+                     "summary":"Title of event.",
+                     "url":"https://docs.scriptable.app/calendarevent/#title",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":56,
+                     "headline":"Instance method",
+                     "shortName":"new CalendarEvent",
+                     "longName":"new CalendarEvent()",
+                     "decleration":"new CalendarEvent()",
+                     "copyDecleration":"new CalendarEvent()",
+                     "summary":"Constructs an event.",
+                     "description":"In order to add the event to your calendar, you must call the save() function.",
+                     "url":"https://docs.scriptable.app/calendarevent/#-new-calendarevent"
+                  },
+                  {
+                     "id":57,
+                     "headline":"Instance method",
+                     "shortName":"addRecurrenceRule",
+                     "longName":"-addRecurrenceRule(recurrenceRule)",
+                     "decleration":"addRecurrenceRule(recurrenceRule: RecurrenceRule)",
+                     "copyDecleration":"addRecurrenceRule(recurrenceRule)",
+                     "summary":"Adds a recurrence rule.",
+                     "description":"Recurrence rules specify when the eventer or reminder should be repeated. See the documentation of RecurrenceRule for more information on creating rules.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"recurrenceRule",
+                                 "subtitle":"RecurrenceRule",
+                                 "copyDecleration":"recurrenceRule",
+                                 "description":"Recurrence rule to add to the reminder."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#-addrecurrencerule"
+                  },
+                  {
+                     "id":69,
+                     "headline":"Static method",
+                     "shortName":"between",
+                     "longName":"+between(startDate, endDate, calendars)",
+                     "decleration":"static between(startDate: Date, endDate: Date, calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"between(startDate, endDate, calendars)",
+                     "summary":"Events that occurs between two dates.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"startDate",
+                                 "subtitle":"Date",
+                                 "copyDecleration":"startDate",
+                                 "description":"Start date to fetch events for."
+                              },
+                              {
+                                 "title":"endDate",
+                                 "subtitle":"Date",
+                                 "copyDecleration":"endDate",
+                                 "description":"End date to fetch events for."
+                              },
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#between"
+                  },
+                  {
+                     "id":68,
+                     "headline":"Static method",
+                     "shortName":"lastWeek",
+                     "longName":"+lastWeek(calendars)",
+                     "decleration":"static lastWeek(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"lastWeek(calendars)",
+                     "summary":"Events that occurred last week.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#lastweek"
+                  },
+                  {
+                     "id":67,
+                     "headline":"Static method",
+                     "shortName":"nextWeek",
+                     "longName":"+nextWeek(calendars)",
+                     "decleration":"static nextWeek(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"nextWeek(calendars)",
+                     "summary":"Events that occur next week.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#nextweek"
+                  },
+                  {
+                     "id":62,
+                     "headline":"Static method",
+                     "shortName":"presentCreate",
+                     "longName":"+presentCreate()",
+                     "decleration":"static presentCreate(): Promise<CalendarEvent>",
+                     "copyDecleration":"presentCreate()",
+                     "summary":"Presents a view for creating a calendar event.",
+                     "description":"The presented view supports editing various attributes of the event,\nincluding title, location, dates, recurrence and alerts.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<CalendarEvent>",
+                                 "description":"Promise that provides the created event when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#presentcreate"
+                  },
+                  {
+                     "id":61,
+                     "headline":"Instance method",
+                     "shortName":"presentEdit",
+                     "longName":"-presentEdit()",
+                     "decleration":"presentEdit(): Promise<CalendarEvent>",
+                     "copyDecleration":"presentEdit()",
+                     "summary":"Presents a view for editing the calendar event.",
+                     "description":"The presented view supports editing various attributes of the event,\nincluding title, location, dates, recurrence and alerts.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<CalendarEvent>",
+                                 "description":"Promise that provides the updated event when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#-presentedit"
+                  },
+                  {
+                     "id":60,
+                     "headline":"Instance method",
+                     "shortName":"remove",
+                     "longName":"-remove()",
+                     "decleration":"remove()",
+                     "copyDecleration":"remove()",
+                     "summary":"Removes event from calendar.",
+                     "url":"https://docs.scriptable.app/calendarevent/#-remove"
+                  },
+                  {
+                     "id":58,
+                     "headline":"Instance method",
+                     "shortName":"removeAllRecurrenceRules",
+                     "longName":"-removeAllRecurrenceRules()",
+                     "decleration":"removeAllRecurrenceRules()",
+                     "copyDecleration":"removeAllRecurrenceRules()",
+                     "summary":"Removes all recurrence rules.",
+                     "url":"https://docs.scriptable.app/calendarevent/#-removeallrecurrencerules"
+                  },
+                  {
+                     "id":59,
+                     "headline":"Instance method",
+                     "shortName":"save",
+                     "longName":"-save()",
+                     "decleration":"save()",
+                     "copyDecleration":"save()",
+                     "summary":"Saves event.",
+                     "description":"Saves changes to an event, inserting it into the calendar if it is newly created.",
+                     "url":"https://docs.scriptable.app/calendarevent/#-save"
+                  },
+                  {
+                     "id":66,
+                     "headline":"Static method",
+                     "shortName":"thisWeek",
+                     "longName":"+thisWeek(calendars)",
+                     "decleration":"static thisWeek(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"thisWeek(calendars)",
+                     "summary":"Events that occur this week.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#thisweek"
+                  },
+                  {
+                     "id":63,
+                     "headline":"Static method",
+                     "shortName":"today",
+                     "longName":"+today(calendars)",
+                     "decleration":"static today(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"today(calendars)",
+                     "summary":"Events occurring today.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#today"
+                  },
+                  {
+                     "id":64,
+                     "headline":"Static method",
+                     "shortName":"tomorrow",
+                     "longName":"+tomorrow(calendars)",
+                     "decleration":"static tomorrow(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"tomorrow(calendars)",
+                     "summary":"Events occurring tomorrow.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#tomorrow"
+                  },
+                  {
+                     "id":65,
+                     "headline":"Static method",
+                     "shortName":"yesterday",
+                     "longName":"+yesterday(calendars)",
+                     "decleration":"static yesterday(calendars: [Calendar]): Promise<[CalendarEvent]>",
+                     "copyDecleration":"yesterday(calendars)",
+                     "summary":"Events that occurred yesterday.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"calendars",
+                                 "subtitle":"[Calendar]",
+                                 "copyDecleration":"calendars",
+                                 "description":"Calendars to fetch events for. Defaults to all calendars."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[CalendarEvent]>",
+                                 "description":"Promise that provides the events when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/calendarevent/#yesterday"
+                  }
+               ]
+            }
+         ],
+         "summary":"Manages events in calendars.",
+         "description":"Used for creating, fetching and removing events from your calendars.",
+         "url":"https://docs.scriptable.app/calendarevent",
+         "pageId":1
+      },
+      {
+         "id":70,
+         "headline":"Type",
+         "shortName":"CallbackURL",
+         "longName":"CallbackURL",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":71,
+                     "headline":"Instance method",
+                     "shortName":"new CallbackURL",
+                     "longName":"new CallbackURL(baseURL)",
+                     "decleration":"new CallbackURL(baseURL: string)",
+                     "copyDecleration":"new CallbackURL(baseURL)",
+                     "summary":"Construct CallbackURL.",
+                     "description":"Constructs an object that opens x-callback-url requests and waits for a response from the target app.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"baseURL",
+                                 "subtitle":"string",
+                                 "copyDecleration":"baseURL",
+                                 "description":"Base URL of the request. This is usally something like my-app://x-callback-url/action"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/callbackurl/#-new-callbackurl"
+                  },
+                  {
+                     "id":72,
+                     "headline":"Instance method",
+                     "shortName":"addParameter",
+                     "longName":"-addParameter(name, value)",
+                     "decleration":"addParameter(name: string, value: string)",
+                     "copyDecleration":"addParameter(name, value)",
+                     "summary":"Construct CallbackURL.",
+                     "description":"Appends a key/value pair to the base URL as a query parameter. The name and value are automatically encoded. Do not add the x-callback-url paramters, i.e. x-source, x-success, x-error and x-cancel as Scriptable will add those.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of the query parameter to add."
+                              },
+                              {
+                                 "title":"value",
+                                 "subtitle":"string",
+                                 "copyDecleration":"value",
+                                 "description":"Value of the query parameter to add."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/callbackurl/#-addparameter"
+                  },
+                  {
+                     "id":74,
+                     "headline":"Instance method",
+                     "shortName":"getURL",
+                     "longName":"-getURL()",
+                     "decleration":"getURL(): string",
+                     "copyDecleration":"getURL()",
+                     "summary":"Creates the callback URL.",
+                     "description":"Creates a callback URL with the specified base URL and query parameters.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Configured callback URL."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/callbackurl/#-geturl"
+                  },
+                  {
+                     "id":73,
+                     "headline":"Instance method",
+                     "shortName":"open",
+                     "longName":"-open()",
+                     "decleration":"open(): Promise<{string: string}>",
+                     "copyDecleration":"open()",
+                     "summary":"Opens the callback URL.",
+                     "description":"Opens the target app and waits for the target app to perform the action. The returned promise contains the query parameters supplied by the target app when it invokes the callback. If the action failed in the target app or the action was cancelled, the promise will be rejected. The promise is also rejected if the action times out because the target app did not invoke the callback.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<{string: string}>",
+                                 "description":"Promise that provides the query parameters supplied by the target app when it invokes the callback."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/callbackurl/#-open"
+                  }
+               ]
+            }
+         ],
+         "summary":"Open x-callback-url requests.",
+         "description":"Opens apps that support x-callback-url and waits for a response from the target application. You can find a list of apps that support x-callback-url at <a href=\"http://x-callback-url.com/apps/\">x-callback-url.com/apps</a>.",
+         "url":"https://docs.scriptable.app/callbackurl",
+         "pageId":1
+      },
+      {
+         "id":75,
+         "headline":"Type",
+         "shortName":"Color",
+         "longName":"Color",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":80,
+                     "headline":"Instance property",
+                     "shortName":"alpha",
+                     "longName":"alpha",
+                     "subtitle":"number",
+                     "decleration":"alpha: number",
+                     "copyDecleration":"alpha",
+                     "summary":"Alpha of the color.",
+                     "url":"https://docs.scriptable.app/color/#alpha",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":79,
+                     "headline":"Instance property",
+                     "shortName":"blue",
+                     "longName":"blue",
+                     "subtitle":"number",
+                     "decleration":"blue: number",
+                     "copyDecleration":"blue",
+                     "summary":"Amount of blue in the color.",
+                     "url":"https://docs.scriptable.app/color/#blue",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":78,
+                     "headline":"Instance property",
+                     "shortName":"green",
+                     "longName":"green",
+                     "subtitle":"number",
+                     "decleration":"green: number",
+                     "copyDecleration":"green",
+                     "summary":"Amount of green in the color.",
+                     "url":"https://docs.scriptable.app/color/#green",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":76,
+                     "headline":"Instance property",
+                     "shortName":"hex",
+                     "longName":"hex",
+                     "subtitle":"string",
+                     "decleration":"hex: string",
+                     "copyDecleration":"hex",
+                     "summary":"HEX representation.",
+                     "url":"https://docs.scriptable.app/color/#hex",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":77,
+                     "headline":"Instance property",
+                     "shortName":"red",
+                     "longName":"red",
+                     "subtitle":"number",
+                     "decleration":"red: number",
+                     "copyDecleration":"red",
+                     "summary":"Amount of red in the color.",
+                     "url":"https://docs.scriptable.app/color/#red",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":96,
+                     "headline":"Instance method",
+                     "shortName":"new Color",
+                     "longName":"new Color(hex, alpha)",
+                     "decleration":"new Color(hex: string, alpha: number)",
+                     "copyDecleration":"new Color(hex, alpha)",
+                     "summary":"Constructs a color.",
+                     "description":"Constructs a new color with a hex value and optionally an alpha value. The hex value may specify the alpha value but this will be ignored if the alpha value parameter is provided. Examples of valid hex values: #ff0000, #00ff0080 \n#00f and #ff. The hashtag is optional.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"hex",
+                                 "subtitle":"string",
+                                 "copyDecleration":"hex",
+                                 "description":"Hex value."
+                              },
+                              {
+                                 "title":"alpha",
+                                 "subtitle":"number",
+                                 "copyDecleration":"alpha",
+                                 "description":"Alpha value."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#-new-color"
+                  },
+                  {
+                     "id":81,
+                     "headline":"Static method",
+                     "shortName":"black",
+                     "longName":"+black()",
+                     "decleration":"static black(): Color",
+                     "copyDecleration":"black()",
+                     "summary":"Constructs a black color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A black color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#black"
+                  },
+                  {
+                     "id":88,
+                     "headline":"Static method",
+                     "shortName":"blue",
+                     "longName":"+blue()",
+                     "decleration":"static blue(): Color",
+                     "copyDecleration":"blue()",
+                     "summary":"Constructs a blue color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A blue color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#blue"
+                  },
+                  {
+                     "id":94,
+                     "headline":"Static method",
+                     "shortName":"brown",
+                     "longName":"+brown()",
+                     "decleration":"static brown(): Color",
+                     "copyDecleration":"brown()",
+                     "summary":"Constructs a brown color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A brown color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#brown"
+                  },
+                  {
+                     "id":95,
+                     "headline":"Static method",
+                     "shortName":"clear",
+                     "longName":"+clear()",
+                     "decleration":"static clear(): Color",
+                     "copyDecleration":"clear()",
+                     "summary":"Constructs a transparent color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A transparent color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#clear"
+                  },
+                  {
+                     "id":89,
+                     "headline":"Static method",
+                     "shortName":"cyan",
+                     "longName":"+cyan()",
+                     "decleration":"static cyan(): Color",
+                     "copyDecleration":"cyan()",
+                     "summary":"Constructs a cyan color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A cyan color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#cyan"
+                  },
+                  {
+                     "id":82,
+                     "headline":"Static method",
+                     "shortName":"darkGray",
+                     "longName":"+darkGray()",
+                     "decleration":"static darkGray(): Color",
+                     "copyDecleration":"darkGray()",
+                     "summary":"Constructs a dark gray color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A dark gray color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#darkgray"
+                  },
+                  {
+                     "id":97,
+                     "headline":"Static method",
+                     "shortName":"dynamic",
+                     "longName":"+dynamic(lightColor, darkColor)",
+                     "decleration":"static dynamic(lightColor: Color, darkColor: Color): Color",
+                     "copyDecleration":"dynamic(lightColor, darkColor)",
+                     "summary":"Creates a dynamic color.",
+                     "description":"The dynamic color will use either its light or dark variant depending the appearance of the system.\n\nDynamic colors are not supported when used with <code>DrawContext</code>.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"lightColor",
+                                 "subtitle":"Color",
+                                 "copyDecleration":"lightColor",
+                                 "description":"Color used in light appearance."
+                              },
+                              {
+                                 "title":"darkColor",
+                                 "subtitle":"Color",
+                                 "copyDecleration":"darkColor",
+                                 "description":"Color used in dark appearance."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"Dynamic color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#dynamic"
+                  },
+                  {
+                     "id":85,
+                     "headline":"Static method",
+                     "shortName":"gray",
+                     "longName":"+gray()",
+                     "decleration":"static gray(): Color",
+                     "copyDecleration":"gray()",
+                     "summary":"Constructs a gray color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A gray color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#gray"
+                  },
+                  {
+                     "id":87,
+                     "headline":"Static method",
+                     "shortName":"green",
+                     "longName":"+green()",
+                     "decleration":"static green(): Color",
+                     "copyDecleration":"green()",
+                     "summary":"Constructs a green color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A green color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#green"
+                  },
+                  {
+                     "id":83,
+                     "headline":"Static method",
+                     "shortName":"lightGray",
+                     "longName":"+lightGray()",
+                     "decleration":"static lightGray(): Color",
+                     "copyDecleration":"lightGray()",
+                     "summary":"Constructs a light gray color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A light gray color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#lightgray"
+                  },
+                  {
+                     "id":91,
+                     "headline":"Static method",
+                     "shortName":"magenta",
+                     "longName":"+magenta()",
+                     "decleration":"static magenta(): Color",
+                     "copyDecleration":"magenta()",
+                     "summary":"Constructs a magenta color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A magenta color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#magenta"
+                  },
+                  {
+                     "id":92,
+                     "headline":"Static method",
+                     "shortName":"orange",
+                     "longName":"+orange()",
+                     "decleration":"static orange(): Color",
+                     "copyDecleration":"orange()",
+                     "summary":"Constructs a orange color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A orange color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#orange"
+                  },
+                  {
+                     "id":93,
+                     "headline":"Static method",
+                     "shortName":"purple",
+                     "longName":"+purple()",
+                     "decleration":"static purple(): Color",
+                     "copyDecleration":"purple()",
+                     "summary":"Constructs a purple color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A purple color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#purple"
+                  },
+                  {
+                     "id":86,
+                     "headline":"Static method",
+                     "shortName":"red",
+                     "longName":"+red()",
+                     "decleration":"static red(): Color",
+                     "copyDecleration":"red()",
+                     "summary":"Constructs a red color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A red color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#red"
+                  },
+                  {
+                     "id":84,
+                     "headline":"Static method",
+                     "shortName":"white",
+                     "longName":"+white()",
+                     "decleration":"static white(): Color",
+                     "copyDecleration":"white()",
+                     "summary":"Constructs a white color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A white color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#white"
+                  },
+                  {
+                     "id":90,
+                     "headline":"Static method",
+                     "shortName":"yellow",
+                     "longName":"+yellow()",
+                     "decleration":"static yellow(): Color",
+                     "copyDecleration":"yellow()",
+                     "summary":"Constructs a yellow color.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Color",
+                                 "description":"A yellow color."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/color/#yellow"
+                  }
+               ]
+            }
+         ],
+         "summary":"Stores color data including opacity.",
+         "description":"A color can be created using a hex value, e.g. #FF0000 and optionally an alpha or it can be created using the provided system colors.",
+         "url":"https://docs.scriptable.app/color",
+         "pageId":1
+      },
+      {
+         "id":98,
+         "headline":"Global variable",
+         "shortName":"config",
+         "longName":"config",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":104,
+                     "headline":"Instance property",
+                     "shortName":"runsFromHomeScreen",
+                     "longName":"runsFromHomeScreen",
+                     "subtitle":"bool",
+                     "decleration":"runsFromHomeScreen: bool",
+                     "copyDecleration":"runsFromHomeScreen",
+                     "description":"Whether the script was run from the home screen. You can add a script to the home screen from the script settings.",
+                     "url":"https://docs.scriptable.app/config/#runsfromhomescreen",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":100,
+                     "headline":"Instance property",
+                     "shortName":"runsInActionExtension",
+                     "longName":"runsInActionExtension",
+                     "subtitle":"bool",
+                     "decleration":"runsInActionExtension: bool",
+                     "copyDecleration":"runsInActionExtension",
+                     "description":"Whether the script is running in the action extension.",
+                     "url":"https://docs.scriptable.app/config/#runsinactionextension",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":99,
+                     "headline":"Instance property",
+                     "shortName":"runsInApp",
+                     "longName":"runsInApp",
+                     "subtitle":"bool",
+                     "decleration":"runsInApp: bool",
+                     "copyDecleration":"runsInApp",
+                     "description":"Whether the script is running in the app.",
+                     "url":"https://docs.scriptable.app/config/#runsinapp",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":103,
+                     "headline":"Instance property",
+                     "shortName":"runsInNotification",
+                     "longName":"runsInNotification",
+                     "subtitle":"bool",
+                     "decleration":"runsInNotification: bool",
+                     "copyDecleration":"runsInNotification",
+                     "description":"Whether the script is running in a notification.",
+                     "url":"https://docs.scriptable.app/config/#runsinnotification",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":102,
+                     "headline":"Instance property",
+                     "shortName":"runsInWidget",
+                     "longName":"runsInWidget",
+                     "subtitle":"bool",
+                     "decleration":"runsInWidget: bool",
+                     "copyDecleration":"runsInWidget",
+                     "description":"Whether the script is running in a widget.",
+                     "url":"https://docs.scriptable.app/config/#runsinwidget",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":101,
+                     "headline":"Instance property",
+                     "shortName":"runsWithSiri",
+                     "longName":"runsWithSiri",
+                     "subtitle":"bool",
+                     "decleration":"runsWithSiri: bool",
+                     "copyDecleration":"runsWithSiri",
+                     "description":"Whether the script is running with Siri.",
+                     "url":"https://docs.scriptable.app/config/#runswithsiri",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":105,
+                     "headline":"Instance property",
+                     "shortName":"widgetFamily",
+                     "longName":"widgetFamily",
+                     "subtitle":"string",
+                     "decleration":"widgetFamily: string",
+                     "copyDecleration":"widgetFamily",
+                     "description":"The size of the widget the script is running in.\n\nPossible values are: <code>small</code>, <code>medium</code>, <code>large</code> and <code>null</code>. The value is <code>null</code> when the script is not running in a widget.",
+                     "url":"https://docs.scriptable.app/config/#widgetfamily",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  }
+               ]
+            }
+         ],
+         "summary":"Configuration the script runs with.",
+         "description":"Contains information about the configuration the script is currently being run under.",
+         "url":"https://docs.scriptable.app/config",
+         "pageId":1
+      },
+      {
+         "id":106,
+         "headline":"Global variable",
+         "shortName":"console",
+         "longName":"console",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":109,
+                     "headline":"Static method",
+                     "shortName":"error",
+                     "longName":"+error(message)",
+                     "decleration":"static error(message: any)",
+                     "copyDecleration":"error(message)",
+                     "summary":"Logs an error message to the console.",
+                     "description":"The message will have a distinctive appearance. Refer to <code>console.log(message)</code> to log informative message and <code>console.warn(message)</code> to log warnings.\n\nYou can also use the global function <code>logError(message)</code> which is a shorthand for <code>console.error</code>.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"message",
+                                 "subtitle":"any",
+                                 "copyDecleration":"message",
+                                 "description":"Message to log to the console."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/console/#error"
+                  },
+                  {
+                     "id":107,
+                     "headline":"Static method",
+                     "shortName":"log",
+                     "longName":"+log(message)",
+                     "decleration":"static log(message: any)",
+                     "copyDecleration":"log(message)",
+                     "summary":"Logs a message to the console.",
+                     "description":"The message will have a default appearance. Refer to <code>console.error(message)</code> to log errors.\n\nYou can also use the global function <code>log(message)</code> which is a shorthand for <code>console.log</code>.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"message",
+                                 "subtitle":"any",
+                                 "copyDecleration":"message",
+                                 "description":"Message to log to the console."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/console/#log"
+                  },
+                  {
+                     "id":110,
+                     "headline":"Static method",
+                     "shortName":"logError",
+                     "longName":"+logError(message)",
+                     "decleration":"static logError(message: any)",
+                     "copyDecleration":"logError(message)",
+                     "summary":"Logs an error message to the console.",
+                     "description":"The message will have a distinctive appearance. Refer to <code>console.log(message)</code> to log informative message and <code>console.warn(message)</code> to log warnings.\n\nYou can also use the global function <code>logError(message)</code> which is a shorthand for <code>console.error</code>.",
+                     "deprecation":{
+                        "version":"1.3",
+                        "message":"Use console.error(message) instead."
+                     },
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"message",
+                                 "subtitle":"any",
+                                 "copyDecleration":"message",
+                                 "description":"Message to log to the console."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/console/#logerror"
+                  },
+                  {
+                     "id":108,
+                     "headline":"Static method",
+                     "shortName":"warn",
+                     "longName":"+warn(message)",
+                     "decleration":"static warn(message: any)",
+                     "copyDecleration":"warn(message)",
+                     "summary":"Logs a warning message to the console.",
+                     "description":"The message will have a distinctive appearance. Refer to <code>console.log(message)</code> to log informative messages and <code>console.error(message)</code> to log errors.\n\nYou can also use the global function <code>logWarning(message)</code> which is a shorthand for <code>console.warn</code>.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"message",
+                                 "subtitle":"any",
+                                 "copyDecleration":"message",
+                                 "description":"Message to log to the console."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/console/#warn"
+                  }
+               ]
+            }
+         ],
+         "summary":"Adds messages to the log.",
+         "description":"The console can be used to log information when running your script. The log may be useful when debugging your script, e.g. to examine values of variables.",
+         "url":"https://docs.scriptable.app/console",
+         "pageId":1
+      }
+   ]
+}

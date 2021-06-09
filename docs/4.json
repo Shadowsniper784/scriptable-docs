@@ -1,0 +1,2658 @@
+{
+   "pageId":4,
+   "details":[
+      {
+         "id":271,
+         "headline":"Type",
+         "shortName":"FileManager",
+         "longName":"FileManager",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":292,
+                     "headline":"Instance method",
+                     "shortName":"addTag",
+                     "longName":"-addTag(filePath, tag)",
+                     "decleration":"addTag(filePath: string, tag: string)",
+                     "copyDecleration":"addTag(filePath, tag)",
+                     "summary":"Adds a tag to a file.",
+                     "description":"A tag can only be added to a file once. It is not possible to specify a color for the tag. You can create the tags using the Files app to specify the color and then add them to files afterwards using the FileManager API.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to add the tag to."
+                              },
+                              {
+                                 "title":"tag",
+                                 "subtitle":"string",
+                                 "copyDecleration":"tag",
+                                 "description":"Tag to add. This can be an existing tag or a new tag."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-addtag"
+                  },
+                  {
+                     "id":297,
+                     "headline":"Instance method",
+                     "shortName":"allExtendedAttributes",
+                     "longName":"-allExtendedAttributes(filePath)",
+                     "decleration":"allExtendedAttributes(filePath: string): [string]",
+                     "copyDecleration":"allExtendedAttributes(filePath)",
+                     "summary":"Reads all extended attributes on a file.",
+                     "description":"Extended attributes are metadata that can be stored on a file. Note that extended attributes are not synced with iCloud.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to read extended attributes from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[string]",
+                                 "description":"An array of all extended attributes."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-allextendedattributes"
+                  },
+                  {
+                     "id":310,
+                     "headline":"Instance method",
+                     "shortName":"allFileBookmarks",
+                     "longName":"-allFileBookmarks()",
+                     "decleration":"allFileBookmarks(): [{string: string}]",
+                     "copyDecleration":"allFileBookmarks()",
+                     "summary":"Reads all file bookmarks created in settings.",
+                     "description":"File bookmarks are used to bookmark a file or a folder and read or write to it later. File bookmarks are created from Scriptables settings.\n\nThis function returns all file bookmarks as an array of objects that take the following form.\n\n<code>{\n  \"name\": \"My Bookmark\",\n  \"source\": \"host\"\n}</code>\n\nThe source can either be <code>host</code> for file bookmarks that can be used in the app or <code>siri_shortcuts</code> for file bookmarks that can be used in Siri and Shortcuts.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[{string: string}]"
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-allfilebookmarks"
+                  },
+                  {
+                     "id":291,
+                     "headline":"Instance method",
+                     "shortName":"allTags",
+                     "longName":"-allTags(filePath)",
+                     "decleration":"allTags(filePath: string): [string]",
+                     "copyDecleration":"allTags(filePath)",
+                     "summary":"Reads all tags from a file.",
+                     "description":"The tags are read from the file at the specified path. Tags can either be read, added and removed using the Files app by using the APIs provided by a FileManager.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to read tags from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[string]",
+                                 "description":"Read tags."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-alltags"
+                  },
+                  {
+                     "id":302,
+                     "headline":"Instance method",
+                     "shortName":"bookmarkedPath",
+                     "longName":"-bookmarkedPath(name)",
+                     "decleration":"bookmarkedPath(name: string): string",
+                     "copyDecleration":"bookmarkedPath(name)",
+                     "summary":"Get path to a bookmarked file or folder.",
+                     "description":"Gets the path to a bookmarked file or filder. Use file bookmarks to access files and folders outside Scriptables documents directory.\n\nYou can edit your file bookmarks from Scriptables settings.\n\nThe function will throw an error if the bookmark doesn't exist.\n\nPlease beware that bookmarks created from Scriptables settings only can be used when running a script in the app and not from the Share Sheet, Siri and Shortcuts. If you wish to use a bookmark from Siri or the Shortcuts app, the bookmark must be created using Scriptables \"Create File Bookmark\" shortcut action using the Shortcuts app.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of bookmark to create path for."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path to the bookmarked file or folder."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-bookmarkedpath"
+                  },
+                  {
+                     "id":303,
+                     "headline":"Instance method",
+                     "shortName":"bookmarkExists",
+                     "longName":"-bookmarkExists(name)",
+                     "decleration":"bookmarkExists(name: string): bool",
+                     "copyDecleration":"bookmarkExists(name)",
+                     "summary":"Check if a bookmark exists.",
+                     "description":"Checks if a file bookmark exists with the specified name.\n\nYou can edit your file bookmarks from Scriptables settings.\n\nPlease beware that bookmarks created from Scriptables settings only can be used when running a script in the app and not from the Share Sheet, Siri and Shortcuts. If you wish to use a bookmark from Siri or the Shortcuts app, the bookmark must be created using Scriptables \"Create File Bookmark\" shortcut action using the Shortcuts app.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of bookmark."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True of a bookmark exists for the specified name, otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-bookmarkexists"
+                  },
+                  {
+                     "id":287,
+                     "headline":"Instance method",
+                     "shortName":"cacheDirectory",
+                     "longName":"-cacheDirectory()",
+                     "decleration":"cacheDirectory(): string",
+                     "copyDecleration":"cacheDirectory()",
+                     "summary":"Path of cache directory.",
+                     "description":"Used to retrieve the path of a cache directory on disk. \nThe operating system may at any time delete files stored in this directory\nand therefore you should not rely on it for long time storage.\n\nData persisted in the cache directory will generally live longer than data persisted in a temporary directory.\n\nIf you need long time storage, see documentsDirectory() or libraryDirectory(). This directory is not shared between the app, the action extension and Siri.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path to temporary directory."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-cachedirectory"
+                  },
+                  {
+                     "id":282,
+                     "headline":"Instance method",
+                     "shortName":"copy",
+                     "longName":"-copy(sourceFilePath, destinationFilePath)",
+                     "decleration":"copy(sourceFilePath: string, destinationFilePath: string)",
+                     "copyDecleration":"copy(sourceFilePath, destinationFilePath)",
+                     "summary":"Copies a file.",
+                     "description":"Copies the file from the source path to the destination path.\nIf a file already exists at the destination file path, the operation will fail and the file will not be copied.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"sourceFilePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"sourceFilePath",
+                                 "description":"Path of the file to copy."
+                              },
+                              {
+                                 "title":"destinationFilePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"destinationFilePath",
+                                 "description":"Path to copy the file to."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-copy"
+                  },
+                  {
+                     "id":285,
+                     "headline":"Instance method",
+                     "shortName":"createDirectory",
+                     "longName":"-createDirectory(path, intermediateDirectories)",
+                     "decleration":"createDirectory(path: string, intermediateDirectories: bool)",
+                     "copyDecleration":"createDirectory(path, intermediateDirectories)",
+                     "summary":"Creates a directory at the specified path.",
+                     "description":"You can optionally create all intermediate directories.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"path",
+                                 "subtitle":"string",
+                                 "copyDecleration":"path",
+                                 "description":"Path of directory to create."
+                              },
+                              {
+                                 "title":"intermediateDirectories",
+                                 "subtitle":"bool",
+                                 "copyDecleration":"intermediateDirectories",
+                                 "description":"Whether to create all intermediate directories. Defaults to false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-createdirectory"
+                  },
+                  {
+                     "id":307,
+                     "headline":"Instance method",
+                     "shortName":"creationDate",
+                     "longName":"-creationDate(filePath)",
+                     "decleration":"creationDate(filePath: string): Date",
+                     "copyDecleration":"creationDate(filePath)",
+                     "summary":"Reads the creation date of a file.",
+                     "description":"The returned value will be null if the creation date cannot be read.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Date",
+                                 "description":"The date the file was created."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-creationdate"
+                  },
+                  {
+                     "id":288,
+                     "headline":"Instance method",
+                     "shortName":"documentsDirectory",
+                     "longName":"-documentsDirectory()",
+                     "decleration":"documentsDirectory(): string",
+                     "copyDecleration":"documentsDirectory()",
+                     "summary":"Path of documents directory.",
+                     "description":"Used to retrieve the path to the documents directory. Your scripts are stored in this directory. If you have iCloud enabled, your scripts will be stored in the documents directory in iCloud otherwise they will be stored in the local documents directory. The directory can be used for long time storage. Documents stored in this directory can be accessed using the Files app. Files stored in the local documents directory will not appear in the Files app.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path to documents directory."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-documentsdirectory"
+                  },
+                  {
+                     "id":304,
+                     "headline":"Instance method",
+                     "shortName":"downloadFileFromiCloud",
+                     "longName":"-downloadFileFromiCloud(filePath)",
+                     "decleration":"downloadFileFromiCloud(filePath: string): Promise",
+                     "copyDecleration":"downloadFileFromiCloud(filePath)",
+                     "summary":"Download file from iCloud if necessary.",
+                     "description":"Downloads the file from iCloud if it have not already been downloaded. If you pass in a path to a file that is not stored in iCloud, the returned promise will be resolved immediately making it safe to pass in any file path.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to download from iCloud."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise",
+                                 "description":"Promise that is fulfilled when the file have been downloaded."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-downloadfilefromicloud"
+                  },
+                  {
+                     "id":283,
+                     "headline":"Instance method",
+                     "shortName":"fileExists",
+                     "longName":"-fileExists(filePath)",
+                     "decleration":"fileExists(filePath: string): bool",
+                     "copyDecleration":"fileExists(filePath)",
+                     "summary":"Checks if the file exists.",
+                     "description":"Checks if the file exists at the specified file path. Checking this before moving or copying to a destination can be a good idea as those operations will replace any existing file at the destination file path.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"File path to examine."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the file exists otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-fileexists"
+                  },
+                  {
+                     "id":301,
+                     "headline":"Instance method",
+                     "shortName":"fileExtension",
+                     "longName":"-fileExtension(filePath)",
+                     "decleration":"fileExtension(filePath: string): string",
+                     "copyDecleration":"fileExtension(filePath)",
+                     "summary":"Get extension of a file.",
+                     "description":"Takes a file path and returns the extension of the file, e.g. \".jpg\" or \".js\". Returns en empty string for directories.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to get extension from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Extension of the file."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-fileextension"
+                  },
+                  {
+                     "id":300,
+                     "headline":"Instance method",
+                     "shortName":"fileName",
+                     "longName":"-fileName(filePath, includeFileExtension)",
+                     "decleration":"fileName(filePath: string, includeFileExtension: bool): string",
+                     "copyDecleration":"fileName(filePath, includeFileExtension)",
+                     "summary":"Get name of a file.",
+                     "description":"Takes a file path and returns the name of the file. Also supports getting the name of a directory.\nThe returned file name optionally includes the extension of the file.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"path of file to get name of."
+                              },
+                              {
+                                 "title":"includeFileExtension",
+                                 "subtitle":"bool",
+                                 "copyDecleration":"includeFileExtension",
+                                 "description":"Whether or not the file extension should be included. Defaults to false."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Name of the file."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-filename"
+                  },
+                  {
+                     "id":309,
+                     "headline":"Instance method",
+                     "shortName":"fileSize",
+                     "longName":"-fileSize(filePath)",
+                     "decleration":"fileSize(filePath: string): number",
+                     "copyDecleration":"fileSize(filePath)",
+                     "summary":"Size of the file in kilobytes.",
+                     "description":"The returned value will be null if the file size cannot be read.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"number",
+                                 "description":"The file size measured in kilobytes."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-filesize"
+                  },
+                  {
+                     "id":298,
+                     "headline":"Instance method",
+                     "shortName":"getUTI",
+                     "longName":"-getUTI(filePath)",
+                     "decleration":"getUTI(filePath: string): string",
+                     "copyDecleration":"getUTI(filePath)",
+                     "summary":"Gets the UTI of the specified file.",
+                     "description":"The Uniform Type Identifier is a string that identifies the type of file.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to get UTI of."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"The UTI of the file."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-getuti"
+                  },
+                  {
+                     "id":273,
+                     "headline":"Static method",
+                     "shortName":"iCloud",
+                     "longName":"+iCloud()",
+                     "decleration":"static iCloud(): FileManager",
+                     "copyDecleration":"iCloud()",
+                     "summary":"Creates an iCloud FileManager.",
+                     "description":"Creates a file manager for operating with files stored in iCloud. iCloud must be enabled on the device in order to use this.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"FileManager",
+                                 "description":"iCloud FileManager."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#icloud"
+                  },
+                  {
+                     "id":284,
+                     "headline":"Instance method",
+                     "shortName":"isDirectory",
+                     "longName":"-isDirectory(path)",
+                     "decleration":"isDirectory(path: string): bool",
+                     "copyDecleration":"isDirectory(path)",
+                     "summary":"Checks if a path points to a directory.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"path",
+                                 "subtitle":"string",
+                                 "copyDecleration":"path",
+                                 "description":"Path to examine."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the path points to a directory otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-isdirectory"
+                  },
+                  {
+                     "id":306,
+                     "headline":"Instance method",
+                     "shortName":"isFileDownloaded",
+                     "longName":"-isFileDownloaded(filePath)",
+                     "decleration":"isFileDownloaded(filePath: string): bool",
+                     "copyDecleration":"isFileDownloaded(filePath)",
+                     "summary":"Checks if a file have been downloaded.",
+                     "description":"If a file is stored in iCloud and it has not been downloaded, this function returns false. In that case, the file can be downloaded using <code>downloadFileFromiCloud(filePath</code>. If the file is not stored in iCloud but rather locally on the device, this function returns true.\n\nThe function returns false if the file does not exist. Check if a file exists using <code>fileExists(filePath)</code>",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the file have been downloaded otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-isfiledownloaded"
+                  },
+                  {
+                     "id":305,
+                     "headline":"Instance method",
+                     "shortName":"isFileStoredIniCloud",
+                     "longName":"-isFileStoredIniCloud(filePath)",
+                     "decleration":"isFileStoredIniCloud(filePath: string): bool",
+                     "copyDecleration":"isFileStoredIniCloud(filePath)",
+                     "summary":"Checks if a file is stored in iCloud.",
+                     "description":"Checks if a file is stored in iCloud or locally on the device. \nThe function returns false if the file does not exist. Check if a file exists using <code>fileExists(filePath)</code>",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the file is stored in iCloud otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-isfilestoredinicloud"
+                  },
+                  {
+                     "id":290,
+                     "headline":"Instance method",
+                     "shortName":"joinPath",
+                     "longName":"-joinPath(lhsPath, rhsPath)",
+                     "decleration":"joinPath(lhsPath: string, rhsPath: string): string",
+                     "copyDecleration":"joinPath(lhsPath, rhsPath)",
+                     "summary":"Joins two path components.",
+                     "description":"Joins two paths to created one path. For example to join the path to a directory with the name of a file. This is the suggested approach for creating new file paths passed to the read and write functions of a FileManager.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"lhsPath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"lhsPath",
+                                 "description":"Left-hand side part of the new path."
+                              },
+                              {
+                                 "title":"rhsPath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"rhsPath",
+                                 "description":"Right-hand side part of the new path."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path with the two path components joined."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-joinpath"
+                  },
+                  {
+                     "id":289,
+                     "headline":"Instance method",
+                     "shortName":"libraryDirectory",
+                     "longName":"-libraryDirectory()",
+                     "decleration":"libraryDirectory(): string",
+                     "copyDecleration":"libraryDirectory()",
+                     "summary":"Path of library directory.",
+                     "description":"Used to retrieve the path to the library directory. The directory can be used for long time storage. Documents stored in this directory cannot be accessed using the Files app.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path to library directory."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-librarydirectory"
+                  },
+                  {
+                     "id":299,
+                     "headline":"Instance method",
+                     "shortName":"listContents",
+                     "longName":"-listContents(directoryPath)",
+                     "decleration":"listContents(directoryPath: string): [string]",
+                     "copyDecleration":"listContents(directoryPath)",
+                     "summary":"Lists content of directory.",
+                     "description":"Lists all the contents in the specified directory. The returned array contains file paths to all files in the directory.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"directoryPath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"directoryPath",
+                                 "description":"Path to directory."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[string]",
+                                 "description":"File paths to all files in the directory."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-listcontents"
+                  },
+                  {
+                     "id":272,
+                     "headline":"Static method",
+                     "shortName":"local",
+                     "longName":"+local()",
+                     "decleration":"static local(): FileManager",
+                     "copyDecleration":"local()",
+                     "summary":"Creates a local FileManager.",
+                     "description":"Creates a file manager for operating with files stored locally.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"FileManager",
+                                 "description":"Local FileManager."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#local"
+                  },
+                  {
+                     "id":308,
+                     "headline":"Instance method",
+                     "shortName":"modificationDate",
+                     "longName":"-modificationDate(filePath)",
+                     "decleration":"modificationDate(filePath: string): Date",
+                     "copyDecleration":"modificationDate(filePath)",
+                     "summary":"Reads the modification date of a file.",
+                     "description":"The returned value will be null if the modification date cannot be read.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Date",
+                                 "description":"The date the file was last modified."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-modificationdate"
+                  },
+                  {
+                     "id":281,
+                     "headline":"Instance method",
+                     "shortName":"move",
+                     "longName":"-move(sourceFilePath, destinationFilePath)",
+                     "decleration":"move(sourceFilePath: string, destinationFilePath: string)",
+                     "copyDecleration":"move(sourceFilePath, destinationFilePath)",
+                     "summary":"Moves a file.",
+                     "description":"Moves the file from the source path to the destination path.\nCaution: This operation will replace any existing file at the the destination.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"sourceFilePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"sourceFilePath",
+                                 "description":"Path of the file to move."
+                              },
+                              {
+                                 "title":"destinationFilePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"destinationFilePath",
+                                 "description":"Path to move the file to."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-move"
+                  },
+                  {
+                     "id":274,
+                     "headline":"Instance method",
+                     "shortName":"read",
+                     "longName":"-read(filePath)",
+                     "decleration":"read(filePath: string): Data",
+                     "copyDecleration":"read(filePath)",
+                     "summary":"Read contents of a file as data.",
+                     "description":"Reads the contents of the file specified by the file path as raw data. To read the file as a string see <code>readString(filePath)</code> and to read it as an image see <code>readImage(filePath)</code>.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of the file to read."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Contents of the file as a data or null if the file could not be read."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-read"
+                  },
+                  {
+                     "id":294,
+                     "headline":"Instance method",
+                     "shortName":"readExtendedAttribute",
+                     "longName":"-readExtendedAttribute(filePath, name)",
+                     "decleration":"readExtendedAttribute(filePath: string, name: string): string",
+                     "copyDecleration":"readExtendedAttribute(filePath, name)",
+                     "summary":"Reads an extended attribute from a file.",
+                     "description":"Extended attributes are metadata that can be stored on a file. Note that extended attributes are not synced with iCloud.\n\nThe function will return <code>null</code> if the attribute does not exist.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to read extended attribute from."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of the extended attribute to read."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Value of the extended attribute."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-readextendedattribute"
+                  },
+                  {
+                     "id":276,
+                     "headline":"Instance method",
+                     "shortName":"readImage",
+                     "longName":"-readImage(filePath)",
+                     "decleration":"readImage(filePath: string): Image",
+                     "copyDecleration":"readImage(filePath)",
+                     "summary":"Read contents of a file as an image.",
+                     "description":"Reads the contents of the file specified by the file path and converts it to an image.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of the file to read."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Image",
+                                 "description":"Contents of the file as an image or null if the file could not be read."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-readimage"
+                  },
+                  {
+                     "id":275,
+                     "headline":"Instance method",
+                     "shortName":"readString",
+                     "longName":"-readString(filePath)",
+                     "decleration":"readString(filePath: string): string",
+                     "copyDecleration":"readString(filePath)",
+                     "summary":"Read contents of a file as string.",
+                     "description":"The function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of the file to read."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Contents of the file as a string or null if the file could not be read."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-readstring"
+                  },
+                  {
+                     "id":280,
+                     "headline":"Instance method",
+                     "shortName":"remove",
+                     "longName":"-remove(filePath)",
+                     "decleration":"remove(filePath: string)",
+                     "copyDecleration":"remove(filePath)",
+                     "summary":"Removes a file.",
+                     "description":"Removes the file at the specified path. Use with caution. Removed files cannot be restored.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to remove."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-remove"
+                  },
+                  {
+                     "id":296,
+                     "headline":"Instance method",
+                     "shortName":"removeExtendedAttribute",
+                     "longName":"-removeExtendedAttribute(filePath, name)",
+                     "decleration":"removeExtendedAttribute(filePath: string, name: string)",
+                     "copyDecleration":"removeExtendedAttribute(filePath, name)",
+                     "summary":"Removes an extended attribute from a file.",
+                     "description":"Extended attributes are metadata that can be stored on a file. Note that extended attributes are not synced with iCloud.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to add an extended attribute to."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of the extended attribute to remove."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-removeextendedattribute"
+                  },
+                  {
+                     "id":293,
+                     "headline":"Instance method",
+                     "shortName":"removeTag",
+                     "longName":"-removeTag(filePath, tag)",
+                     "decleration":"removeTag(filePath: string, tag: string)",
+                     "copyDecleration":"removeTag(filePath, tag)",
+                     "summary":"Removes a tag from a file.",
+                     "description":"The function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to remove the tag from."
+                              },
+                              {
+                                 "title":"tag",
+                                 "subtitle":"string",
+                                 "copyDecleration":"tag",
+                                 "description":"Tag to remove."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-removetag"
+                  },
+                  {
+                     "id":286,
+                     "headline":"Instance method",
+                     "shortName":"temporaryDirectory",
+                     "longName":"-temporaryDirectory()",
+                     "decleration":"temporaryDirectory(): string",
+                     "copyDecleration":"temporaryDirectory()",
+                     "summary":"Path of temporary directory.",
+                     "description":"Used to retrieve the path of a temporary directory on disk. \nData persisted in a temporary directory will generally live shorter than data persisted in the cache directory.\n\nThe operating system may at any time delete files stored in this directory\nand therefore you should not rely on it for long time storage.\nIf you need long time storage, see documentsDirectory() or libraryDirectory(). This directory is not shared between the app, the action extension and Siri.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Path to temporary directory."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-temporarydirectory"
+                  },
+                  {
+                     "id":277,
+                     "headline":"Instance method",
+                     "shortName":"write",
+                     "longName":"-write(filePath, content)",
+                     "decleration":"write(filePath: string, content: Data)",
+                     "copyDecleration":"write(filePath, content)",
+                     "summary":"Write data to a file.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to write to."
+                              },
+                              {
+                                 "title":"content",
+                                 "subtitle":"Data",
+                                 "copyDecleration":"content",
+                                 "description":"Data to write to disk."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-write"
+                  },
+                  {
+                     "id":295,
+                     "headline":"Instance method",
+                     "shortName":"writeExtendedAttribute",
+                     "longName":"-writeExtendedAttribute(filePath, value, name)",
+                     "decleration":"writeExtendedAttribute(filePath: string, value: string, name: string)",
+                     "copyDecleration":"writeExtendedAttribute(filePath, value, name)",
+                     "summary":"Writes an extended attribute to a file.",
+                     "description":"Extended attributes are metadata that can be stored on a file. Note that extended attributes are not synced with iCloud.\n\nThe function will error if the file does not exist or if it exists in iCloud but has not been download. Use <code>fileExists(filePath)</code> to check if a file exists and <code>downloadFileFromiCloud(filePath)</code> to download the file. Note that it is always safe to call <code>downloadFileFromiCloud(filePath)</code>, even if the file is stored locally on the device.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to add an extended attribute to."
+                              },
+                              {
+                                 "title":"value",
+                                 "subtitle":"string",
+                                 "copyDecleration":"value",
+                                 "description":"Value of the extended attribute."
+                              },
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of the extended attribute. This is used to retrieve the value at a later point."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-writeextendedattribute"
+                  },
+                  {
+                     "id":279,
+                     "headline":"Instance method",
+                     "shortName":"writeImage",
+                     "longName":"-writeImage(filePath, image)",
+                     "decleration":"writeImage(filePath: string, image: Image)",
+                     "copyDecleration":"writeImage(filePath, image)",
+                     "summary":"Write an image to a file.",
+                     "description":"Writes the image to the specified file path on disk. If the file does not already exist, it will be created. If the file already exists the contents of the file will be overwritten with the new content.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to write to."
+                              },
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"Image to write to disk."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-writeimage"
+                  },
+                  {
+                     "id":278,
+                     "headline":"Instance method",
+                     "shortName":"writeString",
+                     "longName":"-writeString(filePath, content)",
+                     "decleration":"writeString(filePath: string, content: string)",
+                     "copyDecleration":"writeString(filePath, content)",
+                     "summary":"Write a string to a file.",
+                     "description":"Writes the content to the specified file path on disk. If the file does not already exist, it will be created. If the file already exists the contents of the file will be overwritten with the new content.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to write to."
+                              },
+                              {
+                                 "title":"content",
+                                 "subtitle":"string",
+                                 "copyDecleration":"content",
+                                 "description":"Content to write to disk."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/filemanager/#-writestring"
+                  }
+               ]
+            }
+         ],
+         "summary":"Read and write files on disk.",
+         "description":"A FileManager lets you read files stored on the disk and make changes to them. Paths to files are supplied as strings.",
+         "url":"https://docs.scriptable.app/filemanager",
+         "pageId":4
+      },
+      {
+         "id":311,
+         "headline":"Type",
+         "shortName":"Font",
+         "longName":"Font",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":312,
+                     "headline":"Instance method",
+                     "shortName":"new Font",
+                     "longName":"new Font(name, size)",
+                     "decleration":"new Font(name: string, size: number)",
+                     "copyDecleration":"new Font(name, size)",
+                     "summary":"Constructs a new font.",
+                     "description":"Refer to <a href=\"http://iosfonts.com\">iosfonts.com</a> for a list of the fonts that are available in iOS and iPadOS.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"name",
+                                 "subtitle":"string",
+                                 "copyDecleration":"name",
+                                 "description":"Name of the font."
+                              },
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#-new-font"
+                  },
+                  {
+                     "id":343,
+                     "headline":"Static method",
+                     "shortName":"blackMonospacedSystemFont",
+                     "longName":"+blackMonospacedSystemFont(size)",
+                     "decleration":"static blackMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"blackMonospacedSystemFont(size)",
+                     "summary":"Creates a monospaced system font with the black weight.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#blackmonospacedsystemfont"
+                  },
+                  {
+                     "id":352,
+                     "headline":"Static method",
+                     "shortName":"blackRoundedSystemFont",
+                     "longName":"+blackRoundedSystemFont(size)",
+                     "decleration":"static blackRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"blackRoundedSystemFont(size)",
+                     "summary":"Creates a rounded system font with the black weight.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#blackroundedsystemfont"
+                  },
+                  {
+                     "id":333,
+                     "headline":"Static method",
+                     "shortName":"blackSystemFont",
+                     "longName":"+blackSystemFont(size)",
+                     "decleration":"static blackSystemFont(size: number): Font",
+                     "copyDecleration":"blackSystemFont(size)",
+                     "summary":"Creates a font with the system appearance with the black weight.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#blacksystemfont"
+                  },
+                  {
+                     "id":319,
+                     "headline":"Static method",
+                     "shortName":"body",
+                     "longName":"+body()",
+                     "decleration":"static body(): Font",
+                     "copyDecleration":"body()",
+                     "summary":"Preferred font for body texts.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#body"
+                  },
+                  {
+                     "id":341,
+                     "headline":"Static method",
+                     "shortName":"boldMonospacedSystemFont",
+                     "longName":"+boldMonospacedSystemFont(size)",
+                     "decleration":"static boldMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"boldMonospacedSystemFont(size)",
+                     "summary":"Creates a bold monospaced system font..",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#boldmonospacedsystemfont"
+                  },
+                  {
+                     "id":350,
+                     "headline":"Static method",
+                     "shortName":"boldRoundedSystemFont",
+                     "longName":"+boldRoundedSystemFont(size)",
+                     "decleration":"static boldRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"boldRoundedSystemFont(size)",
+                     "summary":"Creates a bold and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#boldroundedsystemfont"
+                  },
+                  {
+                     "id":331,
+                     "headline":"Static method",
+                     "shortName":"boldSystemFont",
+                     "longName":"+boldSystemFont(size)",
+                     "decleration":"static boldSystemFont(size: number): Font",
+                     "copyDecleration":"boldSystemFont(size)",
+                     "summary":"Creates a bold system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#boldsystemfont"
+                  },
+                  {
+                     "id":320,
+                     "headline":"Static method",
+                     "shortName":"callout",
+                     "longName":"+callout()",
+                     "decleration":"static callout(): Font",
+                     "copyDecleration":"callout()",
+                     "summary":"Preferred font for callouts.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#callout"
+                  },
+                  {
+                     "id":322,
+                     "headline":"Static method",
+                     "shortName":"caption1",
+                     "longName":"+caption1()",
+                     "decleration":"static caption1(): Font",
+                     "copyDecleration":"caption1()",
+                     "summary":"Preferred font for standard captions.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#caption1"
+                  },
+                  {
+                     "id":323,
+                     "headline":"Static method",
+                     "shortName":"caption2",
+                     "longName":"+caption2()",
+                     "decleration":"static caption2(): Font",
+                     "copyDecleration":"caption2()",
+                     "summary":"Preferred font for alternate captions.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#caption2"
+                  },
+                  {
+                     "id":321,
+                     "headline":"Static method",
+                     "shortName":"footnote",
+                     "longName":"+footnote()",
+                     "decleration":"static footnote(): Font",
+                     "copyDecleration":"footnote()",
+                     "summary":"Preferred font for footnotes.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#footnote"
+                  },
+                  {
+                     "id":317,
+                     "headline":"Static method",
+                     "shortName":"headline",
+                     "longName":"+headline()",
+                     "decleration":"static headline(): Font",
+                     "copyDecleration":"headline()",
+                     "summary":"Preferred font for headings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#headline"
+                  },
+                  {
+                     "id":342,
+                     "headline":"Static method",
+                     "shortName":"heavyMonospacedSystemFont",
+                     "longName":"+heavyMonospacedSystemFont(size)",
+                     "decleration":"static heavyMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"heavyMonospacedSystemFont(size)",
+                     "summary":"Creates a heavy monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#heavymonospacedsystemfont"
+                  },
+                  {
+                     "id":351,
+                     "headline":"Static method",
+                     "shortName":"heavyRoundedSystemFont",
+                     "longName":"+heavyRoundedSystemFont(size)",
+                     "decleration":"static heavyRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"heavyRoundedSystemFont(size)",
+                     "summary":"Creates a heavy and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#heavyroundedsystemfont"
+                  },
+                  {
+                     "id":332,
+                     "headline":"Static method",
+                     "shortName":"heavySystemFont",
+                     "longName":"+heavySystemFont(size)",
+                     "decleration":"static heavySystemFont(size: number): Font",
+                     "copyDecleration":"heavySystemFont(size)",
+                     "summary":"Creates a heavy system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#heavysystemfont"
+                  },
+                  {
+                     "id":334,
+                     "headline":"Static method",
+                     "shortName":"italicSystemFont",
+                     "longName":"+italicSystemFont(size)",
+                     "decleration":"static italicSystemFont(size: number): Font",
+                     "copyDecleration":"italicSystemFont(size)",
+                     "summary":"Creates an italic system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#italicsystemfont"
+                  },
+                  {
+                     "id":313,
+                     "headline":"Static method",
+                     "shortName":"largeTitle",
+                     "longName":"+largeTitle()",
+                     "decleration":"static largeTitle(): Font",
+                     "copyDecleration":"largeTitle()",
+                     "summary":"Preferred font for large titles.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#largetitle"
+                  },
+                  {
+                     "id":337,
+                     "headline":"Static method",
+                     "shortName":"lightMonospacedSystemFont",
+                     "longName":"+lightMonospacedSystemFont(size)",
+                     "decleration":"static lightMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"lightMonospacedSystemFont(size)",
+                     "summary":"Creates a light monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#lightmonospacedsystemfont"
+                  },
+                  {
+                     "id":346,
+                     "headline":"Static method",
+                     "shortName":"lightRoundedSystemFont",
+                     "longName":"+lightRoundedSystemFont(size)",
+                     "decleration":"static lightRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"lightRoundedSystemFont(size)",
+                     "summary":"Creates a light and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#lightroundedsystemfont"
+                  },
+                  {
+                     "id":327,
+                     "headline":"Static method",
+                     "shortName":"lightSystemFont",
+                     "longName":"+lightSystemFont(size)",
+                     "decleration":"static lightSystemFont(size: number): Font",
+                     "copyDecleration":"lightSystemFont(size)",
+                     "summary":"Creates a light system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#lightsystemfont"
+                  },
+                  {
+                     "id":339,
+                     "headline":"Static method",
+                     "shortName":"mediumMonospacedSystemFont",
+                     "longName":"+mediumMonospacedSystemFont(size)",
+                     "decleration":"static mediumMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"mediumMonospacedSystemFont(size)",
+                     "summary":"Creates a medium monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#mediummonospacedsystemfont"
+                  },
+                  {
+                     "id":348,
+                     "headline":"Static method",
+                     "shortName":"mediumRoundedSystemFont",
+                     "longName":"+mediumRoundedSystemFont(size)",
+                     "decleration":"static mediumRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"mediumRoundedSystemFont(size)",
+                     "summary":"Creates a medium and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#mediumroundedsystemfont"
+                  },
+                  {
+                     "id":329,
+                     "headline":"Static method",
+                     "shortName":"mediumSystemFont",
+                     "longName":"+mediumSystemFont(size)",
+                     "decleration":"static mediumSystemFont(size: number): Font",
+                     "copyDecleration":"mediumSystemFont(size)",
+                     "summary":"Creates a medium system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#mediumsystemfont"
+                  },
+                  {
+                     "id":338,
+                     "headline":"Static method",
+                     "shortName":"regularMonospacedSystemFont",
+                     "longName":"+regularMonospacedSystemFont(size)",
+                     "decleration":"static regularMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"regularMonospacedSystemFont(size)",
+                     "summary":"Creates a regular monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#regularmonospacedsystemfont"
+                  },
+                  {
+                     "id":347,
+                     "headline":"Static method",
+                     "shortName":"regularRoundedSystemFont",
+                     "longName":"+regularRoundedSystemFont(size)",
+                     "decleration":"static regularRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"regularRoundedSystemFont(size)",
+                     "summary":"Creates a regular and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#regularroundedsystemfont"
+                  },
+                  {
+                     "id":328,
+                     "headline":"Static method",
+                     "shortName":"regularSystemFont",
+                     "longName":"+regularSystemFont(size)",
+                     "decleration":"static regularSystemFont(size: number): Font",
+                     "copyDecleration":"regularSystemFont(size)",
+                     "summary":"Creates a regular system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#regularsystemfont"
+                  },
+                  {
+                     "id":340,
+                     "headline":"Static method",
+                     "shortName":"semiboldMonospacedSystemFont",
+                     "longName":"+semiboldMonospacedSystemFont(size)",
+                     "decleration":"static semiboldMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"semiboldMonospacedSystemFont(size)",
+                     "summary":"Creates a semibold monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#semiboldmonospacedsystemfont"
+                  },
+                  {
+                     "id":349,
+                     "headline":"Static method",
+                     "shortName":"semiboldRoundedSystemFont",
+                     "longName":"+semiboldRoundedSystemFont(size)",
+                     "decleration":"static semiboldRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"semiboldRoundedSystemFont(size)",
+                     "summary":"Creates a semibold and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#semiboldroundedsystemfont"
+                  },
+                  {
+                     "id":330,
+                     "headline":"Static method",
+                     "shortName":"semiboldSystemFont",
+                     "longName":"+semiboldSystemFont(size)",
+                     "decleration":"static semiboldSystemFont(size: number): Font",
+                     "copyDecleration":"semiboldSystemFont(size)",
+                     "summary":"Creates a semibold system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#semiboldsystemfont"
+                  },
+                  {
+                     "id":318,
+                     "headline":"Static method",
+                     "shortName":"subheadline",
+                     "longName":"+subheadline()",
+                     "decleration":"static subheadline(): Font",
+                     "copyDecleration":"subheadline()",
+                     "summary":"Preferred font for subheadings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#subheadline"
+                  },
+                  {
+                     "id":324,
+                     "headline":"Static method",
+                     "shortName":"systemFont",
+                     "longName":"+systemFont(size)",
+                     "decleration":"static systemFont(size: number): Font",
+                     "copyDecleration":"systemFont(size)",
+                     "summary":"Creates a system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#systemfont"
+                  },
+                  {
+                     "id":336,
+                     "headline":"Static method",
+                     "shortName":"thinMonospacedSystemFont",
+                     "longName":"+thinMonospacedSystemFont(size)",
+                     "decleration":"static thinMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"thinMonospacedSystemFont(size)",
+                     "summary":"Creates a thin monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#thinmonospacedsystemfont"
+                  },
+                  {
+                     "id":345,
+                     "headline":"Static method",
+                     "shortName":"thinRoundedSystemFont",
+                     "longName":"+thinRoundedSystemFont(size)",
+                     "decleration":"static thinRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"thinRoundedSystemFont(size)",
+                     "summary":"Creates a thin and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#thinroundedsystemfont"
+                  },
+                  {
+                     "id":326,
+                     "headline":"Static method",
+                     "shortName":"thinSystemFont",
+                     "longName":"+thinSystemFont(size)",
+                     "decleration":"static thinSystemFont(size: number): Font",
+                     "copyDecleration":"thinSystemFont(size)",
+                     "summary":"Creates a thin system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#thinsystemfont"
+                  },
+                  {
+                     "id":314,
+                     "headline":"Static method",
+                     "shortName":"title1",
+                     "longName":"+title1()",
+                     "decleration":"static title1(): Font",
+                     "copyDecleration":"title1()",
+                     "summary":"Preferred font for first level hierarchical headings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#title1"
+                  },
+                  {
+                     "id":315,
+                     "headline":"Static method",
+                     "shortName":"title2",
+                     "longName":"+title2()",
+                     "decleration":"static title2(): Font",
+                     "copyDecleration":"title2()",
+                     "summary":"Preferred font for second level hierarchical headings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#title2"
+                  },
+                  {
+                     "id":316,
+                     "headline":"Static method",
+                     "shortName":"title3",
+                     "longName":"+title3()",
+                     "decleration":"static title3(): Font",
+                     "copyDecleration":"title3()",
+                     "summary":"Preferred font for third level hierarchical headings.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Preferred font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#title3"
+                  },
+                  {
+                     "id":335,
+                     "headline":"Static method",
+                     "shortName":"ultraLightMonospacedSystemFont",
+                     "longName":"+ultraLightMonospacedSystemFont(size)",
+                     "decleration":"static ultraLightMonospacedSystemFont(size: number): Font",
+                     "copyDecleration":"ultraLightMonospacedSystemFont(size)",
+                     "summary":"Creates an ultra light monospaced system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#ultralightmonospacedsystemfont"
+                  },
+                  {
+                     "id":344,
+                     "headline":"Static method",
+                     "shortName":"ultraLightRoundedSystemFont",
+                     "longName":"+ultraLightRoundedSystemFont(size)",
+                     "decleration":"static ultraLightRoundedSystemFont(size: number): Font",
+                     "copyDecleration":"ultraLightRoundedSystemFont(size)",
+                     "summary":"Creates an ultra light and rounded system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#ultralightroundedsystemfont"
+                  },
+                  {
+                     "id":325,
+                     "headline":"Static method",
+                     "shortName":"ultraLightSystemFont",
+                     "longName":"+ultraLightSystemFont(size)",
+                     "decleration":"static ultraLightSystemFont(size: number): Font",
+                     "copyDecleration":"ultraLightSystemFont(size)",
+                     "summary":"Creates an ultra light system font.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"size",
+                                 "subtitle":"number",
+                                 "copyDecleration":"size",
+                                 "description":"Size of the text."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Font",
+                                 "description":"Font."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/font/#ultralightsystemfont"
+                  }
+               ]
+            }
+         ],
+         "summary":"Represents a font and text size.",
+         "description":"The font can be used to style texts, for example in widgets.",
+         "url":"https://docs.scriptable.app/font",
+         "pageId":4
+      },
+      {
+         "id":353,
+         "headline":"Type",
+         "shortName":"Image",
+         "longName":"Image",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":354,
+                     "headline":"Instance property",
+                     "shortName":"size",
+                     "longName":"size",
+                     "subtitle":"Size",
+                     "decleration":"size: Size",
+                     "copyDecleration":"size",
+                     "summary":"Size of the image in pixels.",
+                     "url":"https://docs.scriptable.app/image/#size",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":356,
+                     "headline":"Static method",
+                     "shortName":"fromData",
+                     "longName":"+fromData(data)",
+                     "decleration":"static fromData(data: Data): Image",
+                     "copyDecleration":"fromData(data)",
+                     "summary":"Creates an image from raw data.",
+                     "description":"Loads an image from the raw data. If the image could not be read, the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"data",
+                                 "subtitle":"Data",
+                                 "copyDecleration":"data",
+                                 "description":"Data to read image from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Image",
+                                 "description":"The read image or null if the image could not be read."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/image/#fromdata"
+                  },
+                  {
+                     "id":355,
+                     "headline":"Static method",
+                     "shortName":"fromFile",
+                     "longName":"+fromFile(filePath)",
+                     "decleration":"static fromFile(filePath: string): Image",
+                     "copyDecleration":"fromFile(filePath)",
+                     "summary":"Creates an image from file.",
+                     "description":"Loads an image from the specified file path. If the image could not be read, the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"File path to read image from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Image",
+                                 "description":"The read image or null if the image could not be read."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/image/#fromfile"
+                  }
+               ]
+            }
+         ],
+         "summary":"Manages image data.",
+         "description":"Images objects contains image data. APIs in Scriptable that work with images, either by taking an image as input or returning an image, will use this the Image type.",
+         "url":"https://docs.scriptable.app/image",
+         "pageId":4
+      },
+      {
+         "id":357,
+         "headline":"Type",
+         "shortName":"Keychain",
+         "longName":"Keychain",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":358,
+                     "headline":"Static method",
+                     "shortName":"contains",
+                     "longName":"+contains(key)",
+                     "decleration":"static contains(key: string): bool",
+                     "copyDecleration":"contains(key)",
+                     "summary":"Check if keychain contains a key.",
+                     "description":"Checks if the keychain contains the specified key.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"key",
+                                 "subtitle":"string",
+                                 "copyDecleration":"key",
+                                 "description":"Key to look up in the keychain."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"bool",
+                                 "description":"True if the key exists in the keychain, otherwise false."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/keychain/#contains"
+                  },
+                  {
+                     "id":360,
+                     "headline":"Static method",
+                     "shortName":"get",
+                     "longName":"+get(key)",
+                     "decleration":"static get(key: string): string",
+                     "copyDecleration":"get(key)",
+                     "summary":"Reads a value from the keychain.",
+                     "description":"Reads the value for the specified key. If the key doesn't exist the method will throw an error. Used the <code>contains</code> method to check if a key exists in the keychain.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"key",
+                                 "subtitle":"string",
+                                 "copyDecleration":"key",
+                                 "description":"Key to read value for."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Value assigned to the specified key."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/keychain/#get"
+                  },
+                  {
+                     "id":361,
+                     "headline":"Static method",
+                     "shortName":"remove",
+                     "longName":"+remove(key)",
+                     "decleration":"static remove(key: string)",
+                     "copyDecleration":"remove(key)",
+                     "summary":"Remove key from keychain.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"key",
+                                 "subtitle":"string",
+                                 "copyDecleration":"key",
+                                 "description":"Key to remove from the keychain."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/keychain/#remove"
+                  },
+                  {
+                     "id":359,
+                     "headline":"Static method",
+                     "shortName":"set",
+                     "longName":"+set(key, value)",
+                     "decleration":"static set(key: string, value: string)",
+                     "copyDecleration":"set(key, value)",
+                     "summary":"Add value for a specified key to keychain.",
+                     "description":"Adds the value to the keychain, assigning it to the specified key. If the key already exists in the keychain, the value is overwritten.\n\nValues are securely stored in an encrypted database.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"key",
+                                 "subtitle":"string",
+                                 "copyDecleration":"key",
+                                 "description":"Key which the value should be assigned to."
+                              },
+                              {
+                                 "title":"value",
+                                 "subtitle":"string",
+                                 "copyDecleration":"value",
+                                 "description":"Value to assign to the specified key."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/keychain/#set"
+                  }
+               ]
+            }
+         ],
+         "summary":"Secure storage for credentials.",
+         "description":"The keychain is a secure storage for credentials, keys etc. Use the <code>set()</code> method to add values to the keychain. You can then later use the <code>get()</code> method to retrieve the value.",
+         "url":"https://docs.scriptable.app/keychain",
+         "pageId":4
+      }
+   ]
+}

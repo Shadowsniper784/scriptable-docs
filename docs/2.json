@@ -1,0 +1,1741 @@
+{
+   "pageId":2,
+   "details":[
+      {
+         "id":111,
+         "headline":"Type",
+         "shortName":"Contact",
+         "longName":"Contact",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":118,
+                     "headline":"Instance property",
+                     "shortName":"birthday",
+                     "longName":"birthday",
+                     "subtitle":"Date",
+                     "decleration":"birthday: Date",
+                     "copyDecleration":"birthday",
+                     "summary":"Birthday.",
+                     "url":"https://docs.scriptable.app/contact/#birthday",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":126,
+                     "headline":"Instance property",
+                     "shortName":"dates",
+                     "longName":"dates",
+                     "subtitle":"[{string: any}]",
+                     "decleration":"dates: [{string: any}]",
+                     "copyDecleration":"dates",
+                     "summary":"Dates.",
+                     "description":"When updating this property, you must set the entire array of dates that you would like to store on the contact. The \"identifier\" key is optional.",
+                     "url":"https://docs.scriptable.app/contact/#dates",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":128,
+                     "headline":"Instance property",
+                     "shortName":"departmentName",
+                     "longName":"departmentName",
+                     "subtitle":"string",
+                     "decleration":"departmentName: string",
+                     "copyDecleration":"departmentName",
+                     "summary":"Name of the department associated with the contact.",
+                     "url":"https://docs.scriptable.app/contact/#departmentname",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":120,
+                     "headline":"Instance property",
+                     "shortName":"emailAddresses",
+                     "longName":"emailAddresses",
+                     "subtitle":"[{string: string}]",
+                     "decleration":"emailAddresses: [{string: string}]",
+                     "copyDecleration":"emailAddresses",
+                     "summary":"Email addresses.",
+                     "description":"An array of objects on the following form:\n\n<code>{\n  \"identifier\": \"UUID-ABC-123\",\n  \"label\": \"Home\",\n  \"localizedLabel\": \"Home\",\n  \"value\": \"my@example.com\"\n}</code>\n\nThe identifier uniquely identifies the email address on this device. The label is a description of the email address and the value holds the email address itself.\n\nWhen updating this property, you must set the entire array of email addresses that you would like to store on the contact. Each value in the array must have the \"value\" key. The other keys are optional.",
+                     "url":"https://docs.scriptable.app/contact/#emailaddresses",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":116,
+                     "headline":"Instance property",
+                     "shortName":"familyName",
+                     "longName":"familyName",
+                     "subtitle":"string",
+                     "decleration":"familyName: string",
+                     "copyDecleration":"familyName",
+                     "summary":"Family name.",
+                     "url":"https://docs.scriptable.app/contact/#familyname",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":114,
+                     "headline":"Instance property",
+                     "shortName":"givenName",
+                     "longName":"givenName",
+                     "subtitle":"string",
+                     "decleration":"givenName: string",
+                     "copyDecleration":"givenName",
+                     "summary":"Given name.",
+                     "url":"https://docs.scriptable.app/contact/#givenname",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":112,
+                     "headline":"Instance property",
+                     "shortName":"identifier",
+                     "longName":"identifier",
+                     "subtitle":"string",
+                     "decleration":"identifier: string",
+                     "copyDecleration":"identifier",
+                     "summary":"Uniquely identifies the contact on the device.",
+                     "url":"https://docs.scriptable.app/contact/#identifier",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":119,
+                     "headline":"Instance property",
+                     "shortName":"image",
+                     "longName":"image",
+                     "subtitle":"Image",
+                     "decleration":"image: Image",
+                     "copyDecleration":"image",
+                     "summary":"Profile picture.",
+                     "url":"https://docs.scriptable.app/contact/#image",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":135,
+                     "headline":"Instance property",
+                     "shortName":"isBirthdayAvailable",
+                     "longName":"isBirthdayAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isBirthdayAvailable: bool",
+                     "copyDecleration":"isBirthdayAvailable",
+                     "summary":"Whether or not birthday is available.",
+                     "description":"The <code>birthday</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isbirthdayavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":146,
+                     "headline":"Instance property",
+                     "shortName":"isDatesAvailable",
+                     "longName":"isDatesAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isDatesAvailable: bool",
+                     "copyDecleration":"isDatesAvailable",
+                     "summary":"Whether or not dates are available.",
+                     "description":"The <code>date</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isdatesavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":144,
+                     "headline":"Instance property",
+                     "shortName":"isDepartmentNameAvailable",
+                     "longName":"isDepartmentNameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isDepartmentNameAvailable: bool",
+                     "copyDecleration":"isDepartmentNameAvailable",
+                     "summary":"Whether or not department name is available.",
+                     "description":"The <code>departmentName</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isdepartmentnameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":136,
+                     "headline":"Instance property",
+                     "shortName":"isEmailAddressesAvailable",
+                     "longName":"isEmailAddressesAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isEmailAddressesAvailable: bool",
+                     "copyDecleration":"isEmailAddressesAvailable",
+                     "summary":"Whether or not email addresses are available.",
+                     "description":"The <code>emailAddresses</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isemailaddressesavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":133,
+                     "headline":"Instance property",
+                     "shortName":"isFamilyNameAvailable",
+                     "longName":"isFamilyNameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isFamilyNameAvailable: bool",
+                     "copyDecleration":"isFamilyNameAvailable",
+                     "summary":"Whether or not family name is available.",
+                     "description":"The <code>familyName</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isfamilynameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":131,
+                     "headline":"Instance property",
+                     "shortName":"isGiveNameAvailable",
+                     "longName":"isGiveNameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isGiveNameAvailable: bool",
+                     "copyDecleration":"isGiveNameAvailable",
+                     "summary":"Whether or not given name is available.",
+                     "description":"The <code>givenName</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isgivenameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":140,
+                     "headline":"Instance property",
+                     "shortName":"isImageAvailable",
+                     "longName":"isImageAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isImageAvailable: bool",
+                     "copyDecleration":"isImageAvailable",
+                     "summary":"Whether or not image is available.",
+                     "description":"The <code>image</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isimageavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":145,
+                     "headline":"Instance property",
+                     "shortName":"isJobTitleAvailable",
+                     "longName":"isJobTitleAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isJobTitleAvailable: bool",
+                     "copyDecleration":"isJobTitleAvailable",
+                     "summary":"Whether or not job title is available.",
+                     "description":"The <code>jobTitle</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isjobtitleavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":132,
+                     "headline":"Instance property",
+                     "shortName":"isMiddleNameAvailable",
+                     "longName":"isMiddleNameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isMiddleNameAvailable: bool",
+                     "copyDecleration":"isMiddleNameAvailable",
+                     "summary":"Whether or not middle name is available.",
+                     "description":"The <code>middleName</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#ismiddlenameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":130,
+                     "headline":"Instance property",
+                     "shortName":"isNamePrefixAvailable",
+                     "longName":"isNamePrefixAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isNamePrefixAvailable: bool",
+                     "copyDecleration":"isNamePrefixAvailable",
+                     "summary":"Whether or not name prefix is available.",
+                     "description":"The <code>namePrefix</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isnameprefixavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":134,
+                     "headline":"Instance property",
+                     "shortName":"isNicknameAvailable",
+                     "longName":"isNicknameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isNicknameAvailable: bool",
+                     "copyDecleration":"isNicknameAvailable",
+                     "summary":"Whether or not nickname is available.",
+                     "description":"The <code>nickname</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isnicknameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":141,
+                     "headline":"Instance property",
+                     "shortName":"isNoteAvailable",
+                     "longName":"isNoteAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isNoteAvailable: bool",
+                     "copyDecleration":"isNoteAvailable",
+                     "summary":"Whether or not note is available.",
+                     "description":"The <code>note</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isnoteavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":143,
+                     "headline":"Instance property",
+                     "shortName":"isOrganizationNameAvailable",
+                     "longName":"isOrganizationNameAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isOrganizationNameAvailable: bool",
+                     "copyDecleration":"isOrganizationNameAvailable",
+                     "summary":"Whether or not organization name is available.",
+                     "description":"The <code>organizationName</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isorganizationnameavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":137,
+                     "headline":"Instance property",
+                     "shortName":"isPhoneNumbersAvailable",
+                     "longName":"isPhoneNumbersAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isPhoneNumbersAvailable: bool",
+                     "copyDecleration":"isPhoneNumbersAvailable",
+                     "summary":"Whether or not phone numbers are available.",
+                     "description":"The <code>phoneNumbers</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isphonenumbersavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":138,
+                     "headline":"Instance property",
+                     "shortName":"isPostalAddressesAvailable",
+                     "longName":"isPostalAddressesAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isPostalAddressesAvailable: bool",
+                     "copyDecleration":"isPostalAddressesAvailable",
+                     "summary":"Whether or not postal addresses are available.",
+                     "description":"The <code>postalAddresses</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#ispostaladdressesavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":139,
+                     "headline":"Instance property",
+                     "shortName":"isSocialProfilesAvailable",
+                     "longName":"isSocialProfilesAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isSocialProfilesAvailable: bool",
+                     "copyDecleration":"isSocialProfilesAvailable",
+                     "summary":"Whether or not social profiles are available.",
+                     "description":"The <code>socialProfiles</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#issocialprofilesavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":142,
+                     "headline":"Instance property",
+                     "shortName":"isURLAddressesAvailable",
+                     "longName":"isURLAddressesAvailable",
+                     "subtitle":"bool",
+                     "decleration":"isURLAddressesAvailable: bool",
+                     "copyDecleration":"isURLAddressesAvailable",
+                     "summary":"Whether or not URL addresses are available.",
+                     "description":"The <code>urlAddresses</code> property may not be available if the container does not support it. In that case any value set on the property will be ignored.",
+                     "url":"https://docs.scriptable.app/contact/#isurladdressesavailable",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":129,
+                     "headline":"Instance property",
+                     "shortName":"jobTitle",
+                     "longName":"jobTitle",
+                     "subtitle":"string",
+                     "decleration":"jobTitle: string",
+                     "copyDecleration":"jobTitle",
+                     "summary":"The contact's job title.",
+                     "url":"https://docs.scriptable.app/contact/#jobtitle",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":115,
+                     "headline":"Instance property",
+                     "shortName":"middleName",
+                     "longName":"middleName",
+                     "subtitle":"string",
+                     "decleration":"middleName: string",
+                     "copyDecleration":"middleName",
+                     "summary":"Middle name.",
+                     "url":"https://docs.scriptable.app/contact/#middlename",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":113,
+                     "headline":"Instance property",
+                     "shortName":"namePrefix",
+                     "longName":"namePrefix",
+                     "subtitle":"string",
+                     "decleration":"namePrefix: string",
+                     "copyDecleration":"namePrefix",
+                     "summary":"Name prefix.",
+                     "url":"https://docs.scriptable.app/contact/#nameprefix",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":117,
+                     "headline":"Instance property",
+                     "shortName":"nickname",
+                     "longName":"nickname",
+                     "subtitle":"string",
+                     "decleration":"nickname: string",
+                     "copyDecleration":"nickname",
+                     "summary":"Nickname.",
+                     "url":"https://docs.scriptable.app/contact/#nickname",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":124,
+                     "headline":"Instance property",
+                     "shortName":"note",
+                     "longName":"note",
+                     "subtitle":"string",
+                     "decleration":"note: string",
+                     "copyDecleration":"note",
+                     "summary":"Note for the contact.",
+                     "description":"For security reasons, a contact's notes cannot be accessed in Siri, the Shortcuts app and in a notification.",
+                     "url":"https://docs.scriptable.app/contact/#note",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":127,
+                     "headline":"Instance property",
+                     "shortName":"organizationName",
+                     "longName":"organizationName",
+                     "subtitle":"string",
+                     "decleration":"organizationName: string",
+                     "copyDecleration":"organizationName",
+                     "summary":"Name of the organization associated with the contact.",
+                     "url":"https://docs.scriptable.app/contact/#organizationname",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":121,
+                     "headline":"Instance property",
+                     "shortName":"phoneNumbers",
+                     "longName":"phoneNumbers",
+                     "subtitle":"[{string: string}]",
+                     "decleration":"phoneNumbers: [{string: string}]",
+                     "copyDecleration":"phoneNumbers",
+                     "summary":"Phone numbers.",
+                     "description":"An array of objects on the following form:\n\n<code>{\n  \"identifier\": \"UUID-ABC-123\",\n  \"label\": \"Home\",\n  \"localizedLabel\": \"Home\",\n  \"value\": \"(111)234-5678\"\n}</code>\n\nThe identifier uniquely identifies the phone number on this device. The label is a description of the phone number and the value holds the phone number itself.\n\nWhen updating this property, you must set the entire array of phone numbers that you would like to store on the contact. Each value in the array must have the \"value\" key. The other keys are optional.",
+                     "url":"https://docs.scriptable.app/contact/#phonenumbers",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":122,
+                     "headline":"Instance property",
+                     "shortName":"postalAddresses",
+                     "longName":"postalAddresses",
+                     "subtitle":"[{string: string}]",
+                     "decleration":"postalAddresses: [{string: string}]",
+                     "copyDecleration":"postalAddresses",
+                     "summary":"Postal addresses.",
+                     "description":"An array of objects on the following form:\n\n<code>{\n  \"identifier\": \"UUID-ABC-123\",\n  \"label\": \"Home\",\n  \"localizedLabel\": \"Home\",\n  \"street\": \"240  Terry Lane\",\n  \"city\": \"New York\",\n  \"state\": \"New York\",\n  \"postalCode\": \"10001\",\n  \"country\": \"United States of America\"\n}</code>\n\nThe identifier uniquely identifies the pstal address on this device. The label is a description of the phone number and the value holds the phone number itself.\n\nWhen updating this property, you must set the entire array of postal addresses that you would like to store on the contact. The \"identifier\" key is optional.",
+                     "url":"https://docs.scriptable.app/contact/#postaladdresses",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":123,
+                     "headline":"Instance property",
+                     "shortName":"socialProfiles",
+                     "longName":"socialProfiles",
+                     "subtitle":"[{string: string}]",
+                     "decleration":"socialProfiles: [{string: string}]",
+                     "copyDecleration":"socialProfiles",
+                     "summary":"Social profiles.",
+                     "description":"An array of objects on the following form:\n\n<code>{\n  \"identifier\": \"UUID-ABC-123\",\n  \"label\": \"Twitter\",\n  \"localizedLabel\": \"Twitter\",\n  \"service\": \"Twitter\",\n  \"url\": \"https://twitter.com/scriptableapp\",\n  \"userIdentifier\": null,\n  \"username\": \"scriptableapp\"\n}</code>\n\nThe identifier uniquely identifies the social profile on this device. The label is a description of the social profile, the service is the social profile's service name, the URL contains a link to the social profile, the userIdentifier is the identifier of the social profile and the username is the name for the social profile.\n\nWhen updating this property, you must set the entire array of social profiles that you would like to store on the contact. The \"identifier\" key is optional.",
+                     "url":"https://docs.scriptable.app/contact/#socialprofiles",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":125,
+                     "headline":"Instance property",
+                     "shortName":"urlAddresses",
+                     "longName":"urlAddresses",
+                     "subtitle":"[{string: string}]",
+                     "decleration":"urlAddresses: [{string: string}]",
+                     "copyDecleration":"urlAddresses",
+                     "summary":"URL addresses.",
+                     "description":"When updating this property, you must set the entire array of URL addresses that you would like to store on the contact. The \"identifier\" key is optional.",
+                     "url":"https://docs.scriptable.app/contact/#urladdresses",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":147,
+                     "headline":"Instance method",
+                     "shortName":"new Contact",
+                     "longName":"new Contact()",
+                     "decleration":"new Contact()",
+                     "copyDecleration":"new Contact()",
+                     "summary":"Constructs a contact.",
+                     "description":"In order to add the contact to your address book, you must queue it for insertion using <code>Contact.add()</code>. When you're done making changes to the address book you should call <code>Contact.persistChanges()</code> to persist the changes.",
+                     "url":"https://docs.scriptable.app/contact/#-new-contact"
+                  },
+                  {
+                     "id":150,
+                     "headline":"Static method",
+                     "shortName":"add",
+                     "longName":"+add(contact, containerIdentifier)",
+                     "decleration":"static add(contact: Contact, containerIdentifier: string)",
+                     "copyDecleration":"add(contact, containerIdentifier)",
+                     "summary":"Queues a contact to be added.",
+                     "description":"After you have created a contact, you must queue the contact to be added to the address book and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"contact",
+                                 "subtitle":"Contact",
+                                 "copyDecleration":"contact",
+                                 "description":"Contact to queue to be added."
+                              },
+                              {
+                                 "title":"containerIdentifier",
+                                 "subtitle":"string",
+                                 "copyDecleration":"containerIdentifier",
+                                 "description":"Optional. Identifier of container to add the contact to. If null is specified, the contact will be added to the default container."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#add"
+                  },
+                  {
+                     "id":148,
+                     "headline":"Static method",
+                     "shortName":"all",
+                     "longName":"+all(containers)",
+                     "decleration":"static all(containers: [ContactsContainer]): Promise<[Contact]>",
+                     "copyDecleration":"all(containers)",
+                     "summary":"Fetches contacts.",
+                     "description":"Fetches the contacts in the specified containers. A contact can be in only one container.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"containers",
+                                 "subtitle":"[ContactsContainer]",
+                                 "copyDecleration":"containers",
+                                 "description":"Containers to fetch contacts from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[Contact]>",
+                                 "description":"Promise that provides the contacts when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#all"
+                  },
+                  {
+                     "id":152,
+                     "headline":"Static method",
+                     "shortName":"delete",
+                     "longName":"+delete(contact)",
+                     "decleration":"static delete(contact: Contact)",
+                     "copyDecleration":"delete(contact)",
+                     "summary":"Queues a contact to be deleted.",
+                     "description":"To delete a contact, you must queue the contact for deletion and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"contact",
+                                 "subtitle":"Contact",
+                                 "copyDecleration":"contact",
+                                 "description":"Contact to queue to be deleted."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#delete"
+                  },
+                  {
+                     "id":149,
+                     "headline":"Static method",
+                     "shortName":"inGroups",
+                     "longName":"+inGroups(groups)",
+                     "decleration":"static inGroups(groups: [ContactsGroup]): Promise<[Contact]>",
+                     "copyDecleration":"inGroups(groups)",
+                     "summary":"Fetches contacts in groups.",
+                     "description":"Fetches the contacts in the specified contacts groups. A contact may belong to many groups.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"groups",
+                                 "subtitle":"[ContactsGroup]",
+                                 "copyDecleration":"groups",
+                                 "description":"Groups to fetch contacts from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[Contact]>",
+                                 "description":"Promise that provides the contacts when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#ingroups"
+                  },
+                  {
+                     "id":153,
+                     "headline":"Static method",
+                     "shortName":"persistChanges",
+                     "longName":"+persistChanges()",
+                     "decleration":"static persistChanges(): Promise",
+                     "copyDecleration":"persistChanges()",
+                     "summary":"Persist queued changes to the address book.",
+                     "description":"Call this function to persist changes queued with <code>Contact.add()</code>, <code>Contact.update()</code> and <code>Contact.delete()</code>.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise",
+                                 "description":"Promise that fulfills when the changes have been persisted. The promise carries no value."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#persistchanges"
+                  },
+                  {
+                     "id":151,
+                     "headline":"Static method",
+                     "shortName":"update",
+                     "longName":"+update(contact)",
+                     "decleration":"static update(contact: Contact)",
+                     "copyDecleration":"update(contact)",
+                     "summary":"Queues an update to a contact.",
+                     "description":"After you have updated one or more properties on a contact, you must queue the contact to be updated and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"contact",
+                                 "subtitle":"Contact",
+                                 "copyDecleration":"contact",
+                                 "description":"Contact to queue to be updated."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contact/#update"
+                  }
+               ]
+            }
+         ],
+         "summary":"Contact in the address book.",
+         "description":"The type represents a contact in the address book. You can use the type to fetch and update contacts in the address book.\nIf you are signed into multiple accounts on the device, you may have multiple sources that populate the address book. A source is is represented as a <code>ContactsContainer</code>. A contact may be in only one container. A CardDAV account usually has a single container whereas an Exchange account may have multiple containers.",
+         "url":"https://docs.scriptable.app/contact",
+         "pageId":2
+      },
+      {
+         "id":154,
+         "headline":"Type",
+         "shortName":"ContactsContainer",
+         "longName":"ContactsContainer",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":155,
+                     "headline":"Instance property",
+                     "shortName":"identifier",
+                     "longName":"identifier",
+                     "subtitle":"string",
+                     "decleration":"identifier: string",
+                     "copyDecleration":"identifier",
+                     "summary":"Identifier of the contacts container.",
+                     "url":"https://docs.scriptable.app/contactscontainer/#identifier",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":156,
+                     "headline":"Instance property",
+                     "shortName":"name",
+                     "longName":"name",
+                     "subtitle":"string",
+                     "decleration":"name: string",
+                     "copyDecleration":"name",
+                     "summary":"Name of the contacts container.",
+                     "url":"https://docs.scriptable.app/contactscontainer/#name",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":158,
+                     "headline":"Static method",
+                     "shortName":"all",
+                     "longName":"+all()",
+                     "decleration":"static all(): Promise<[ContactsContainer]>",
+                     "copyDecleration":"all()",
+                     "summary":"Fetches all contacts containers.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[ContactsContainer]>",
+                                 "description":"Promise that provides all contacts containers when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactscontainer/#all"
+                  },
+                  {
+                     "id":157,
+                     "headline":"Static method",
+                     "shortName":"default",
+                     "longName":"+default()",
+                     "decleration":"static default(): Promise<ContactsContainer>",
+                     "copyDecleration":"default()",
+                     "summary":"Fetches default contacts container.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<ContactsContainer>",
+                                 "description":"Promise that provides the default contacts container when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactscontainer/#default"
+                  },
+                  {
+                     "id":159,
+                     "headline":"Static method",
+                     "shortName":"withIdentifier",
+                     "longName":"+withIdentifier(identifier)",
+                     "decleration":"static withIdentifier(identifier: string): Promise<ContactsContainer>",
+                     "copyDecleration":"withIdentifier(identifier)",
+                     "summary":"Fetches a contacts container.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"identifier",
+                                 "subtitle":"string",
+                                 "copyDecleration":"identifier",
+                                 "description":"Identifier of the contacts container to fetch."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<ContactsContainer>",
+                                 "description":"Promise that provides the contacts container when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactscontainer/#withidentifier"
+                  }
+               ]
+            }
+         ],
+         "summary":"Collection of contacts.",
+         "description":"If you're signed into multiple accounts on your device, you may have multiple contact containers. A contact can be in only one container. CardDAV accounts usually have a single container whereas Exchange accounts may have multiple containers. A container may have multiple groups. While a single contact can only belong to one container, a contact may belong to many groups.",
+         "url":"https://docs.scriptable.app/contactscontainer",
+         "pageId":2
+      },
+      {
+         "id":160,
+         "headline":"Type",
+         "shortName":"ContactsGroup",
+         "longName":"ContactsGroup",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":161,
+                     "headline":"Instance property",
+                     "shortName":"identifier",
+                     "longName":"identifier",
+                     "subtitle":"string",
+                     "decleration":"identifier: string",
+                     "copyDecleration":"identifier",
+                     "summary":"Identifier of the contacts group.",
+                     "url":"https://docs.scriptable.app/contactsgroup/#identifier",
+                     "characteristics":[
+                        "readOnly"
+                     ]
+                  },
+                  {
+                     "id":162,
+                     "headline":"Instance property",
+                     "shortName":"name",
+                     "longName":"name",
+                     "subtitle":"string",
+                     "decleration":"name: string",
+                     "copyDecleration":"name",
+                     "summary":"Name of the contacts group.",
+                     "url":"https://docs.scriptable.app/contactsgroup/#name",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":163,
+                     "headline":"Instance method",
+                     "shortName":"new ContactsGroup",
+                     "longName":"new ContactsGroup()",
+                     "decleration":"new ContactsGroup()",
+                     "copyDecleration":"new ContactsGroup()",
+                     "summary":"Constructs a contacts group.",
+                     "description":"In order to add the group to your address book, you must queue it for insertion using <code>ContactsGroup.add()</code>. When you're done making changes to the address book you should call <code>Contact.persistChanges()</code> to persist the changes.",
+                     "url":"https://docs.scriptable.app/contactsgroup/#-new-contactsgroup"
+                  },
+                  {
+                     "id":167,
+                     "headline":"Static method",
+                     "shortName":"add",
+                     "longName":"+add(group, containerIdentifier)",
+                     "decleration":"static add(group: ContactsGroup, containerIdentifier: string)",
+                     "copyDecleration":"add(group, containerIdentifier)",
+                     "summary":"Queues a contacts group to be added.",
+                     "description":"After you have created a group, you must queue the group to be added to the address book and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"group",
+                                 "subtitle":"ContactsGroup",
+                                 "copyDecleration":"group",
+                                 "description":"Contacts group to queue to be added."
+                              },
+                              {
+                                 "title":"containerIdentifier",
+                                 "subtitle":"string",
+                                 "copyDecleration":"containerIdentifier",
+                                 "description":"Optional. Identifier of container to add the contacts group to. If null is specified, the group will be added to the default container."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#add"
+                  },
+                  {
+                     "id":165,
+                     "headline":"Instance method",
+                     "shortName":"addMember",
+                     "longName":"-addMember(contact)",
+                     "decleration":"addMember(contact: Contact)",
+                     "copyDecleration":"addMember(contact)",
+                     "summary":"Adds a contact to the group.",
+                     "description":"In order to persist the change, you should call <code>Contact.persistChanges()</code>. It is important that the contact is added to the address book. To add the contact to the address book, you should queue it for insertion using <code>Contact.add()</code> before persisting the changes.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"contact",
+                                 "subtitle":"Contact",
+                                 "copyDecleration":"contact",
+                                 "description":"Contact to add to the group."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#-addmember"
+                  },
+                  {
+                     "id":164,
+                     "headline":"Static method",
+                     "shortName":"all",
+                     "longName":"+all(containers)",
+                     "decleration":"static all(containers: [ContactsContainer]): Promise<[ContactsGroup]>",
+                     "copyDecleration":"all(containers)",
+                     "summary":"Fetches contacts groups.",
+                     "description":"Fetches the contacts groups in the specified containers. A group can be in only one container.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"containers",
+                                 "subtitle":"[ContactsContainer]",
+                                 "copyDecleration":"containers",
+                                 "description":"Container to fetch contacts groups from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<[ContactsGroup]>",
+                                 "description":"Promise that provides the contacts groups when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#all"
+                  },
+                  {
+                     "id":169,
+                     "headline":"Static method",
+                     "shortName":"delete",
+                     "longName":"+delete(group)",
+                     "decleration":"static delete(group: ContactsGroup)",
+                     "copyDecleration":"delete(group)",
+                     "summary":"Queues a contacts group to be deleted.",
+                     "description":"To delete a contacts group, you must queue the group for deletion and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"group",
+                                 "subtitle":"ContactsGroup",
+                                 "copyDecleration":"group",
+                                 "description":"Contacts group to queue to be deleted."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#delete"
+                  },
+                  {
+                     "id":166,
+                     "headline":"Instance method",
+                     "shortName":"removeMember",
+                     "longName":"-removeMember(contact)",
+                     "decleration":"removeMember(contact: Contact)",
+                     "copyDecleration":"removeMember(contact)",
+                     "summary":"Removes a contact from the group.",
+                     "description":"In order to persist the change, you should call <code>Contact.persistChanges()</code>.\nIt is important that the contact is added to the address book. To add the contact to the address book, you should queue it for insertion using <code>Contact.add()</code> before persisting the changes.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"contact",
+                                 "subtitle":"Contact",
+                                 "copyDecleration":"contact",
+                                 "description":"Contact to add to the group."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#-removemember"
+                  },
+                  {
+                     "id":168,
+                     "headline":"Static method",
+                     "shortName":"update",
+                     "longName":"+update(group)",
+                     "decleration":"static update(group: ContactsGroup)",
+                     "copyDecleration":"update(group)",
+                     "summary":"Queues an update to a contacts group.",
+                     "description":"After you have updated one or more properties on a contacts group, you must queue the group to be updated and invoke <code>Contact.persistChanges()</code> to persist the changes to the address book.\n\nFor performance reasons, it is best to batch changes to the address book. Therefore you should queue all updates, insertions and removals of contacts and contacts groups to as large batches as possible and then call <code>Contact.persistChanges()</code> when you want to persist the changes to the address book.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"group",
+                                 "subtitle":"ContactsGroup",
+                                 "copyDecleration":"group",
+                                 "description":"Contacts group to queue to be updated."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/contactsgroup/#update"
+                  }
+               ]
+            }
+         ],
+         "summary":"Group of contacts.",
+         "description":"A contacts container may have several groups of contacts. A contact can only belong to a single contacts container but may belong to zero or more contacts groups. For example, an iCloud account has only one container but may have many groups.",
+         "url":"https://docs.scriptable.app/contactsgroup",
+         "pageId":2
+      },
+      {
+         "id":170,
+         "headline":"Type",
+         "shortName":"Data",
+         "longName":"Data",
+         "detailsSections":[
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":173,
+                     "headline":"Static method",
+                     "shortName":"fromBase64String",
+                     "longName":"+fromBase64String(base64String)",
+                     "decleration":"static fromBase64String(base64String: string): Data",
+                     "copyDecleration":"fromBase64String(base64String)",
+                     "summary":"Creates data from base64 encoded string.",
+                     "description":"The supplied string must be base64 encoded otherwise the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"base64String",
+                                 "subtitle":"string",
+                                 "copyDecleration":"base64String",
+                                 "description":"Base64 encoded string to create data from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Data representation of string."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#frombase64string"
+                  },
+                  {
+                     "id":172,
+                     "headline":"Static method",
+                     "shortName":"fromFile",
+                     "longName":"+fromFile(filePath)",
+                     "decleration":"static fromFile(filePath: string): Data",
+                     "copyDecleration":"fromFile(filePath)",
+                     "summary":"Reads data from file path.",
+                     "description":"Reads the raw data of the file at the specified file path.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"filePath",
+                                 "subtitle":"string",
+                                 "copyDecleration":"filePath",
+                                 "description":"Path of file to read data from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Data representation of file."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#fromfile"
+                  },
+                  {
+                     "id":174,
+                     "headline":"Static method",
+                     "shortName":"fromJPEG",
+                     "longName":"+fromJPEG(image)",
+                     "decleration":"static fromJPEG(image: Image): Data",
+                     "copyDecleration":"fromJPEG(image)",
+                     "summary":"Creates data from JPEG image.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"JPEG image to convert to data."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Data representation of image."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#fromjpeg"
+                  },
+                  {
+                     "id":175,
+                     "headline":"Static method",
+                     "shortName":"fromPNG",
+                     "longName":"+fromPNG(image)",
+                     "decleration":"static fromPNG(image: Image): Data",
+                     "copyDecleration":"fromPNG(image)",
+                     "summary":"Creates data from PNG image.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"image",
+                                 "subtitle":"Image",
+                                 "copyDecleration":"image",
+                                 "description":"PNG image to convert to data."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Data representation of image."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#frompng"
+                  },
+                  {
+                     "id":171,
+                     "headline":"Static method",
+                     "shortName":"fromString",
+                     "longName":"+fromString(string)",
+                     "decleration":"static fromString(string: string): Data",
+                     "copyDecleration":"fromString(string)",
+                     "summary":"Creates data from string.",
+                     "description":"The provided string is assumed to be UTF8 encoded. If the string is not UTF8 encoded, the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"string",
+                                 "subtitle":"string",
+                                 "copyDecleration":"string",
+                                 "description":"String to create data from."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Data",
+                                 "description":"Data representation of string."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#fromstring"
+                  },
+                  {
+                     "id":178,
+                     "headline":"Instance method",
+                     "shortName":"getBytes",
+                     "longName":"-getBytes()",
+                     "decleration":"getBytes(): [number]",
+                     "copyDecleration":"getBytes()",
+                     "summary":"Gets bytes from data.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"[number]",
+                                 "description":"Array of bytes."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#-getbytes"
+                  },
+                  {
+                     "id":177,
+                     "headline":"Instance method",
+                     "shortName":"toBase64String",
+                     "longName":"-toBase64String()",
+                     "decleration":"toBase64String(): string",
+                     "copyDecleration":"toBase64String()",
+                     "summary":"Creates a base64 encoded string.",
+                     "description":"Creates a base64 encoded string from the data.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Base64 encoded string."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#-tobase64string"
+                  },
+                  {
+                     "id":176,
+                     "headline":"Instance method",
+                     "shortName":"toRawString",
+                     "longName":"-toRawString()",
+                     "decleration":"toRawString(): string",
+                     "copyDecleration":"toRawString()",
+                     "summary":"Creates a string from the data.",
+                     "description":"The data is assumed to represent a UTF8 encoded string. If the string is not UTF8 encoded string, the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"Data converted to string."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/data/#-torawstring"
+                  }
+               ]
+            }
+         ],
+         "summary":"Raw data representation.",
+         "description":"Raw data representation of strings, files and images.",
+         "url":"https://docs.scriptable.app/data",
+         "pageId":2
+      },
+      {
+         "id":179,
+         "headline":"Type",
+         "shortName":"DateFormatter",
+         "longName":"DateFormatter",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":180,
+                     "headline":"Instance property",
+                     "shortName":"dateFormat",
+                     "longName":"dateFormat",
+                     "subtitle":"string",
+                     "decleration":"dateFormat: string",
+                     "copyDecleration":"dateFormat",
+                     "summary":"Date format to be used by the formatter.",
+                     "description":"Sets a fixed format to be used by the formatter. For example the date \"2019-08-26 16:47\"\\n\ncan be represented using the format \"yyyy-MM-dd HH:mm\".\n\nWhen converting dates to strings, it's advised to use some of the predefined formats for dates and times that can be applied using functions on the formatter, e.g. <code>useMediumDateStyle()</code> and <code>useMediumTimeStyle()</code>.\n\nYear:\n\n- <code>y</code>: Year with no padding. Example: \"2019\"\n- <code>yy</code>: Year with two zeros. Adds padding if necessary. Example: \"19\"\n- <code>yyyy</code>: Year with a minimum of four digits. Adds padding if necessary. Example: \"2019\"\n\nQuarter:\n\n- <code>Q</code>: Quarter of the year. Example: \"4\"\n- <code>QQQQ</code>: Quarter spelled out. Example: \"4th quarter\"\n\nMonth:\n\n- <code>M</code>: Numeric month of the year. Example: \"1\"\n- <code>MM</code>: Numeric month of the year. Adds padding if necessary. Example: \"01\"\n- <code>MMM</code>: Shorthand name of the month. Example: \"Jan\"\n- <code>MMMM</code>: Full name of the month. Example: \"January\"\n- <code>MMMMM</code>: Narrow name of the month. Example: \"J\"\n\nDay:\n\n- <code>d</code>: Day of the month. Example: \"9\"\n- <code>dd</code>: Day of the month. Adds padding if necessary. Example: \"09\"\n- <code>F</code>: Day of the week. Example: \"3rd Friday in August\"\n- <code>E</code>: Day of the week. Example: \"Fri\"\n- <code>EEEE</code>: Full name of the day. Example: \"Friday\"\n- <code>EEEEE</code>: Narrow day of the week. Example: \"F\"\n\nHour:\n\n- <code>h</code>: Hour on a 12-hour clock. Example: \"9\"\n- <code>hh</code>: Hour on a 12-hour clock. Adds padding if necessary. Example: \"09\"\n- <code>H</code>: Hour on a 24-hour clock. Example: \"21\"\n- <code>HH</code>: Hour on a 24-hour clock. Adds padding if necessary. Example: \"21\"\n- <code>a</code>: AM/PM for times on a 12-hour clock. Example: \"PM\"\n\nMinute:\n\n- <code>m</code>: Minute. Example: \"7\"\n- <code>mm</code>: Minute. Adds padding if necessary. Example: \"07\"\n\nSecond:\n\n- <code>s</code>: Seconds. Example: \"4\"\n- <code>ss</code>: Seconds. Adds padding if necessary. Example: \"04\"\n- <code>SSS</code>: Milliseconds. Example: \"384\"\n\nTime zone:\n\n- <code>zzz</code>: Three letter name of the time zone. Falls back to GMT-08:00 if the name is unknown. Example: \"CST\"\n- <code>zzzz</code>: Full name of the time zone. Falls back to GMT-08:00 if the name is unknown. Example: \"Central Standard Time\"\n- <code>Z</code>: Time zone in RFC 822 GMT format. Also matches a literal Z for Zulu (UTC) time. Example: \"-0600\"\n- <code>ZZZZ</code>: Time zone with abbreviation and offset. Example: \"CST-06:00\"\n- <code>ZZZZZ</code>: Time zone in ISO 8601 format. Example: \"-06:00\"\n\nA great resource for experimenting with date formats is nsdateformatter.com developed by Ben Scheirman.",
+                     "url":"https://docs.scriptable.app/dateformatter/#dateformat",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":181,
+                     "headline":"Instance property",
+                     "shortName":"locale",
+                     "longName":"locale",
+                     "subtitle":"string",
+                     "decleration":"locale: string",
+                     "copyDecleration":"locale",
+                     "summary":"Locale to use when formatting.",
+                     "description":"The locale should be specified using a string identifier, e.g. \"en\", \"it\" or \"da\". When no locale is set, the formatter will use the current locale of the device.",
+                     "url":"https://docs.scriptable.app/dateformatter/#locale",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":182,
+                     "headline":"Instance method",
+                     "shortName":"new DateFormatter",
+                     "longName":"new DateFormatter()",
+                     "decleration":"new DateFormatter()",
+                     "copyDecleration":"new DateFormatter()",
+                     "summary":"Constructs a date formatter.",
+                     "description":"To convert between dates and their textual representation, use the <code>string()</code> and <code>date()</code> functions.",
+                     "url":"https://docs.scriptable.app/dateformatter/#-new-dateformatter"
+                  },
+                  {
+                     "id":184,
+                     "headline":"Instance method",
+                     "shortName":"date",
+                     "longName":"-date(str)",
+                     "decleration":"date(str: string): string",
+                     "copyDecleration":"date(str)",
+                     "summary":"Creates a date from a string.",
+                     "description":"Uses the date formatters configuration to parse the string into a date. If the string cannot be parsed with the date foramtters configuration, the function will return null.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"str",
+                                 "subtitle":"string",
+                                 "copyDecleration":"str",
+                                 "description":"The string to parse into a date."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"A date representation of the string or null if the string could not be parsed."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/dateformatter/#-date"
+                  },
+                  {
+                     "id":183,
+                     "headline":"Instance method",
+                     "shortName":"string",
+                     "longName":"-string(date)",
+                     "decleration":"string(date: Date): string",
+                     "copyDecleration":"string(date)",
+                     "summary":"Creates a string from a date.",
+                     "infoSections":[
+                        {
+                           "title":"Parameters",
+                           "infos":[
+                              {
+                                 "title":"date",
+                                 "subtitle":"Date",
+                                 "copyDecleration":"date",
+                                 "description":"The date to convert to a string."
+                              }
+                           ]
+                        },
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"string",
+                                 "description":"A textual representation of the date."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/dateformatter/#-string"
+                  },
+                  {
+                     "id":189,
+                     "headline":"Instance method",
+                     "shortName":"useFullDateStyle",
+                     "longName":"-useFullDateStyle()",
+                     "decleration":"useFullDateStyle()",
+                     "copyDecleration":"useFullDateStyle()",
+                     "summary":"Use a full style for the date.",
+                     "description":"Dates with a full style includes all details, e.g. \"Friday, August 23, 2019 AD\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usefulldatestyle"
+                  },
+                  {
+                     "id":194,
+                     "headline":"Instance method",
+                     "shortName":"useFullTimeStyle",
+                     "longName":"-useFullTimeStyle()",
+                     "decleration":"useFullTimeStyle()",
+                     "copyDecleration":"useFullTimeStyle()",
+                     "summary":"Use a full style for the time.",
+                     "description":"Times with a full style includes all details, e.g. \"7:16:42 PM Pacific Standard Time\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usefulltimestyle"
+                  },
+                  {
+                     "id":188,
+                     "headline":"Instance method",
+                     "shortName":"useLongDateStyle",
+                     "longName":"-useLongDateStyle()",
+                     "decleration":"useLongDateStyle()",
+                     "copyDecleration":"useLongDateStyle()",
+                     "summary":"Use a long style for the date.",
+                     "description":"Dates with a long style usually includes a full text, e.g. \"August 23, 2019\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-uselongdatestyle"
+                  },
+                  {
+                     "id":193,
+                     "headline":"Instance method",
+                     "shortName":"useLongTimeStyle",
+                     "longName":"-useLongTimeStyle()",
+                     "decleration":"useLongTimeStyle()",
+                     "copyDecleration":"useLongTimeStyle()",
+                     "summary":"Use a long style for the time.",
+                     "description":"Times with a long style usually includes a full text, e.g. \"7:16:42 PM PST\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-uselongtimestyle"
+                  },
+                  {
+                     "id":187,
+                     "headline":"Instance method",
+                     "shortName":"useMediumDateStyle",
+                     "longName":"-useMediumDateStyle()",
+                     "decleration":"useMediumDateStyle()",
+                     "copyDecleration":"useMediumDateStyle()",
+                     "summary":"Use a medium style for the date.",
+                     "description":"Dates with a medium style usually includes abbreviations, e.g. \"Aug 23, 2019\" or \"7:16:42 PM\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usemediumdatestyle"
+                  },
+                  {
+                     "id":192,
+                     "headline":"Instance method",
+                     "shortName":"useMediumTimeStyle",
+                     "longName":"-useMediumTimeStyle()",
+                     "decleration":"useMediumTimeStyle()",
+                     "copyDecleration":"useMediumTimeStyle()",
+                     "summary":"Use a short style for the time.",
+                     "description":"Times with a medium style usually includes abbreviations, e.g. \"7:16:42 PM\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usemediumtimestyle"
+                  },
+                  {
+                     "id":185,
+                     "headline":"Instance method",
+                     "shortName":"useNoDateStyle",
+                     "longName":"-useNoDateStyle()",
+                     "decleration":"useNoDateStyle()",
+                     "copyDecleration":"useNoDateStyle()",
+                     "summary":"Use no style for the date.",
+                     "description":"This will remove the date from the formatted string.",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usenodatestyle"
+                  },
+                  {
+                     "id":190,
+                     "headline":"Instance method",
+                     "shortName":"useNoTimeStyle",
+                     "longName":"-useNoTimeStyle()",
+                     "decleration":"useNoTimeStyle()",
+                     "copyDecleration":"useNoTimeStyle()",
+                     "summary":"Use no style for the time.",
+                     "description":"This will remove the time from the formatted string.",
+                     "url":"https://docs.scriptable.app/dateformatter/#-usenotimestyle"
+                  },
+                  {
+                     "id":186,
+                     "headline":"Instance method",
+                     "shortName":"useShortDateStyle",
+                     "longName":"-useShortDateStyle()",
+                     "decleration":"useShortDateStyle()",
+                     "copyDecleration":"useShortDateStyle()",
+                     "summary":"Use a short style for the date.",
+                     "description":"Dates with a short style are typically numeric only e.g. \"08/23/19\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-useshortdatestyle"
+                  },
+                  {
+                     "id":191,
+                     "headline":"Instance method",
+                     "shortName":"useShortTimeStyle",
+                     "longName":"-useShortTimeStyle()",
+                     "decleration":"useShortTimeStyle()",
+                     "copyDecleration":"useShortTimeStyle()",
+                     "summary":"Use a short style for the time.",
+                     "description":"Times with a short style are typically numeric only but also includes the period for 12-hour clocks, e.g. \"7:17 PM\".",
+                     "url":"https://docs.scriptable.app/dateformatter/#-useshorttimestyle"
+                  }
+               ]
+            }
+         ],
+         "summary":"Converts between dates and strings.",
+         "description":"The date formatter can convert between dates and their textual representations.",
+         "url":"https://docs.scriptable.app/dateformatter",
+         "pageId":2
+      },
+      {
+         "id":195,
+         "headline":"Type",
+         "shortName":"DatePicker",
+         "longName":"DatePicker",
+         "detailsSections":[
+            {
+               "title":"Properties",
+               "details":[
+                  {
+                     "id":198,
+                     "headline":"Instance property",
+                     "shortName":"countdownDuration",
+                     "longName":"countdownDuration",
+                     "subtitle":"number",
+                     "decleration":"countdownDuration: number",
+                     "copyDecleration":"countdownDuration",
+                     "summary":"Countdown duration displayed by the date picker.",
+                     "description":"Use this property to get and set the duration of a countdown when calling the <code>pickCountDownDuration()</code> function to present the picker. The default value is zero and the maximum value is 23:59 (86,399 seconds).",
+                     "url":"https://docs.scriptable.app/datepicker/#countdownduration",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":200,
+                     "headline":"Instance property",
+                     "shortName":"initialDate",
+                     "longName":"initialDate",
+                     "subtitle":"Date",
+                     "decleration":"initialDate: Date",
+                     "copyDecleration":"initialDate",
+                     "summary":"The initially selected date.",
+                     "description":"Use this property to specify the initially selected date and time when picking a date, a time or both using date picker. If no date is specified, the current date and time will be selected initially.\n\nBe aware that this property does not hold the selected date after the date picker has been dismissed. The promises returned by <code>pickTime()</code>, <code>pickDate()</code> and <code>PickDateAndTime()</code> carries the selected date.",
+                     "url":"https://docs.scriptable.app/datepicker/#initialdate",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":197,
+                     "headline":"Instance property",
+                     "shortName":"maximumDate",
+                     "longName":"maximumDate",
+                     "subtitle":"Date",
+                     "decleration":"maximumDate: Date",
+                     "copyDecleration":"maximumDate",
+                     "summary":"Maximum date that is selected in the picker.",
+                     "description":"The maximum date, along with the minimum date, specifies the valid date range. The minimum and maximum dates are ignored if the minimum date is greater than the maximum date. The dates are also ignored in countdown-timer mode.",
+                     "url":"https://docs.scriptable.app/datepicker/#maximumdate",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":196,
+                     "headline":"Instance property",
+                     "shortName":"minimumDate",
+                     "longName":"minimumDate",
+                     "subtitle":"Date",
+                     "decleration":"minimumDate: Date",
+                     "copyDecleration":"minimumDate",
+                     "summary":"Minimum date that is selected in the picker.",
+                     "description":"The minimum date, along with the maximum date, specifies the valid date range. The minimum and maximum dates are ignored if the minimum date is greater than the maximum date. The dates are also ignored in countdown-timer mode.",
+                     "url":"https://docs.scriptable.app/datepicker/#minimumdate",
+                     "characteristics":[
+                        
+                     ]
+                  },
+                  {
+                     "id":199,
+                     "headline":"Instance property",
+                     "shortName":"minuteInterval",
+                     "longName":"minuteInterval",
+                     "subtitle":"number",
+                     "decleration":"minuteInterval: number",
+                     "copyDecleration":"minuteInterval",
+                     "summary":"Interval at which the date picker displays minutes.",
+                     "description":"Use the property to set the interval of the minute wheel. The default and minimum value is 1 and the maximum value is 30.",
+                     "url":"https://docs.scriptable.app/datepicker/#minuteinterval",
+                     "characteristics":[
+                        
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Methods",
+               "details":[
+                  {
+                     "id":201,
+                     "headline":"Instance method",
+                     "shortName":"new DatePicker",
+                     "longName":"new DatePicker()",
+                     "decleration":"new DatePicker()",
+                     "copyDecleration":"new DatePicker()",
+                     "summary":"Constructs a new date picker.",
+                     "description":"Use the date picker to present a view for selecting a date.\n\nThe date picker can be configured towards picking a date with or\nwithout time, just a time or picking hours and minutes for a timer.",
+                     "url":"https://docs.scriptable.app/datepicker/#-new-datepicker"
+                  },
+                  {
+                     "id":205,
+                     "headline":"Instance method",
+                     "shortName":"pickCountdownDuration",
+                     "longName":"-pickCountdownDuration()",
+                     "decleration":"pickCountdownDuration(): Promise<number>",
+                     "copyDecleration":"pickCountdownDuration()",
+                     "summary":"Presents the date picker for selecting the duration of a countdown.",
+                     "description":"Use the method to pick the duration of a countdown, e.g. a timer. The date picker will display hours and minutes. Use the <code>countdownDuration</code> property to set the initially selected duration.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<number>",
+                                 "description":"Promise that carries the selected duration when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/datepicker/#-pickcountdownduration"
+                  },
+                  {
+                     "id":203,
+                     "headline":"Instance method",
+                     "shortName":"pickDate",
+                     "longName":"-pickDate()",
+                     "decleration":"pickDate(): Promise<Date>",
+                     "copyDecleration":"pickDate()",
+                     "summary":"Presents the date picker displaying day, month and year.",
+                     "description":"Use the method to pick a date. The date picker will display the,\nday, month and year. Use the <code>initialDate</code> property to set the initially selected date.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Date>",
+                                 "description":"Promise that carries the selected date when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/datepicker/#-pickdate"
+                  },
+                  {
+                     "id":204,
+                     "headline":"Instance method",
+                     "shortName":"pickDateAndTime",
+                     "longName":"-pickDateAndTime()",
+                     "decleration":"pickDateAndTime(): Promise<Date>",
+                     "copyDecleration":"pickDateAndTime()",
+                     "summary":"Presents the date picker displaying date and time.",
+                     "description":"Use the method to pick a date and a time. The date picker will display the day, month, year, hour, minutes and, depending on the locale of the device, an AM/PM designation. Use the <code>initialDate</code> property to set the initially selected date.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Date>",
+                                 "description":"Promise that carries the selected date and time when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/datepicker/#-pickdateandtime"
+                  },
+                  {
+                     "id":202,
+                     "headline":"Instance method",
+                     "shortName":"pickTime",
+                     "longName":"-pickTime()",
+                     "decleration":"pickTime(): Promise<Date>",
+                     "copyDecleration":"pickTime()",
+                     "summary":"Presents the date picker displaying hours and minutes.",
+                     "description":"Use the method to pick a time. The date picker will display hours and minutes and, depending on the locale of the device, an AM/PM designation.\n\nThe returned date will be the current date with the hour and minute set to the selected values. Use the <code>initialDate</code> property to set the initially selected date.",
+                     "infoSections":[
+                        {
+                           "title":"Return value",
+                           "infos":[
+                              {
+                                 "subtitle":"Promise<Date>",
+                                 "description":"Promise that carries the selected time when fulfilled."
+                              }
+                           ]
+                        }
+                     ],
+                     "url":"https://docs.scriptable.app/datepicker/#-picktime"
+                  }
+               ]
+            }
+         ],
+         "summary":"Presents a date picker.",
+         "description":"Use the date picker to select a date. After configuring the date picker, call <code>pickTime()</code>, <code>pickDate()</code>, <code>pickDateAndTime()</code> or <code>pickCountDownTimer()</code> which will present the date picker modally. The <code>pickTime()</code>, <code>pickDate()</code> and <code>pickDateAndTime()</code> methods returns a promise that carries the selected date and the <code>pickCountDownTimer()</code> method retrns a promise that carries the selected duration.\n\nThe date picker can be configured towards picking a date with or without time, just a time or picking hours and minutes for a timer.",
+         "url":"https://docs.scriptable.app/datepicker",
+         "pageId":2
+      }
+   ]
+}
